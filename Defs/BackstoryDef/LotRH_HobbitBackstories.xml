@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<AlienRace.BackstoryDef Name="LotRH_BackstoryHobbit" Abstract="True">
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>LotR_BackstoryHobbit</li>
+    </spawnCategories>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildOne</defName>
+    <title>Tunneler</title>
+    <baseDescription>NAME dug deep and often hid in the underground.</baseDescription>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<!-- Adult backstories -->
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitAdultOne</defName>
+    <title>Warrior</title>
+    <baseDescription>NAME was a warrior among HIS people.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <li>
+            <defName>Bloodlust</defName>
+            <chance>50</chance>
+        </li>
+    </forcedTraits>
+    <workDisables>
+        <li>Artistic</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+</Defs>

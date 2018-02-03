@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef ParentName="LotRH_BasePlayerPawnKind">
+    <defName>LotRH_HobbitColonist</defName>
+	<race>LotRH_HobbitStandardRace</race>
+    <label>colonist (hobbit)</label>
+    <defaultFactionType>PlayerColony</defaultFactionType>
+    <backstoryCategory>LotR_BackstoryHobbit</backstoryCategory>
+    <chemicalAddictionChance>0.06</chemicalAddictionChance>
+    <apparelTags>
+      <li>Spacer</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+
+  <AlienRace.ThingDef_AlienRace ParentName="LotRH_BasePawn">
+    <defName>LotRH_HobbitStandardRace</defName>
+    <label>hobbit</label>
+    <description>Immune to disease. Lives to be 100 years old. Loves to eat, drink, be merry, and sometimes, just sometimes, go on adventures.</description>
+	<alienRace>
+	  <generalSettings>
+	    <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
+	    <alienPartGenerator>
+	      <customDrawSize>(0.7, 0.605)</customDrawSize>
+		  <customHeadDrawSize>(0.8, 0.8)</customHeadDrawSize>
+		  <customPortraitDrawSize>(0.7, 0.605)</customPortraitDrawSize>
+		  <customPortraitHeadDrawSize>(0.8, 0.8)</customPortraitHeadDrawSize>
+		  <headOffset>(0.0, -0.055)</headOffset>
+		</alienPartGenerator>
+	  </generalSettings>
+	  <pawnKindSettings>
+		<startingColonists>
+		  <li>
+			<pawnKindEntries>
+			  <li>
+				<kindDefs>
+				  <li>LotRH_HobbitColonist</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			  </li>
+			</pawnKindEntries>
+			<factionDefs>
+			  <li>PlayerColony</li> 
+			</factionDefs>
+		  </li>
+		</startingColonists>
+	  </pawnKindSettings>
+	  <hairSettings>
+	    <getsGreyAt>200</getsGreyAt>
+	  </hairSettings>
+	</alienRace>
+    <statBases>
+      <MarketValue>1750</MarketValue>
+      <MoveSpeed>4.61</MoveSpeed>
+      <Flammability>1.0</Flammability>
+      <ComfyTemperatureMin>12</ComfyTemperatureMin>
+      <ComfyTemperatureMax>32</ComfyTemperatureMax>
+      <LeatherAmount>25</LeatherAmount>
+    </statBases>
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.6</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.6</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
+    <race>
+      <thinkTreeMain>Humanlike</thinkTreeMain>
+      <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+      <intelligence>Humanlike</intelligence>
+      <makesFootprints>true</makesFootprints>
+      <lifeExpectancy>250</lifeExpectancy>
+      <leatherColor>(211,194,143)</leatherColor>
+      <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
+      <leatherInsulation>0.70</leatherInsulation>
+      <leatherMarketValueFactor>2</leatherMarketValueFactor>
+      <nameCategory>HumanStandard</nameCategory>
+      <body>Human</body>
+      <baseBodySize>1</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <foodType>OmnivoreHuman</foodType>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0.02)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeStageAges>
+        <li>
+          <def>HumanlikeBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>HumanlikeToddler</def>
+          <minAge>1.2</minAge>
+        </li>
+        <li>
+          <def>HumanlikeChild</def>
+          <minAge>4</minAge>
+        </li>
+        <li>
+          <def>HumanlikeTeenager</def>
+          <minAge>13</minAge>
+        </li>
+        <li>
+          <def>HumanlikeAdult</def>
+          <minAge>18</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+      <specialShadowData>
+        <volume>(0.3, 0.8, 0.4)</volume>
+        <offset>(0,0,-0.3)</offset>
+      </specialShadowData>
+      <ageGenerationCurve>
+        <points>
+          <li>(14,0)</li>
+          <li>(16,100)</li>
+          <li>(50,100)</li>
+          <li>(60,30)</li>
+          <li>(70,18)</li>
+          <li>(80,10)</li>
+          <li>(90,3)</li>
+          <li>(100,0)</li>
+        </points>
+      </ageGenerationCurve>
+      <hediffGiverSets>
+        <li>OrganicStandard</li>
+      </hediffGiverSets>
+    </race>
+    <recipes>
+      <li>InstallPowerClaw</li>
+      <li>InstallScytherBlade</li>
+      <li>InstallBionicEye</li>
+      <li>InstallBionicArm</li>
+      <li>InstallBionicLeg</li>
+      <li>InstallSimpleProstheticArm</li>
+      <li>InstallSimpleProstheticLeg</li>
+      <li>InstallPegLeg</li>
+      <li>InstallDenture</li>
+      <li>InstallJoywire</li>
+      <li>InstallPainstopper</li>
+      <li>InstallNaturalHeart</li>
+      <li>InstallNaturalLung</li>
+      <li>InstallNaturalKidney</li>
+      <li>InstallNaturalLiver</li>
+      <li>ExciseCarcinoma</li>
+      <li>AdministerMechSerumHealer</li>
+      <li>RemoveBodyPart</li>
+      <li>Euthanize</li>
+      <li>Anesthetize</li>
+    </recipes>
+  </AlienRace.ThingDef_AlienRace>
+  
+  <ThingDef Name="LotRH_BasePawn" Abstract="True">
+    <thingClass>Pawn</thingClass>
+    <category>Pawn</category>
+    <selectable>true</selectable>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Pawn</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <hasTooltip>true</hasTooltip>
+    <soundImpactDefault>BulletImpactFlesh</soundImpactDefault>
+    <statBases>
+      <Mass>70</Mass>
+    </statBases>
+    <inspectorTabs>
+      <li>ITab_Pawn_Health</li>
+      <li>ITab_Pawn_Needs</li>
+      <li>ITab_Pawn_Character</li>
+      <li>ITab_Pawn_Training</li>
+      <li>ITab_Pawn_Gear</li>
+      <li>ITab_Pawn_Guest</li>
+      <li>ITab_Pawn_Prisoner</li>
+      <li>ITab_Pawn_Social</li>
+      <li>ITab_Pawn_Combat</li>
+    </inspectorTabs>
+    <comps>
+      <li>
+        <compClass>CompAttachBase</compClass>
+      </li>
+    </comps>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </ThingDef>
+
+  
+  <PawnKindDef Abstract="True" Name="LotRH_BasePlayerPawnKind">
+    <race>Human</race>
+    <combatPower>30</combatPower>
+    <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+  </PawnKindDef>
+  
+</Defs>
