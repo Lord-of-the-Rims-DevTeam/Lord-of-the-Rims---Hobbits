@@ -109,6 +109,8 @@
       </li>
     </tools>
     <race>
+	  <nameGenerator>LotRH_HobbitNamer</nameGenerator>
+	  <nameGeneratorFemale>LotRH_HobbitFemaleNamer</nameGeneratorFemale>
       <thinkTreeMain>Humanlike</thinkTreeMain>
       <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
       <intelligence>Humanlike</intelligence>
