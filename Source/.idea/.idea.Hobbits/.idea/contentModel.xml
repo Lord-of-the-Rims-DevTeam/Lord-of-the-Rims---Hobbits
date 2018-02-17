@@ -5,6 +5,8 @@
     <e p="D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Hobbits\Assemblies" t="ExcludeRecursive" />
     <e p="D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Hobbits\Source" t="IncludeFlat">
       <e p="Hobbits" t="IncludeRecursive">
+        <e p="EarthenWall.cs" t="Include" />
+        <e p="HarmonyHobbits.cs" t="Include" />
         <e p="HobbitMod.cs" t="Include" />
         <e p="Hobbits.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />

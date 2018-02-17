@@ -12,13 +12,186 @@
 
 <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitChildOne</defName>
-    <title>Tunneler</title>
-    <baseDescription>NAME dug deep and often hid in the underground.</baseDescription>
+    <title>Hobbit famous relative</title>
+    <baseDescription>NAME is the descendant, however distant, of a famed hobbit of local legend, or derives HIS lineage from one of the many great hobbit families. HECAP developed a silver spoon after socializing with countless distant relatives.</baseDescription>
 	<slot>Childhood</slot>
     <skillGains>
       <li>
-        <defName>Mining</defName>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildTwo</defName>
+    <title>Hobbit know-it-all</title>
+    <baseDescription>NAME had a gift for collecting things, keeping records, and recalling old legends of heroes and adventurers at a moment’s notice. HISCAP desire to share HIS knowledge made HIM somewhat of a conversationalist as well. HECAP spent so much time observing and researching, however, that HE was well known to fall over like an ent during any arm wrestling contests.</baseDescription>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Intellectual</defName>
         <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <li>
+          <defName>Wimp</defName>
+        </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildThree</defName>
+    <title>Hobbit troublemaker</title>
+    <baseDescription>NAME spent HIS childhood being a nuisance to HIS neighbors and relatives. From years of running away from responsibilities, HE learned how to be exceedingly fast, how to dodge incoming attacks, and how to escape from most of his potential captors.</baseDescription>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildFour</defName>
+    <title>Hobbit soft-spoken</title>
+    <baseDescription>NAME was well known for being an incredibly kind and thoughtful child. However, HE spent most of HIS time in social situations listening rather than speaking to avoid interrupting other people's trains of thought.</baseDescription>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+	  <li>
+	    <defName>Kind</defName>
+	  </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildFive</defName>
+    <title>Hobbit mean-spirited</title>
+    <baseDescription>NAME realized how to be the center of attention early on in life. Once HE started saying mean things to others to make HIS friends laugh, HE learned two things. One, how to start fights. Two, how to make other hobbits cry.</baseDescription>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+	  <li>
+	    <defName>Abrasive</defName>
+	  </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildSix</defName>
+    <title>Hobbit know-nothing</title>
+    <baseDescription>NAME took pride in knowing as little as possible. HIS parents assured HIM that so-called -learning- was just wasting valuable time HE could be spending helping tend to the weeds. Intellectual and artistic disabled.</baseDescription>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Growing</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+    <workDisables>
+        <li>Artistic</li>
+        <li>Intellectual</li>
+    </workDisables>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildSeven</defName>
+    <title>Hobbit grabby-hands</title>
+    <baseDescription>No matter how NAME’s parents tried, they could never get HIM to keep HIS little hobbit hands to HIMself. HECAP always wanted more of everything. Everything was -precious- to HIM. On the positive side, HE learned quite a lot of survivalist cooking after being banished after one of his friends mysteriously drowned.</baseDescription>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+	  <li>
+	    <defName>Greedy</defName>
+	  </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildEight</defName>
+    <title>Hobbit clumsy-fool</title>
+    <baseDescription>NAME broke dishes, burned meals, dropped lembas in mud, lost the sheep, forgot HIS homework, swore in-front of grandma, shot dad in the rear-end with an arrow, and nearly died every season. How HE has survived to adulthood is anyone’s guess. </baseDescription>
+	<slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Growing</defName>
+        <amount>-2</amount>
+      </li>      
+      <li>
+        <defName>Cooking</defName>
+        <amount>-2</amount>
+      </li>      
+      <li>
+        <defName>Medicine</defName>
+        <amount>-2</amount>
+      </li>      
+      <li>
+        <defName>Mining</defName>
+        <amount>-2</amount>
+      </li>      
+      <li>
+        <defName>Social</defName>
+        <amount>-2</amount>
+      </li>      
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>-2</amount>
+      </li>
+	  <li>
+        <defName>Shooting</defName>
+        <amount>-2</amount>
+      </li>
+	  <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+	  <li>
+        <defName>Construction</defName>
+        <amount>-2</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -27,24 +200,152 @@
 
 <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitAdultOne</defName>
-    <title>Warrior</title>
-    <baseDescription>NAME was a warrior among HIS people.</baseDescription>
+    <title>Hobbit adventurer</title>
+    <baseDescription>It is a rare hobbit that leaves their home in search of fame and fortune in far flung lands. This makes NAME a bit queer in the eyes of HIS fellow hobbits, yet HE feels destined to go out there and back again.</baseDescription>
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
         <defName>Melee</defName>
-        <amount>4</amount>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitAdultTwo</defName>
+    <title>Hobbit burglar</title>
+    <baseDescription>Hobbits are quiet, nimble creatures when they put their minds to it. An expert burglar like NAME can make HIMself scarce when trouble arrives. Burglars are even rumored to be so skilled at thieving, they could even steal gold from 'neath a dragon's nose! But what are the chances of that?</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
       </li>
     </skillGains>
     <forcedTraits>
-        <li>
-            <defName>Bloodlust</defName>
-            <chance>50</chance>
-        </li>
+	  <li>
+	    <defName>Nimble</defName>
+	  </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitAdultThree</defName>
+    <title>Hobbit drunk</title>
+    <baseDescription>A common sight among hobbits is the least industrious sort -- the drunkard. NAME called everyone his friend after a few drinks, and for years, HE would wake up somewhere new every morning. HECAP would gladly tell you the stories of his adventures, if HE could remember any of them.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+	  <li>
+	    <defName>DrugDesire</defName>
+		<degree>1</degree>
+	  </li>
     </forcedTraits>
     <workDisables>
         <li>Artistic</li>
+        <li>Intellectual</li>
     </workDisables>
 </AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitAdultFour</defName>
+    <title>Hobbit gourmand</title>
+    <baseDescription>Hobbits cannot stand for long without good cooking, and some, like the gourmand, demand only the best. NAME spent years leading cooks around by the nose and teaching others the ways to best cook food. Once HIS popularity rose for critiquing cuisine, HE took to eating food more than preparing it.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitAdultFive</defName>
+    <title>Hobbit layabout</title>
+    <baseDescription>It is well-known that hobbits are afforded a rather peaceful life. NAME was one of the layabouts -- the most sluggish of hobbits. HECAP made it HIS goal in life to simply have no goal -- complete leisure and relaxation in all things.</baseDescription>
+	<slot>Adulthood</slot>
+    <forcedTraits>
+	  <li>
+	    <defName>Industriousness</defName>
+		<degree>-2</degree>
+	  </li>
+	  <li>
+	    <defName>SpeedOffset</defName>
+		<degree>-1</degree>
+	  </li>
+	  <li>
+	    <defName>NaturalMood</defName>
+		<degree>1</degree>
+	  </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitAdultSix</defName>
+    <title>Hobbit farmer</title>
+    <baseDescription>How can a hobbit enjoy their second breakfast without farmers? NAME was born to till the soil. HE has no time for shenanigans and is often very terse. Yet HIS hard work shines through, as long as there aren't any Tooks about.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Growing</defName>
+        <amount>3</amount>
+      </li>    
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>      
+	  <li>
+        <defName>Social</defName>
+        <amount>-1</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+	  <li>
+	    <defName>Industriousness</defName>
+		<degree>2</degree>
+		<chance>25</chance>
+	  </li>
+	  <li>
+	    <defName>Abrasive</defName>
+		<chance>25</chance>
+	  </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+
+
+<AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitAdultSeven</defName>
+    <title>Hobbit gardener</title>
+    <baseDescription>Hobbits also often take on simple occupations -- such as the gardener. NAME thrived amongst the golden mallorn flowers of the shire and always looked for just the right way to raise HIS saplings and seedlings. Gardening wasn't just HIS occupation, but it was HIS muse.</baseDescription>
+	<slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <defName>Growing</defName>
+        <amount>3</amount>
+      </li>    
+      <li>
+        <defName>Artistic</defName>
+        <amount>2</amount>
+      </li>      
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+
 
 </Defs>

@@ -6,6 +6,7 @@ namespace LordOfTheRims_Hobbits
     {
         public HobbitMod(ModContentPack content) : base(content)
         {
+            
         }
     }
 }

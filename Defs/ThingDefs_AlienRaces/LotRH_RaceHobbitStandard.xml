@@ -31,6 +31,50 @@
 		  <customPortraitDrawSize>(0.7, 0.605)</customPortraitDrawSize>
 		  <customPortraitHeadDrawSize>(0.8, 0.8)</customPortraitHeadDrawSize>
 		  <headOffset>(0.0, -0.055)</headOffset>
+		  <alienhaircolorgen Class="ColorGenerator_Options">
+			<options>
+				<!-- Frodo (brown) -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.49,0.35,0.22,1)</only>
+				</li>				
+				<!-- Samwise (straw) -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.84,0.73,0.55,1)</only>
+				</li>
+			    <!-- Merry (golden sand) -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.96,0.78,0.50,1)</only>
+				</li>
+				<!-- Pippin (muddy waters) -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.72,0.59,0.40,1)</only>
+				</li>
+				<!-- Bilbo (pine glade) -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.79,0.78,0.57,1)</only>
+				</li>				
+				<!-- Background hobbits (blonde) -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.98,0.91,0.70,1)</only>
+				</li>				
+				<!-- Red (LotR Wiki) -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.76,0.27,0.31,1)</only>
+				</li>				
+				<!-- Black (LotR Wiki) -->
+				<li>
+					<weight>5</weight>
+					<only>RGBA(0.18,0.21,0.22,1)</only>
+				</li>
+			</options>
+		  </alienhaircolorgen>
 		</alienPartGenerator>
 	  </generalSettings>
 	  <pawnKindSettings>
@@ -51,6 +95,9 @@
 		</startingColonists>
 	  </pawnKindSettings>
 	  <hairSettings>
+		<hairTags>
+			<li>Hobbit</li>
+		</hairTags>
 	    <getsGreyAt>200</getsGreyAt>
 	  </hairSettings>
 	</alienRace>

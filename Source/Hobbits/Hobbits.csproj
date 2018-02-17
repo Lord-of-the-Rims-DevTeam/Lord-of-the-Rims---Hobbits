@@ -50,6 +50,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EarthenWall.cs" />
+    <Compile Include="HarmonyHobbits.cs" />
     <Compile Include="HobbitMod.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
