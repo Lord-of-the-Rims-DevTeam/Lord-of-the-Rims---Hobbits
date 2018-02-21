@@ -11,6 +11,7 @@
     <thingClass>LordOfTheRims_Hobbits.EarthenWall</thingClass>
     <category>Building</category>
     <description>Hills are not as tall or as strong as natural walls, but they give great comfort to hobbits living inside them. Hills require simple dirt and soil nearby, and take time to complete. Grass can be planted upon these hills.</description>
+	<uiIconPath>Things/Building/Linked/LotRH_CompactSoilGrassy_MenuIcon</uiIconPath>
     <graphicData>
       <texPath>Things/Building/Linked/LotRH_CompactSoil_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>      
@@ -33,7 +34,6 @@
     <blueprintGraphicData>
       <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
     </blueprintGraphicData>
-    <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
     <mineable>true</mineable>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
