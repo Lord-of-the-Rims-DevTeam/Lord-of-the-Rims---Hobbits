@@ -2,7 +2,7 @@
 <Defs>
 
 <AlienRace.BackstoryDef Name="LotRH_BackstoryHobbit" Abstract="True">
-    <bodyTypeGlobal>Male</bodyTypeGlobal>
+   
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>

@@ -30,7 +30,7 @@
   <HairDef>
     <defName>LotRH_AfroLong</defName>
     <label>hobbit long</label>
-    <hairGender>Female</hairGender>
+    <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Hobbit/Hairs/HobbitAfroLong</texPath>
 		<hairTags>
 			<li>Hobbit</li>
