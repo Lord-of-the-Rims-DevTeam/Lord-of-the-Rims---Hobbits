@@ -27,10 +27,10 @@
 	    <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
 	    <alienPartGenerator>
 	      <customDrawSize>(0.7, 0.605)</customDrawSize>
-		  <customHeadDrawSize>(0.8, 0.8)</customHeadDrawSize>
+		  <customHeadDrawSize>(0.75, 0.75)</customHeadDrawSize>
 		  <customPortraitDrawSize>(0.7, 0.605)</customPortraitDrawSize>
 		  <customPortraitHeadDrawSize>(0.8, 0.8)</customPortraitHeadDrawSize>
-		  <headOffset>(0.0, -0.055)</headOffset>
+		  <headOffset>(0.0, -0.077)</headOffset>
 		  <alienhaircolorgen Class="ColorGenerator_Options">
 			<options>
 				<!-- Frodo (brown) -->

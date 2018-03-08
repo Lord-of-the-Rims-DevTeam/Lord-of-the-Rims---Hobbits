@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThingDef ParentName="LotRH_ApparelMakeableBase">
+    <defName>LotRH_Apparel_Jacket</defName>
+    <label>hobbit jacket</label>
+    <description>A nice jacket that is primarily for keeping one warm in chilly winter and staying stylish while doing so.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Hobbit/Apparel/Jacket/HobbitJacketDisplay</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>1.2</Mass>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.03</ArmorRating_Heat>
+      <Insulation_Cold>-16</Insulation_Cold>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.01</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Hobbit/Apparel/Jacket/HobbitJacket</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Hobbit</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+		  <!-- Bilbo Baggins (Reddish) -->
+          <weight>10</weight>
+          <only>RGBA(0.66,0.10,0.14,1)</only>
+        </li>
+        <li>
+		  <!-- Bilbo Baggins 2 (Purple) -->
+          <weight>10</weight>
+          <only>RGBA(0.57,0.15,0.31,1)</only>
+        </li>
+        <li>
+		  <!-- Random Hobbit (Forest Green) -->
+          <weight>10</weight>
+          <only>RGBA(0.42,0.51,0.4,1)</only>
+        </li>
+        <li>
+		  <!-- Random Hobbit 2 (Dark Brown) -->
+          <weight>10</weight>
+          <only>RGBA(0.42,0.27,0.2,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+
+</Defs>

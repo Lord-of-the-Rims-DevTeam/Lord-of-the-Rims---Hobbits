@@ -125,6 +125,8 @@
     <title>Hobbit grabby-hands</title>
     <baseDescription>No matter how NAME’s parents tried, they could never get HIM to keep HIS little hobbit hands to HIMself. HECAP always wanted more of everything. Everything was -precious- to HIM. On the positive side, HE learned quite a lot of survivalist cooking after being banished after one of his friends mysteriously drowned.</baseDescription>
 	<slot>Childhood</slot>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
     <skillGains>
       <li>
         <defName>Cooking</defName>
