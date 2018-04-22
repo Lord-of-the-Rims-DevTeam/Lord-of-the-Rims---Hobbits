@@ -50,9 +50,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Building_PartyTreeGrower.cs" />
     <Compile Include="EarthenWall.cs" />
     <Compile Include="HarmonyHobbits.cs" />
     <Compile Include="HobbitMod.cs" />
+    <Compile Include="Placeworker_Unique.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
