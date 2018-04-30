@@ -1,3 +1,6 @@
 D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Hobbits\Assemblies\Hobbits.dll
 D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Hobbits\Source\Hobbits\obj\Debug\Hobbits.csprojResolveAssemblyReference.cache
 D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Hobbits\Source\Hobbits\obj\Debug\Hobbits.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Hobbits\Assemblies\Hobbits.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Hobbits\Source\Hobbits\obj\Debug\Hobbits.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Hobbits\Source\Hobbits\obj\Debug\Hobbits.dll

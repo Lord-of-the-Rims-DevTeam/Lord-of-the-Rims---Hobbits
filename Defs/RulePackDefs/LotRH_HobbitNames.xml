@@ -38,5 +38,21 @@
       </rulesRaw>
     </rulePack>
   </RulePackDef>
+  
+  <RulePackDef>
+    <defName>LotRH_NamerFactionBaseHobbitShire</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[pack]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>pack</keyword>
+          <path>NameBanks/Names_BaseHobbitShire</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+  
 
 </Defs>

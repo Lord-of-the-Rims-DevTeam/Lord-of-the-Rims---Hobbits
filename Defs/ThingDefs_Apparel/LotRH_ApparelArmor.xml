@@ -40,7 +40,7 @@
         <li>Shell</li>
       </layers>
       <tags>
-        <li>Hobbit</li>
+        <li>LotRH_HobbitApparel</li>
       </tags>
     </apparel>
     <colorGenerator Class="ColorGenerator_Options">
@@ -104,8 +104,7 @@
         <li>OnSkin</li>
       </layers>
       <tags>
-        <li>Outlander</li>
-        <li>Spacer</li>
+        <li>LotRH_HobbitApparel</li>
       </tags>
       <defaultOutfitTags>
         <li>Worker</li>
