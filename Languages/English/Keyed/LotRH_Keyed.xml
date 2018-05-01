@@ -3,5 +3,6 @@
 
 <LotRH_Hobbits>Hobbits</LotRH_Hobbits>
 <LotRH_PartyTreePlacement>Only one {0} may be placed on a map.</LotRH_PartyTreePlacement>
+<LotR_HobbitBonuses>\t-20% Health scale\n\t-40% Body size\n\t-40% Mass\n\t-40% Carrying capacity</LotR_HobbitBonuses>
 
 </LanguageData>

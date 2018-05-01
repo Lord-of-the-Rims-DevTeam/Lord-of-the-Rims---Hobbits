@@ -28,7 +28,6 @@
             <state relative-caret-position="152">
               <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding>
-                <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
                 <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
                 <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
               </folding>
@@ -82,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/Hobbits/Building_PartyTreeGrower.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="197">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <marker date="1524297703358" expanded="false" signature="6:119" ph="..." />
                 <marker date="1524297703358" expanded="true" signature="138:1471" ph="{...}" />
@@ -104,7 +103,7 @@
       <file leaf-file-name="IPlantToGrowSettable.cs" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/42/47a0d668/IPlantToGrowSettable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="209">
               <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding />
             </state>
@@ -168,7 +167,7 @@
       <file leaf-file-name="SnowCategory.cs" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ea/79b80d45/SnowCategory.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="152">
               <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding />
             </state>
@@ -184,9 +183,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Hobbits/HobbitMod.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/42/47a0d668/IPlantToGrowSettable.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/42/47a0d668/IPlantToGrowSettable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hobbits/Building_PartyTreeGrower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ea/79b80d45/SnowCategory.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ea/79b80d45/SnowCategory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hobbits/EarthenWall.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hobbits/HarmonyHobbits.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hobbits/Placeworker_Unique.cs" root0="FORCE_HIGHLIGHTING" />
@@ -231,7 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -239,17 +237,13 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Hobbits (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hobbits (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Hobbits" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,12 +298,13 @@
       <workItem from="1520093286320" duration="2342000" />
       <workItem from="1520524138899" duration="1432000" />
       <workItem from="1524285342957" duration="10915000" />
-      <workItem from="1525112883893" duration="1266000" />
+      <workItem from="1525112883893" duration="1702000" />
+      <workItem from="1525138199146" duration="2821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53662000" />
+    <option name="totallyTimeSpent" value="56919000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,16 +322,16 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6687898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6687898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22706065" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23172629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -363,7 +358,144 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
+            <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
+            <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hobbits/HarmonyHobbits.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <marker date="1524286331250" expanded="false" signature="6:240" ph="..." />
+            <marker date="1524286331250" expanded="true" signature="272:3283" ph="{...}" />
+            <marker date="1524286331250" expanded="true" signature="340:3281" ph="{...}" />
+            <marker date="1524286331250" expanded="true" signature="379:843" ph="{...}" />
+            <marker date="1524286331250" expanded="true" signature="973:2773" ph="{...}" />
+            <marker date="1524286331250" expanded="true" signature="1235:2763" ph="{...}" />
+            <marker date="1524286331250" expanded="true" signature="1387:1469" ph="{...}" />
+            <marker date="1524286331250" expanded="true" signature="1543:1625" ph="{...}" />
+            <marker date="1524286331250" expanded="true" signature="1689:1771" ph="{...}" />
+            <marker date="1524286331250" expanded="true" signature="1824:1906" ph="{...}" />
+            <marker date="1524286331250" expanded="true" signature="2020:2102" ph="{...}" />
+            <marker date="1524286331250" expanded="true" signature="2676:2749" ph="{...}" />
+            <marker date="1524286331250" expanded="true" signature="2878:3274" ph="{...}" />
+            <marker date="1524286331250" expanded="true" signature="3097:3264" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hobbits/Placeworker_Unique.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="75" lean-forward="false" selection-start-line="9" selection-start-column="75" selection-end-line="9" selection-end-column="75" />
+          <folding>
+            <marker date="1524288291569" expanded="true" signature="6:81" ph="..." />
+            <marker date="1524288291569" expanded="true" signature="100:1004" ph="{...}" />
+            <marker date="1524288291569" expanded="true" signature="152:1002" ph="{...}" />
+            <marker date="1524288291569" expanded="true" signature="237:394" ph="{...}" />
+            <marker date="1524288291569" expanded="true" signature="536:987" ph="{...}" />
+            <marker date="1524288291569" expanded="true" signature="634:808" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/42/47a0d668/IPlantToGrowSettable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hobbits/EarthenWall.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+          <folding>
+            <marker date="1519490788945" expanded="false" signature="6:100" ph="..." />
+            <marker date="1519490788945" expanded="true" signature="175:7244" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="641:1028" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="667:1018" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="1094:1467" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="1120:1457" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="1179:1265" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="1310:1396" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="1625:1934" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="1651:1924" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="1743:1810" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="1980:2203" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="2006:2193" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="2445:3086" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="2471:3076" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="2540:3012" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="2798:2870" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="3135:4080" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="3206:3258" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="3284:4070" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="3505:3741" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="3634:3723" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="3789:3870" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="3891:3968" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="4114:4394" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="4140:4384" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="4446:4982" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="4472:4972" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="4609:4676" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="4707:4803" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="4834:4931" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="5050:6092" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="5181:5865" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="5292:5356" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="5508:5630" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="5682:5851" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="5927:6019" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="6156:6911" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="6259:6291" ph="/* if (!hasGrass) ... */" />
+            <marker date="1519490788945" expanded="true" signature="6330:6884" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="6411:6869" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="6663:6810" ph="{...}" />
+            <marker date="1519490788945" expanded="true" signature="6954:7238" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ea/79b80d45/SnowCategory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hobbits/Building_PartyTreeGrower.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <marker date="1524297703358" expanded="false" signature="6:119" ph="..." />
+            <marker date="1524297703358" expanded="true" signature="138:1471" ph="{...}" />
+            <marker date="1524297703358" expanded="true" signature="202:1469" ph="{...}" />
+            <marker date="1524297703358" expanded="true" signature="239:330" ph="{...}" />
+            <marker date="1524297703358" expanded="true" signature="400:606" ph="{...}" />
+            <marker date="1524297703358" expanded="true" signature="643:747" ph="{...}" />
+            <marker date="1524297703358" expanded="true" signature="782:1074" ph="{...}" />
+            <marker date="1524297703358" expanded="true" signature="844:1070" ph="{...}" />
+            <marker date="1524297703358" expanded="true" signature="894:1065" ph="{...}" />
+            <marker date="1524297703358" expanded="true" signature="1119:1222" ph="{...}" />
+            <marker date="1524297703358" expanded="true" signature="1256:1392" ph="{...}" />
+            <marker date="1524297703358" expanded="true" signature="1320:1369" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hobbits/HobbitMod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -502,7 +634,6 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -597,7 +728,6 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -692,7 +822,6 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -787,7 +916,6 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -882,7 +1010,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -977,7 +1104,6 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -1072,7 +1198,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -1084,7 +1209,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -1094,7 +1218,7 @@
     <entry file="file://$PROJECT_DIR$/Hobbits/PlaceWorker_OnDirt.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ea/79b80d45/SnowCategory.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="152">
           <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding />
         </state>
@@ -1192,7 +1316,7 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/42/47a0d668/IPlantToGrowSettable.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="209">
           <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
         </state>
@@ -1201,7 +1325,7 @@
     <entry file="file://$PROJECT_DIR$/Hobbits/Building_PartyTreeGrower.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <marker date="1524297703358" expanded="false" signature="6:119" ph="..." />
             <marker date="1524297703358" expanded="true" signature="138:1471" ph="{...}" />
@@ -1224,7 +1348,6 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
