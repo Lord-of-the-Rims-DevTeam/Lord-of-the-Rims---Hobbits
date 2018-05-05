@@ -59,7 +59,8 @@
       </li>
 	  
       <li Class="JecsTools.HediffGiver_StartWithHediff">
-        <expandedDef>LotRH_HobbitTraits</expandedDef>
+        <hediff>LotRH_HobbitTraits</hediff>
+		<expandedDef>LotRH_HobbitTraits</expandedDef>
       </li>
     </hediffGivers>
   </HediffGiverSetDef>  
