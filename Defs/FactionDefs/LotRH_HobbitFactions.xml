@@ -83,6 +83,11 @@
       </li>
     </pawnGroupMakers>
     <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+		<modExtensions>
+		  <li Class="JecsTools.FactionSettings">
+		    <entrySoundDef>LotRH_FanfareHobbitShire</entrySoundDef>
+		  </li>
+		</modExtensions>
   </FactionDef>
 
 </Defs>

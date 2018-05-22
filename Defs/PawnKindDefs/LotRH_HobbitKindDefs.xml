@@ -31,13 +31,13 @@
       <max>1.0</max>
     </gearHealthRange>
 	<apparelTags>
-      <li>Outlander</li>
+      <li>LotRH_HobbitApparel</li>
     </apparelTags>
     <apparelMoney>
-      <min>300</min>
-      <max>900</max>
+      <min>1000</min>
+      <max>1200</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadwearChance>0.02</apparelAllowHeadwearChance>
     <weaponMoney>
       <min>0</min>
       <max>250</max>
