@@ -25,7 +25,7 @@
           <MentalBreakThreshold>-0.09</MentalBreakThreshold>
         </statOffsets>
 		<painFactor>0.8</painFactor>
-		<hungerRateFactor>1.25</hungerRateFactor>
+		<hungerRateFactor>1.10</hungerRateFactor>
 		<opinionOfOthersFactor>1.25</opinionOfOthersFactor>
       </li>
     </stages>
