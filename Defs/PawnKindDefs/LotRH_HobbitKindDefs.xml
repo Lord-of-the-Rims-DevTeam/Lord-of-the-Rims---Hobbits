@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <PawnKindDef ParentName="LotRH_BasePlayerPawnKind">
+  <PawnKindDef ParentName="BasePlayerPawnKind">
     <defName>LotRH_HobbitColonist</defName>
 	<race>LotRH_HobbitStandardRace</race>
     <label>colonist (hobbit)</label>
@@ -18,10 +18,11 @@
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
   </PawnKindDef>
 
-  <PawnKindDef ParentName="LotRH_BasePlayerPawnKind" Name="LotRH_HobbitVillager">
+  <PawnKindDef ParentName="BasePlayerPawnKind" Name="LotRH_HobbitVillager">
     <defName>LotRH_HobbitVillager</defName>
 	<race>LotRH_HobbitStandardRace</race>
     <label>hobbit-villager</label>
+    <defaultFactionType>LotRH_HobbitFactionShire</defaultFactionType>
     <backstoryCategory>LotR_BackstoryHobbit</backstoryCategory>
     <combatPower>15</combatPower>
     <itemQuality>Poor</itemQuality>
@@ -108,10 +109,11 @@
     </weaponTags>
   </PawnKindDef>
       
-  <PawnKindDef ParentName="LotRH_BasePlayerPawnKind" Name="LotRH_HobbitGuard">
+  <PawnKindDef ParentName="BasePlayerPawnKind" Name="LotRH_HobbitGuard">
     <defName>LotRH_HobbitGuard</defName>
     <label>hobbit-guard</label>
 	<race>LotRH_HobbitStandardRace</race>
+    <defaultFactionType>LotRH_HobbitFactionShire</defaultFactionType>
     <backstoryCategory>LotR_BackstoryHobbit</backstoryCategory>
     <combatPower>60</combatPower>
     <minGenerationAge>34</minGenerationAge>

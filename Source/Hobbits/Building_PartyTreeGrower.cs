@@ -6,7 +6,7 @@ using Verse;
 
 namespace Hobbits
 {
-	public class Building_PartyTreeGrower : Building_PlantGrower
+	public class Building_PartyTreeGrower : Building_PlantGrower, IThoughtGiver
 	{
 		public override void PostMake()
 		{
@@ -18,6 +18,7 @@ namespace Hobbits
 		{
 			base.SpawnSetup(map, respawningAfterLoad);
 			this.compPower = base.GetComp<CompPowerTrader>();
+			this.compGlower = base.GetComp<CompGlower>();
 			PlayerKnowledgeDatabase.KnowledgeDemonstrated(ConceptDefOf.GrowingFood, KnowledgeAmount.Total);
 		}
 
@@ -26,6 +27,8 @@ namespace Hobbits
 			base.ExposeData();
 			Scribe_Defs.Look<ThingDef>(ref this.plantDefToGrow, "plantDefToGrow");
 		}
+		
+		
 
 		public override void TickRare()
 		{
@@ -37,11 +40,12 @@ namespace Hobbits
 					plant.TakeDamage(dinfo);
 				}
 			}
+			this.compGlower?.UpdateLit(MapHeld);
 		}
-
+		
 		public override string GetInspectString()
 		{
-			return Regex.Replace(base.GetInspectString(), @"^\s+$[\r\n]*", "", RegexOptions.Multiline);
+			return Regex.Replace(base.GetInspectString().TrimEndNewlines(), @"^\s+$[\r\n]*", "", RegexOptions.Multiline).TrimEndNewlines();
 		}
 
 		public override void DeSpawn()
@@ -56,5 +60,14 @@ namespace Hobbits
 		private ThingDef plantDefToGrow;
 
 		private CompPowerTrader compPower;
+		private Graphic partyGraphicInt;
+		private CompGlower compGlower;
+		public Thought_Memory GiveObservedThought()
+		{
+			if (this.PlantsOnMe.First().LifeStage != PlantLifeStage.Mature) return null;
+			var thought_MemoryObservation = (Thought_MemoryObservation) ThoughtMaker.MakeThought(ThoughtDefOf.ObservedLayingCorpse);
+			thought_MemoryObservation.Target = this;
+			return thought_MemoryObservation;
+		}
 	}
 }

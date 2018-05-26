@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <PawnKindDef ParentName="LotRH_BasePlayerPawnKind">
-    <defName>LotRH_HobbitColonist</defName>
-	<race>LotRH_HobbitStandardRace</race>
-    <label>colonist (hobbit)</label>
-    <defaultFactionType>PlayerColony</defaultFactionType>
-    <backstoryCategory>LotR_BackstoryHobbit</backstoryCategory>
-    <chemicalAddictionChance>0.06</chemicalAddictionChance>
-    <apparelTags>
-      <li>Spacer</li>
-    </apparelTags>
-    <apparelMoney>
-      <min>1000</min>
-      <max>2400</max>
-    </apparelMoney>
-    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
-  </PawnKindDef>
-
-  <AlienRace.ThingDef_AlienRace ParentName="LotRH_BasePawn">
+  <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>LotRH_HobbitStandardRace</defName>
     <label>hobbit</label>
     <description>Immune to disease. Lives to be 100 years old. Loves to eat, drink, be merry, and sometimes, just sometimes, go on adventures.</description>
@@ -274,47 +257,6 @@
       <li>Anesthetize</li>
     </recipes>
   </AlienRace.ThingDef_AlienRace>
-  
-  <ThingDef Name="LotRH_BasePawn" Abstract="True">
-    <thingClass>Pawn</thingClass>
-    <category>Pawn</category>
-    <selectable>true</selectable>
-    <tickerType>Normal</tickerType>
-    <altitudeLayer>Pawn</altitudeLayer>
-    <useHitPoints>false</useHitPoints>
-    <hasTooltip>true</hasTooltip>
-    <soundImpactDefault>BulletImpactFlesh</soundImpactDefault>
-    <statBases>
-      <Mass>70</Mass>
-    </statBases>
-    <inspectorTabs>
-      <li>ITab_Pawn_Health</li>
-      <li>ITab_Pawn_Needs</li>
-      <li>ITab_Pawn_Character</li>
-      <li>ITab_Pawn_Training</li>
-      <li>ITab_Pawn_Gear</li>
-      <li>ITab_Pawn_Guest</li>
-      <li>ITab_Pawn_Prisoner</li>
-      <li>ITab_Pawn_Social</li>
-      <li>ITab_Pawn_Combat</li>
-    </inspectorTabs>
-    <comps>
-      <li>
-        <compClass>CompAttachBase</compClass>
-      </li>
-    </comps>
-    <drawGUIOverlay>true</drawGUIOverlay>
-  </ThingDef>
-
-  
-  <PawnKindDef Abstract="True" Name="LotRH_BasePlayerPawnKind">
-    <race>Human</race>
-    <combatPower>30</combatPower>
-    <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
-    <isFighter>false</isFighter>
-    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-    <forceNormalGearQuality>true</forceNormalGearQuality>
-  </PawnKindDef>
   
   
   <LifeStageDef>

@@ -6,7 +6,7 @@
     <defaultLabelColor>(0.0, 0.8, 0.0)</defaultLabelColor>
     <initialSeverity>0.0</initialSeverity>
 	<isBad>false</isBad>
-	<scenarioCanAdd>true</scenarioCanAdd>
+	<scenarioCanAdd>false</scenarioCanAdd>
   </HediffDef>
 
   <JecsTools.HediffExpandedDef ParentName="LotRH_RacialBase">

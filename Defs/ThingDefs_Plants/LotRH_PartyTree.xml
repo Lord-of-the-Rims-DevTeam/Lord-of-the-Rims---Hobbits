@@ -6,7 +6,7 @@
     <label>party tree</label>
     <description>A strong hardwood, evergreen tree designated by the hobbits to become their party tree. Once mature, this tree can hold lanterns and becomes a party spot for the colony.</description>
     <graphicData>
-      <texPath>Things/Plant/LotRH_PartyTree</texPath>
+      <texPath>Things/Plant/LotRH_PartyTree/Grown</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shadowData>
         <volume>(0.2, 0.35, 0.13)</volume>

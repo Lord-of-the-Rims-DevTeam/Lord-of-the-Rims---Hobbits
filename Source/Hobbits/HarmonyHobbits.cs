@@ -7,6 +7,7 @@ using System.Text;
 using Verse;
 using Verse.AI;
 using System.Reflection;
+using Hobbits;
 using LordOfTheRims_Hobbits;
 using UnityEngine;
 using Verse.AI.Group;
@@ -24,6 +25,51 @@ namespace JecsHuntingWithTraps
             harmony.Patch(AccessTools.Method(typeof(SnowGrid), "CanHaveSnow"), null, new HarmonyMethod(typeof(HarmonyPatches), nameof(CanHaveSnow_PostFix)), null);
             harmony.Patch(AccessTools.Method(typeof(RCellFinder), "TryFindPartySpot"), null,
                 new HarmonyMethod(typeof(HarmonyPatches), nameof(TryFindPartySpot_PostFix)), null);
+            harmony.Patch(AccessTools.Method(typeof(Plant), "get_Graphic"), null,
+                new HarmonyMethod(typeof(HarmonyPatches), nameof(GetPartyTreeGraphic)), null);
+            harmony.Patch(AccessTools.Method(typeof(CompGlower), "UpdateLit"), null,
+                new HarmonyMethod(typeof(HarmonyPatches), nameof(LightUpPartyTree)), null);
+        }
+
+        //CompGlower
+        public static void LightUpPartyTree(CompGlower __instance, Map map)
+        {
+            if (__instance?.parent is Building_PartyTreeGrower p)
+            {
+                if (p?.PlantsOnMe?.First().LifeStage != PlantLifeStage.Mature)
+                {
+                    map.mapDrawer.MapMeshDirty(__instance.parent.Position, MapMeshFlag.Things);
+                    map.glowGrid.DeRegisterGlower(__instance);
+                }
+                else
+                {
+                    map.mapDrawer.MapMeshDirty(__instance.parent.Position, MapMeshFlag.Things);
+                    map.glowGrid.RegisterGlower(__instance);
+                }
+            }
+        }
+
+        public static Dictionary<Plant, Graphic> treeGraphics;
+        //Plant
+        public static void GetPartyTreeGraphic(Plant __instance, ref Graphic __result)
+        {
+            if (__instance.LifeStage == PlantLifeStage.Sowing)
+                return;
+            if (__instance.def.plant.leaflessGraphic != null && __instance.LeaflessNow &&
+                (!__instance.sown || !__instance.HarvestableNow))
+                return;
+            if (__instance.def.defName == "LotRH_PlantPartyTree" &&
+                __instance.LifeStage == PlantLifeStage.Mature)
+            {
+                if (HarmonyPatches.treeGraphics == null) HarmonyPatches.treeGraphics = new Dictionary<Plant, Graphic>();
+                if (!HarmonyPatches.treeGraphics.ContainsKey(__instance))
+                {
+                    HarmonyPatches.treeGraphics.Add(__instance,
+                        __instance.def.graphicData.GraphicColoredFor(__instance));
+                    Log.Message("Added tree graphic for : " + __instance.ToString());
+                }
+                __result = HarmonyPatches.treeGraphics[__instance];
+            }
         }
 
         //RCellFinder
