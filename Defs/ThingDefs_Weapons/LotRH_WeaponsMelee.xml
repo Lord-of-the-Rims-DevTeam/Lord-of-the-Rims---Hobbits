@@ -4,7 +4,7 @@
 
 <!-- ============================================================== -->
 
-  <ThingDef ParentName="LotRH_BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRH_AnklebiterAxe</defName>
     <label>hobbit anklebiter axe</label>
     <description>A small axe used by hobbits. The perfect axe for cutting wood, possibly ankles.</description>
@@ -55,7 +55,7 @@
     
   <!-- ============================================================== -->
 
-  <ThingDef ParentName="LotRH_BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRH_Pitchfork</defName>
     <label>hobbit pitchfork</label>
     <description>Used by farmers to help manage hay, occasionally unruly livestock.</description>

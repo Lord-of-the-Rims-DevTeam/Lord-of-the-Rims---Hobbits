@@ -9,6 +9,8 @@
         <e p="HarmonyHobbits.cs" t="Include" />
         <e p="HobbitMod.cs" t="Include" />
         <e p="Hobbits.csproj" t="IncludeRecursive" />
+        <e p="JobDriver_SolvePuzzle.cs" t="Include" />
+        <e p="JoyGiver_Puzzlebox.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Placeworker_Unique.cs" t="Include" />
       </e>
