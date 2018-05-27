@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>LotRH_SolvePuzzleBox</defName>
+    <driverClass>Hobbits.JobDriver_SolvePuzzle</driverClass>
+    <reportString>puzzling.</reportString>
+    <joyDuration>4000</joyDuration>
+    <joySkill>Intellectual</joySkill>
+    <joyXpPerTick>0.002</joyXpPerTick>
+    <joyGainRate>1</joyGainRate>
+    <joyKind>Study</joyKind>
+  </JobDef>
+
+</Defs>

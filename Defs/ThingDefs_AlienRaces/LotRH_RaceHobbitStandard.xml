@@ -59,6 +59,7 @@
 			</options>
 		  </alienhaircolorgen>
 		</alienPartGenerator>
+    <humanRecipeImport>true</humanRecipeImport>
 	  </generalSettings>
 	  <pawnKindSettings>
 		<startingColonists>
@@ -234,28 +235,6 @@
         <li>LotRH_HobbitTraitsGiver</li>
       </hediffGiverSets>
     </race>
-    <recipes>
-      <li>InstallPowerClaw</li>
-      <li>InstallScytherBlade</li>
-      <li>InstallBionicEye</li>
-      <li>InstallBionicArm</li>
-      <li>InstallBionicLeg</li>
-      <li>InstallSimpleProstheticArm</li>
-      <li>InstallSimpleProstheticLeg</li>
-      <li>InstallPegLeg</li>
-      <li>InstallDenture</li>
-      <li>InstallJoywire</li>
-      <li>InstallPainstopper</li>
-      <li>InstallNaturalHeart</li>
-      <li>InstallNaturalLung</li>
-      <li>InstallNaturalKidney</li>
-      <li>InstallNaturalLiver</li>
-      <li>ExciseCarcinoma</li>
-      <li>AdministerMechSerumHealer</li>
-      <li>RemoveBodyPart</li>
-      <li>Euthanize</li>
-      <li>Anesthetize</li>
-    </recipes>
   </AlienRace.ThingDef_AlienRace>
   
   
