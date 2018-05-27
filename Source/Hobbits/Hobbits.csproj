@@ -34,6 +34,10 @@
     <Reference Include="0Harmony, Version=1.0.9.1, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\Dependencies\0Harmony.dll</HintPath>
     </Reference>
+    <Reference Include="AlienRace">
+      <HintPath>..\..\..\..\..\..\workshop\content\294100\839005762\Assemblies\AlienRace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\..\..\..\RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
@@ -54,6 +58,8 @@
     <Compile Include="EarthenWall.cs" />
     <Compile Include="HarmonyHobbits.cs" />
     <Compile Include="HobbitMod.cs" />
+    <Compile Include="JobDriver_SolvePuzzle.cs" />
+    <Compile Include="JoyGiver_Puzzlebox.cs" />
     <Compile Include="Placeworker_Unique.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

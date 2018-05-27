@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JoyGiverDef>
+    <defName>LotRH_PuzzleBox</defName>
+    <giverClass>Hobbits.JoyGiver_Puzzlebox</giverClass>
+    <baseChance>2</baseChance>
+    <jobDef>LotRH_SolvePuzzleBox</jobDef>
+    <joyKind>Study</joyKind>
+    <thingDefs>
+      <li>LotRH_HobbitPuzzleBox</li>
+    </thingDefs>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+
+</Defs>
