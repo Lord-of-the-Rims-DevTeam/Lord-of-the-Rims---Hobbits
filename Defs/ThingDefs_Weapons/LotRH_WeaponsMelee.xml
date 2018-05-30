@@ -14,6 +14,7 @@
 	  <shaderType>CutoutComplex</shaderType>
 	  <drawSize>0.5</drawSize>
     </graphicData>
+    <techLevel>Medieval</techLevel>
     <costStuffCount>40</costStuffCount>
     <statBases>
       <WorkToMake>10000</WorkToMake>
@@ -63,8 +64,9 @@
       <texPath>Things/Item/WeaponMelee/LotRH_Pitchfork</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
-	  <drawSize>0.7</drawSize>
+	  <drawSize>0.65</drawSize>
     </graphicData>
+    <techLevel>Medieval</techLevel>
     <costStuffCount>50</costStuffCount>
     <statBases>
       <WorkToMake>7000</WorkToMake>
