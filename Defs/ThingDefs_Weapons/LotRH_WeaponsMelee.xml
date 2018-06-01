@@ -48,7 +48,11 @@
         <power>15</power>
         <cooldownTime>2.2</cooldownTime>
       </li>
-    </tools>	
+    </tools>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+	  </li>
+    </comps>	
   </ThingDef>
 
   <!-- ============================================================== -->
@@ -102,6 +106,10 @@
 	<weaponTags>
       <li>LotRH_HobbitMilitia</li>  
 	</weaponTags>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+	  </li>
+    </comps>
   </ThingDef>  
 
   
@@ -159,6 +167,10 @@
     <recipeMaker>
       <researchPrerequisite>LongBlades</researchPrerequisite>
     </recipeMaker>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+	  </li>
+    </comps>
   </ThingDef>
 
 </Defs>

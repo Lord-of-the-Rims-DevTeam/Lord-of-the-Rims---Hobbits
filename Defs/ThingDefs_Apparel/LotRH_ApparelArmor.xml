@@ -3,6 +3,68 @@
 
 
   <ThingDef ParentName="LotRH_ApparelMakeableBase">
+    <defName>LotRH_Apparel_Backpack</defName>
+    <label>hobbit traveler's pack</label>
+    <description>A backpack that helps a hobbit find their way to adventure.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Hobbit/Apparel/Backpack/Backpack_back</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+	<generateCommonality>0</generateCommonality>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>1.0</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryingCapacity>100</CarryingCapacity>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Hobbit/Apparel/Backpack/Backpack</wornGraphicPath>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>LotRH_HobbitApparel</li>
+      </tags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+		  <!-- Random Hobbit (Forest Green) -->
+          <weight>10</weight>
+          <only>RGBA(0.42,0.51,0.4,1)</only>
+        </li>
+        <li>
+		  <!-- Random Hobbit 2 (Dark Brown) -->
+          <weight>10</weight>
+          <only>RGBA(0.42,0.27,0.2,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+    <modExtensions>
+	  <li Class="JecsTools.ApparelExtension">
+	    <coverage>
+		  <li>Backpack</li>
+		</coverage>
+	  </li>
+    </modExtensions>	
+  </ThingDef>
+  
+  <ThingDef ParentName="LotRH_ApparelMakeableBase">
     <defName>LotRH_Apparel_Jacket</defName>
     <label>hobbit jacket</label>
     <description>A nice jacket that is primarily for keeping one warm in chilly winter and staying stylish while doing so.</description>
