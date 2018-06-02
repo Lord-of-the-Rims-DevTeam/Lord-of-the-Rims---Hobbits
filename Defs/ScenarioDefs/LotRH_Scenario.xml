@@ -8,7 +8,7 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>LotRH_HobbitVillager</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Medieval</techLevel>
     <backstoryCategory>Civil</backstoryCategory>
     <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
 		<baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
@@ -67,7 +67,7 @@
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>Medicine</thingDef>
+          <thingDef>HerbalMedicine</thingDef>
           <count>30</count>
         </li>
         <li Class="ScenPart_StartingAnimal">
