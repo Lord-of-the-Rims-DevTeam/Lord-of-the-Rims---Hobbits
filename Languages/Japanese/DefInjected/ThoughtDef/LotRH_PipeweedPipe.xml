@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRH_PipeweedHigh.stages.0.label>パイプ草でハイになる</LotRH_PipeweedHigh.stages.0.label>
+  <LotRH_PipeweedHigh.stages.0.description>パイプ草の煙を楽しむ以上の娯楽は無い。</LotRH_PipeweedHigh.stages.0.description>
+
+
+  <!-- Nicotine addiction -->
+
+  <LotRH_PipeweedChemWithdrawal.stages.1.label>パイプ草 禁断症状</LotRH_PipeweedChemWithdrawal.stages.1.label>
+  <LotRH_PipeweedChemWithdrawal.stages.1.description>よいパイプを手にしてまともにくつろぎたいもんだ。</LotRH_PipeweedChemWithdrawal.stages.1.description>
+
+
+</LanguageData>
