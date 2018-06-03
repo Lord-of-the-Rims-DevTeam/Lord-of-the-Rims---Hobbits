@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRH_HobbitColonist.label>入植者(ホビット)</LotRH_HobbitColonist.label>
+  <LotRH_HobbitColonist.labelPlural>入植者(ホビット)たち</LotRH_HobbitColonist.labelPlural>
+  <LotRH_HobbitColonist.labelMale>男性 入植者(ホビット)</LotRH_HobbitColonist.labelMale>
+  <LotRH_HobbitColonist.labelMalePlural>男性 入植者(ホビット)たち</LotRH_HobbitColonist.labelMalePlural>
+  <LotRH_HobbitColonist.labelFemale>女性 入植者(ホビット)</LotRH_HobbitColonist.labelFemale>
+  <LotRH_HobbitColonist.labelFemalePlural>女性 入植者(ホビット)たち</LotRH_HobbitColonist.labelFemalePlural>
+
+  <LotRH_HobbitVillager.label>村人(ホビット)</LotRH_HobbitVillager.label>
+  <LotRH_HobbitVillager.labelPlural>村人(ホビット)たち</LotRH_HobbitVillager.labelPlural>
+  <LotRH_HobbitVillager.labelMale>男性 村人(ホビット)</LotRH_HobbitVillager.labelMale>
+  <LotRH_HobbitVillager.labelMalePlural>男性 村人(ホビット)たち</LotRH_HobbitVillager.labelMalePlural>
+  <LotRH_HobbitVillager.labelFemale>女性 村人(ホビット)</LotRH_HobbitVillager.labelFemale>
+  <LotRH_HobbitVillager.labelFemalePlural>女性 村人(ホビット)たち</LotRH_HobbitVillager.labelFemalePlural>
+
+  <LotRH_HobbitSlave.label>奴隷(ホビット)</LotRH_HobbitSlave.label>
+  <LotRH_HobbitSlave.labelPlural>奴隷(ホビット)たち</LotRH_HobbitSlave.labelPlural>
+  <LotRH_HobbitSlave.labelMale>男性 奴隷(ホビット)</LotRH_HobbitSlave.labelMale>
+  <LotRH_HobbitSlave.labelMalePlural>男性 奴隷(ホビット)たち</LotRH_HobbitSlave.labelMalePlural>
+  <LotRH_HobbitSlave.labelFemale>女性 奴隷(ホビット)</LotRH_HobbitSlave.labelFemale>
+  <LotRH_HobbitSlave.labelFemalePlural>女性 奴隷(ホビット)たち</LotRH_HobbitSlave.labelFemalePlural>
+
+  <LotRH_HobbitTrader.label>商人(ホビット)</LotRH_HobbitTrader.label>
+  <LotRH_HobbitTrader.labelPlural>商人(ホビット)たち</LotRH_HobbitTrader.labelPlural>
+  <LotRH_HobbitTrader.labelMale>男性 商人(ホビット)</LotRH_HobbitTrader.labelMale>
+  <LotRH_HobbitTrader.labelMalePlural>男性 商人(ホビット)たち</LotRH_HobbitTrader.labelMalePlural>
+  <LotRH_HobbitTrader.labelFemale>女性 商人(ホビット)</LotRH_HobbitTrader.labelFemale>
+  <LotRH_HobbitTrader.labelFemalePlural>女性 商人(ホビット)たち</LotRH_HobbitTrader.labelFemalePlural>
+
+  <LotRH_HobbitThain.label>セイン(ホビット)</LotRH_HobbitThain.label>
+  <LotRH_HobbitThain.labelPlural>セイン(ホビット)たち</LotRH_HobbitThain.labelPlural>
+  <LotRH_HobbitThain.labelMale>男性 セイン(ホビット)</LotRH_HobbitThain.labelMale>
+  <LotRH_HobbitThain.labelMalePlural>男性 セイン(ホビット)たち</LotRH_HobbitThain.labelMalePlural>
+  <LotRH_HobbitThain.labelFemale>女性 セイン(ホビット)</LotRH_HobbitThain.labelFemale>
+  <LotRH_HobbitThain.labelFemalePlural>女性 セイン(ホビット)たち</LotRH_HobbitThain.labelFemalePlural>
+
+  <LotRH_HobbitGuard.label>庄兵(ホビット)</LotRH_HobbitGuard.label>
+  <LotRH_HobbitGuard.labelPlural>庄兵(ホビット)たち</LotRH_HobbitGuard.labelPlural>
+  <LotRH_HobbitGuard.labelMale>男性 庄兵(ホビット)</LotRH_HobbitGuard.labelMale>
+  <LotRH_HobbitGuard.labelMalePlural>男性 庄兵(ホビット)たち</LotRH_HobbitGuard.labelMalePlural>
+  <LotRH_HobbitGuard.labelFemale>女性 庄兵(ホビット)</LotRH_HobbitGuard.labelFemale>
+  <LotRH_HobbitGuard.labelFemalePlural>女性 庄兵(ホビット)たち</LotRH_HobbitGuard.labelFemalePlural>
+
+
+</LanguageData>

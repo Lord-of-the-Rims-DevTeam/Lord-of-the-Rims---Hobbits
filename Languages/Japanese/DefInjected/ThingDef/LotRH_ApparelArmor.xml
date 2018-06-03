@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRH_Apparel_Backpack.label>ホビットの旅行鞄</LotRH_Apparel_Backpack.label>
+  <LotRH_Apparel_Backpack.description>ホビットが冒険に出かけるのを助けるバックパックです。</LotRH_Apparel_Backpack.description>
+
+  <LotRH_Apparel_Jacket.label>ホビットのジャケット</LotRH_Apparel_Jacket.label>
+  <LotRH_Apparel_Jacket.description>主に寒い冬に暖かさを保ち、お洒落に過ごすための素敵なジャケットです。</LotRH_Apparel_Jacket.description>
+
+  <LotRH_Apparel_Cape.label>フードケープ</LotRH_Apparel_Cape.label>
+  <LotRH_Apparel_Cape.description>流行の外套です。</LotRH_Apparel_Cape.description>
+
+  <LotRH_Apparel_Vest.label>ホビットのベスト</LotRH_Apparel_Vest.label>
+  <LotRH_Apparel_Vest.description>普段着の上に羽織るシンプルなベストは、ホビットに適した伝統様式を提供します。</LotRH_Apparel_Vest.description>
+
+  <LotRH_Apparel_Dress.label>ホビットのドレス</LotRH_Apparel_Dress.label>
+  <LotRH_Apparel_Dress.description>シンプルなドレスは、ホビットに適した伝統様式を提供します。</LotRH_Apparel_Dress.description>
+
+
+</LanguageData>

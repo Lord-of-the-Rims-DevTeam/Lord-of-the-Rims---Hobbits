@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotR_PonyKind.label>ポニー</LotR_PonyKind.label>
+  <LotR_PonyKind.labelPlural>ポニーたち</LotR_PonyKind.labelPlural>
+  <LotR_PonyKind.lifeStages.0.label>ポニーの仔馬</LotR_PonyKind.lifeStages.0.label>
+  <LotR_PonyKind.lifeStages.0.labelPlural>ポニーの仔馬たち</LotR_PonyKind.lifeStages.0.labelPlural>
+  <LotR_PonyKind.lifeStages.0.labelMale>男性 ポニーの仔馬</LotR_PonyKind.lifeStages.0.labelMale>
+  <LotR_PonyKind.lifeStages.0.labelMalePlural>男性 ポニーの仔馬たち</LotR_PonyKind.lifeStages.0.labelMalePlural>
+  <LotR_PonyKind.lifeStages.0.labelFemale>女性 ポニーの仔馬</LotR_PonyKind.lifeStages.0.labelFemale>
+  <LotR_PonyKind.lifeStages.0.labelFemalePlural>女性 ポニーの仔馬たち</LotR_PonyKind.lifeStages.0.labelFemalePlural>
+  <LotR_PonyKind.lifeStages.1.label>ポニーの若馬</LotR_PonyKind.lifeStages.1.label>
+  <LotR_PonyKind.lifeStages.1.labelPlural>ポニーの若馬たち</LotR_PonyKind.lifeStages.1.labelPlural>
+  <LotR_PonyKind.lifeStages.1.labelMale>男性 ポニーの若馬</LotR_PonyKind.lifeStages.1.labelMale>
+  <LotR_PonyKind.lifeStages.1.labelMalePlural>男性 ポニーの若馬たち</LotR_PonyKind.lifeStages.1.labelMalePlural>
+  <LotR_PonyKind.lifeStages.1.labelFemale>女性 ポニーの若馬</LotR_PonyKind.lifeStages.1.labelFemale>
+  <LotR_PonyKind.lifeStages.1.labelFemalePlural>女性 ポニーの若馬たち</LotR_PonyKind.lifeStages.1.labelFemalePlural>
+  <LotR_PonyKind.lifeStages.2.label>ポニー</LotR_PonyKind.lifeStages.2.label>
+  <LotR_PonyKind.lifeStages.2.labelPlural>ポニーたち</LotR_PonyKind.lifeStages.2.labelPlural>
+  <LotR_PonyKind.lifeStages.2.labelMale>男性 ポニー</LotR_PonyKind.lifeStages.2.labelMale>
+  <LotR_PonyKind.lifeStages.2.labelMalePlural>男性 ポニーたち</LotR_PonyKind.lifeStages.2.labelMalePlural>
+  <LotR_PonyKind.lifeStages.2.labelFemale>女性 ポニー</LotR_PonyKind.lifeStages.2.labelFemale>
+  <LotR_PonyKind.lifeStages.2.labelFemalePlural>女性 ポニーたち</LotR_PonyKind.lifeStages.2.labelFemalePlural>
+  <LotR_PonyKind.labelMale>男性 ポニー</LotR_PonyKind.labelMale>
+  <LotR_PonyKind.labelMalePlural>男性 ポニーたち</LotR_PonyKind.labelMalePlural>
+  <LotR_PonyKind.labelFemale>女性 ポニー</LotR_PonyKind.labelFemale>
+  <LotR_PonyKind.labelFemalePlural>女性 ポニーたち</LotR_PonyKind.labelFemalePlural>
+
+
+</LanguageData>

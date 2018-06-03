@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LotRH_BackstoryHobbitChildOne.title>ホビット:有名人</LotRH_BackstoryHobbitChildOne.title>
+  <LotRH_BackstoryHobbitChildTwo.title>ホビット:物知り</LotRH_BackstoryHobbitChildTwo.title>
+  <LotRH_BackstoryHobbitChildThree.title>ホビット:トラブルメーカー</LotRH_BackstoryHobbitChildThree.title>
+  <LotRH_BackstoryHobbitChildFour.title>ホビット:穏やかな口調</LotRH_BackstoryHobbitChildFour.title>
+  <LotRH_BackstoryHobbitChildFive.title>ホビット:卑劣漢</LotRH_BackstoryHobbitChildFive.title>
+  <LotRH_BackstoryHobbitChildSix.title>ホビット:無知な子供</LotRH_BackstoryHobbitChildSix.title>
+  <LotRH_BackstoryHobbitChildSeven.title>ホビット:欲深な手</LotRH_BackstoryHobbitChildSeven.title>
+  <LotRH_BackstoryHobbitChildEight.title>ホビット:不器用なとんま</LotRH_BackstoryHobbitChildEight.title>
+
+
+  <!-- Adult backstories -->
+
+  <LotRH_BackstoryHobbitAdultOne.title>ホビット:冒険家</LotRH_BackstoryHobbitAdultOne.title>
+  <LotRH_BackstoryHobbitAdultTwo.title>ホビット:強盗</LotRH_BackstoryHobbitAdultTwo.title>
+  <LotRH_BackstoryHobbitAdultThree.title>ホビット:酔っ払い</LotRH_BackstoryHobbitAdultThree.title>
+  <LotRH_BackstoryHobbitAdultFour.title>ホビット:大食漢</LotRH_BackstoryHobbitAdultFour.title>
+  <LotRH_BackstoryHobbitAdultFive.title>ホビット:怠け者</LotRH_BackstoryHobbitAdultFive.title>
+  <LotRH_BackstoryHobbitAdultSix.title>ホビット:農夫</LotRH_BackstoryHobbitAdultSix.title>
+  <LotRH_BackstoryHobbitAdultSeven.title>ホビット:庭師</LotRH_BackstoryHobbitAdultSeven.title>
+
+
+</LanguageData>
