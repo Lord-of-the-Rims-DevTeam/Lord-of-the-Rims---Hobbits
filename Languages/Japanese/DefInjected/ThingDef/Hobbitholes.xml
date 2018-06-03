@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Walls -->
+
+  <LotRH_HobbitHill.label>丘土</LotRH_HobbitHill.label>
+  <LotRH_HobbitHill.description>丘土は高さはありませんが、自然の壁と同じくらい頑丈で、その中に住むホビットたちに大きな快適感を与えます。丘土は手軽な泥と土が近くにある事が必要で、完成するのに時間がかかります。これらの丘土の上には草を植えることができます。</LotRH_HobbitHill.description>
+  <LotRH_HobbitHill_Blueprint.label>丘土(設計)</LotRH_HobbitHill_Blueprint.label>
+  <LotRH_HobbitHill_Frame.label>丘土(施工)</LotRH_HobbitHill_Frame.label>
+  <LotRH_HobbitHill_Frame.description>丘土は高さはありませんが、自然の壁と同じくらい頑丈で、その中に住むホビットたちに大きな快適感を与えます。丘土は手軽な泥と土が近くにある事が必要で、完成するのに時間がかかります。これらの丘土の上には草を植えることができます。</LotRH_HobbitHill_Frame.description>
+
+
+</LanguageData>
