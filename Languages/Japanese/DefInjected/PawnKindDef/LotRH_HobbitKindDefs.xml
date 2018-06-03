@@ -15,6 +15,13 @@
   <LotRH_HobbitVillager.labelFemale>女性 村人(ホビット)</LotRH_HobbitVillager.labelFemale>
   <LotRH_HobbitVillager.labelFemalePlural>女性 村人(ホビット)たち</LotRH_HobbitVillager.labelFemalePlural>
 
+  <LotRH_HobbitSlave.label>奴隷(ホビット)</LotRH_HobbitSlave.label>
+  <LotRH_HobbitSlave.labelPlural>奴隷(ホビット)たち</LotRH_HobbitSlave.labelPlural>
+  <LotRH_HobbitSlave.labelMale>男性 奴隷(ホビット)</LotRH_HobbitSlave.labelMale>
+  <LotRH_HobbitSlave.labelMalePlural>男性 奴隷(ホビット)たち</LotRH_HobbitSlave.labelMalePlural>
+  <LotRH_HobbitSlave.labelFemale>女性 奴隷(ホビット)</LotRH_HobbitSlave.labelFemale>
+  <LotRH_HobbitSlave.labelFemalePlural>女性 奴隷(ホビット)たち</LotRH_HobbitSlave.labelFemalePlural>
+
   <LotRH_HobbitTrader.label>商人(ホビット)</LotRH_HobbitTrader.label>
   <LotRH_HobbitTrader.labelPlural>商人(ホビット)たち</LotRH_HobbitTrader.labelPlural>
   <LotRH_HobbitTrader.labelMale>男性 商人(ホビット)</LotRH_HobbitTrader.labelMale>
