@@ -62,6 +62,22 @@
     <humanRecipeImport>true</humanRecipeImport>
 	  </generalSettings>
 	  <pawnKindSettings>
+		<alienrefugeekinds>
+			<li>
+				<kindDefs>
+					<li>LotRH_HobbitVillager</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			</li>
+		</alienrefugeekinds>
+		<alienslavekinds>
+			<li>
+				<kindDefs>
+					<li>LotRH_HobbitSlave</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			</li>
+		</alienslavekinds>
 		<startingColonists>
 		  <li>
 			<pawnKindEntries>
@@ -74,6 +90,7 @@
 			</pawnKindEntries>
 			<factionDefs>
 			  <li>PlayerColony</li> 
+			  <li>LotRPlayerColony</li> 
 			</factionDefs>
 		  </li>
 		</startingColonists>
@@ -84,6 +101,15 @@
 		</hairTags>
 	    <getsGreyAt>200</getsGreyAt>
 	  </hairSettings>
+	  <raceRestriction>
+	    <apparelList>
+		  <li>LotRH_Apparel_Backpack</li>
+		  <li>LotRH_Apparel_Jacket</li>
+		  <li>LotRH_Apparel_Cape</li>
+		  <li>LotRH_Apparel_Vest</li>
+		  <li>LotRH_Apparel_Dress</li>
+		</apparelList>
+	  </raceRestriction>
 		<thoughtSettings>
 			<cannotReceiveThoughts>
 			<li>CabinFever</li>
@@ -178,7 +204,7 @@
       <leatherMarketValueFactor>2</leatherMarketValueFactor>
       <nameCategory>HumanStandard</nameCategory>
       <body>Human</body>
-      <baseBodySize>0.6</baseBodySize>
+      <baseBodySize>0.625</baseBodySize>
       <baseHealthScale>0.8</baseHealthScale>
       <foodType>OmnivoreHuman</foodType>
       <gestationPeriodDays>45</gestationPeriodDays>

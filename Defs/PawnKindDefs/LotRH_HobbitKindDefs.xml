@@ -77,14 +77,49 @@
       </subOptionsChooseOne>
     </inventoryOptions>
   </PawnKindDef>
-  
+
+  <PawnKindDef>
+    <defName>LotRH_HobbitSlave</defName>
+    <label>hobbit slave</label>
+    <combatPower>15</combatPower>
+    <race>LotRH_HobbitStandardRace</race>
+    <baseRecruitDifficulty>0.40</baseRecruitDifficulty>
+	<defaultFactionType>LotRH_HobbitFactionShire</defaultFactionType>
+    <backstoryCategory>LotR_BackstoryHobbit</backstoryCategory>
+    <itemQuality>Shoddy</itemQuality>
+    <backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
+    <isFighter>false</isFighter>
+    <chemicalAddictionChance>0.0</chemicalAddictionChance>
+    <gearHealthRange>
+      <min>0.2</min>
+      <max>0.8</max>
+    </gearHealthRange>
+	<apparelTags>
+      <li>LotRH_HobbitApparel</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>150</min>
+      <max>300</max>
+    </apparelMoney>
+    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <techHediffsMoney>
+      <min>0</min>
+      <max>35</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.0</techHediffsChance>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <invNutrition>1</invNutrition>
+    <invFoodDef>Pemmican</invFoodDef>
+  </PawnKindDef>
  
   <PawnKindDef ParentName="LotRH_HobbitVillager">
     <defName>LotRH_HobbitTrader</defName>
     <label>hobbit-trader</label>
     <trader>true</trader>
   </PawnKindDef>
-  
   
   <PawnKindDef ParentName="LotRH_HobbitVillager" Name="LotRH_HobbitThain">
     <defName>LotRH_HobbitThain</defName>
