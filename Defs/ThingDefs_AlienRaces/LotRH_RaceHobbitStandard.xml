@@ -7,6 +7,7 @@
     <description>Immune to disease. Lives to be 100 years old. Loves to eat, drink, be merry, and sometimes, just sometimes, go on adventures.</description>
 	<alienRace>
 	  <generalSettings>
+        <humanRecipeImport>true</humanRecipeImport>
 	    <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
 	    <alienPartGenerator>
 	      <customDrawSize>(0.7, 0.605)</customDrawSize>
