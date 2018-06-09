@@ -64,6 +64,47 @@
     </modExtensions>	
   </ThingDef>
   
+  <ThingDef ParentName="ApparelMakeableBase">
+    <defName>LotRH_Apparel_PantsHobbit</defName>
+    <label>hobbit pants</label>
+    <description>A simple set of tiny pants that are raised above the ankles for hobbit feet.</description>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMap</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>8500</WorkToMake>
+      <Mass>0.5</Mass>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+      <Insulation_Cold>-3</Insulation_Cold>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+      <tags>
+        <li>LotR_HobbitApparel</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>LotRH_HobbitApparel</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_StandardApparel" />
+  </ThingDef>
+  
   <ThingDef ParentName="LotRH_ApparelMakeableBase">
     <defName>LotRH_Apparel_Jacket</defName>
     <label>hobbit jacket</label>
@@ -136,7 +177,7 @@
     <label>hooded cape</label>
     <description>A fashionable cape.</description>
     <graphicData>
-      <texPath>Things/Pawn/Hobbit/Apparel/HoodedCape/ennacrimaCloak_Male_front</texPath>
+      <texPath>Things/Pawn/Hobbit/Apparel/HoodedCape/ennacrimaCloakDisplay</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>50</costStuffCount>
@@ -217,6 +258,7 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
+        <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Hobbit/Apparel/Vest/Vest</wornGraphicPath>
       <layers>
@@ -235,7 +277,7 @@
   <ThingDef ParentName="LotRH_ApparelMakeableBase">
     <defName>LotRH_Apparel_Dress</defName>
     <label>hobbit dress</label>
-    <description>A simple dress provides proper style for Hobbits.</description>
+    <description>This simple dress provides proper style for Hobbits as well as protectively covering tops and bottoms.</description>
     <graphicData>
       <texPath>Things/Pawn/Hobbit/Apparel/Dress/Dress_Male_front</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -260,6 +302,8 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
+		<li>Arms</li>
+		<li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Hobbit/Apparel/Dress/Dress</wornGraphicPath>
       <layers>

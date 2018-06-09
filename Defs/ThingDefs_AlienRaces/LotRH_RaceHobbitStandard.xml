@@ -60,7 +60,6 @@
 			</options>
 		  </alienhaircolorgen>
 		</alienPartGenerator>
-    <humanRecipeImport>true</humanRecipeImport>
 	  </generalSettings>
 	  <pawnKindSettings>
 		<alienrefugeekinds>

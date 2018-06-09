@@ -15,9 +15,11 @@
 		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
 		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
 		<geneticVariance>1</geneticVariance>
+		<!--
 		<startingResearchTags>
 			<li>ClassicStart</li>
 		</startingResearchTags>
+		-->
 		<hairTags>
 			<li>Hobbit</li>
 		</hairTags>
@@ -53,6 +55,19 @@
           <method>Standing</method>
           <visible>false</visible>
         </li>
+		
+		
+		<!-- Starting research -->
+		<li Class="ScenPart_StartingResearch">
+			<def>StartingResearch</def>
+			<project>Beds</project>
+		</li>
+		<li Class="ScenPart_StartingResearch">
+			<def>StartingResearch</def>
+			<project>Bedrolls</project>
+		</li>
+		
+		
 
         <!-- Player starting things -->
         <li Class="ScenPart_StartingThing_Defined">
