@@ -17,6 +17,10 @@
   <Make_LotRH_Apparel_Backpack.description>ホビットの旅行鞄を縫う。</Make_LotRH_Apparel_Backpack.description>
   <Make_LotRH_Apparel_Backpack.jobString>ホビットの旅行鞄を縫製中</Make_LotRH_Apparel_Backpack.jobString>
 
+  <Make_LotRH_Apparel_PantsHobbit.label>ホビットのパンツを縫う</Make_LotRH_Apparel_PantsHobbit.label>
+  <Make_LotRH_Apparel_PantsHobbit.description>ホビットのパンツを縫う。</Make_LotRH_Apparel_PantsHobbit.description>
+  <Make_LotRH_Apparel_PantsHobbit.jobString>ホビットのパンツを縫製中</Make_LotRH_Apparel_PantsHobbit.jobString>
+
   <Make_LotRH_Apparel_Jacket.label>ホビットのジャケットを縫う</Make_LotRH_Apparel_Jacket.label>
   <Make_LotRH_Apparel_Jacket.description>ホビットのジャケットを縫う。</Make_LotRH_Apparel_Jacket.description>
   <Make_LotRH_Apparel_Jacket.jobString>ホビットのジャケットを縫製中</Make_LotRH_Apparel_Jacket.jobString>
