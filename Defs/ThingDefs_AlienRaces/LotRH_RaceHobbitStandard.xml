@@ -99,7 +99,7 @@
 		<hairTags>
 			<li>Hobbit</li>
 		</hairTags>
-	    <getsGreyAt>200</getsGreyAt>
+	    <getsGreyAt>100</getsGreyAt>
 	  </hairSettings>
 	  <raceRestriction>
 	    <apparelList>
