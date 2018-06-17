@@ -2,24 +2,40 @@
 <LanguageData>
 
   <LotRH_BackstoryHobbitChildOne.title>ホビット:有名人</LotRH_BackstoryHobbitChildOne.title>
+  <LotRH_BackstoryHobbitChildOne.baseDescription>NAMEは地元で名を残した有名なホビットの遠い子孫であり、
+沢山の偉大なホビット族のひとりからHIS家系は分家しています。HECAPは数えきれない遠い親戚たちと交際して莫大な富と人脈を得ました。</LotRH_BackstoryHobbitChildOne.baseDescription>
   <LotRH_BackstoryHobbitChildTwo.title>ホビット:物知り</LotRH_BackstoryHobbitChildTwo.title>
+  <LotRH_BackstoryHobbitChildTwo.baseDescription>NAMEは物を集め、記録を取り、英雄と冒険者の古い伝説を瞬時に思い出す事のできる才能を持っていました。 HIS持つ知識を広めたいHISCAPの欲望は、HIMを幾分か話上手にしました。 しかし、HECAPは観察と研究に多くの時間を費やしましたが、HEはどんな腕相撲コンテストでもエント(足が根っこになっている木の精霊)のように簡単に負けることはよく知られていました。</LotRH_BackstoryHobbitChildTwo.baseDescription>
   <LotRH_BackstoryHobbitChildThree.title>ホビット:問題児</LotRH_BackstoryHobbitChildThree.title>
+  <LotRH_BackstoryHobbitChildThree.baseDescription>NAMEはHIS幼い時期をHIS隣人や親戚に迷惑をかけて過ごしました。そうして何年も責任から逃げ続けた間に、彼は非常に速く移動する方法や、奇襲攻撃をかわす方法、そして予測した追跡者の大部分から脱出する方法を学習しました。</LotRH_BackstoryHobbitChildThree.baseDescription>
   <LotRH_BackstoryHobbitChildFour.title>ホビット:穏やかな口調</LotRH_BackstoryHobbitChildFour.title>
+  <LotRH_BackstoryHobbitChildFour.baseDescription>NAMEは信じられないほど親切で思いやりのある子供としてよく知られていました。 ところが、HEは他の人々の会話に割り込んで思考を中断しないように避ける配慮のために、自分から話すよりも聞いていることにHIS時間の大半が使われました。</LotRH_BackstoryHobbitChildFour.baseDescription>
   <LotRH_BackstoryHobbitChildFive.title>ホビット:いじめっ子</LotRH_BackstoryHobbitChildFive.title>
+  <LotRH_BackstoryHobbitChildFive.baseDescription>NAMEは、人生の早い段階で注目の浴びる生き方を実現しました。 彼はHIS友達を笑わせるために別人の悪口を言った事で、HEは2つのことを学びました。 1つ目、どのように喧嘩を始めるか。 2つ目、他のホビットを泣かせる方法。</LotRH_BackstoryHobbitChildFive.baseDescription>
   <LotRH_BackstoryHobbitChildSix.title>ホビット:無知な子供</LotRH_BackstoryHobbitChildSix.title>
+  <LotRH_BackstoryHobbitChildSix.baseDescription>NAMEは可能な限りなんでも知っていることに誇りを持っていました。 しかしHIS両親は、いわゆる「意味のない学習」などといったものは、HEが雑草を育てるのに時間を費やしているのと変わらず、役立つのに費やすことができる貴重な時間を無駄にしていただけであるとHIMに保証しました。 知的で芸術的な障害のある子どもです。</LotRH_BackstoryHobbitChildSix.baseDescription>
   <LotRH_BackstoryHobbitChildSeven.title>ホビット:欲深な手</LotRH_BackstoryHobbitChildSeven.title>
+  <LotRH_BackstoryHobbitChildSeven.baseDescription>NAMEの両親がどのようなことをしても、HIMがHIS小さなホビットの手を使わないようにHIM自身で律することができませんでした。 HECAPは常により多くのものを求めていました。 なんであれすべてがHIMにとって「宝物」でした。よかった点は、友人の一人が謎の理由で水死した事で追放されて、HEは生存するために料理をたくさん学んだ事でしょう。</LotRH_BackstoryHobbitChildSeven.baseDescription>
   <LotRH_BackstoryHobbitChildEight.title>ホビット:不器用な子供</LotRH_BackstoryHobbitChildEight.title>
+  <LotRH_BackstoryHobbitChildEight.baseDescription>NAMEは料理皿を割り、食事を焦がし、レンバスの行糧を泥に落としたり、飼っていた羊を逃がしたり、HIS宿題を忘れたり、おばあちゃんの前で誓わせられたり、後ろに居た父親を弓で撃ったりして、毎シーズン死にそうでした。 しかし彼は大人になっても生き延びてきたのです。</LotRH_BackstoryHobbitChildEight.baseDescription>
 
 
   <!-- Adult backstories -->
 
   <LotRH_BackstoryHobbitAdultOne.title>ホビット:冒険家</LotRH_BackstoryHobbitAdultOne.title>
+  <LotRH_BackstoryHobbitAdultOne.baseDescription>HEは遠く離れた土地で名声と運命を求めて自宅を出るまれなホビットです。 これは、HIS同郷のホビットたちの目にも、NAMEは少し奇妙な人と見られていましたが、まだHEは故郷を出て再び行くつもりのようです。</LotRH_BackstoryHobbitAdultOne.baseDescription>
   <LotRH_BackstoryHobbitAdultTwo.title>ホビット:強盗</LotRH_BackstoryHobbitAdultTwo.title>
+  <LotRH_BackstoryHobbitAdultTwo.baseDescription>ホビットは静かで、軽快な生き物です。 NAMEのような泥棒の専門家は、問題が発生したときにHIM自身を(問題を見事に解決してしまうような)稀な存在に高めることができます。 泥棒は泥棒に熟練していると噂されていている様に、ドラゴンの鼻先から金を盗むことさえできます！ しかし、そのチャンスはあるんでしょうか？</LotRH_BackstoryHobbitAdultTwo.baseDescription>
   <LotRH_BackstoryHobbitAdultThree.title>ホビット:酔っ払い</LotRH_BackstoryHobbitAdultThree.title>
+  <LotRH_BackstoryHobbitAdultThree.baseDescription>ホビットの間でよく見られる者は、最も勤勉でないタイプ-つまり酔っ払いである。NAMEは彼の友人全員を呼んだ後で幾らか飲み、そして何年も続いているが、HEは毎朝覚えのない場所で起きているのだ。もしHEがあなたを誰か覚えていれば、HECAPはHIS冒険話を喜んで教えてくれるだろう。</LotRH_BackstoryHobbitAdultThree.baseDescription>
   <LotRH_BackstoryHobbitAdultFour.title>ホビット:大食漢</LotRH_BackstoryHobbitAdultFour.title>
+  <LotRH_BackstoryHobbitAdultFour.baseDescription>ホビットは良い料理なしでは長時間待っていることができません、そして食通のように、最高のものだけを要求する人もいます。NAMEは長年にわたりその鼻で嗅ぎまわって料理を続け、他の人に最高の料理を作る方法を教えました。HIS料理に対する批評によって一度人気に火が付くと、HEは料理を作る以上に食べる側になってしまったのです。</LotRH_BackstoryHobbitAdultFour.baseDescription>
   <LotRH_BackstoryHobbitAdultFive.title>ホビット:怠け者</LotRH_BackstoryHobbitAdultFive.title>
+  <LotRH_BackstoryHobbitAdultFive.baseDescription>ホビットが中々平和な生活を享受することはよく知られています。NAMEは与太者の1人でした。-- ホビットの中で最もやる気がありません。HECAPはHIS人生の途中で目標(全ての物事で完璧な暇と息抜きという)を達成した。</LotRH_BackstoryHobbitAdultFive.baseDescription>
   <LotRH_BackstoryHobbitAdultSix.title>ホビット:農夫</LotRH_BackstoryHobbitAdultSix.title>
+  <LotRH_BackstoryHobbitAdultSix.baseDescription>ホビットはどうやって農夫抜きで2度目の朝食を楽しむことができるでしょう？NAMEは豊かな土壌で生まれました。HEは余計な話をして遊んでいる暇はなく、時に受け答えは非常に簡潔です。もちろん、別の話に夢中でない限りHISきつい仕事は成果を出すでしょう。</LotRH_BackstoryHobbitAdultSix.baseDescription>
   <LotRH_BackstoryHobbitAdultSeven.title>ホビット:庭師</LotRH_BackstoryHobbitAdultSeven.title>
+  <LotRH_BackstoryHobbitAdultSeven.baseDescription>ホビットは、しばしば庭師のようなシンプルな職業を選びます。NAMEはシャイア(ホビット庄)の金色のマルローンの花の中で繁栄し、常にHIS苗木と苗を育てる正しい方法を探しました。造園はHIS職業というだけではなく、それはHIS思索でもあった。</LotRH_BackstoryHobbitAdultSeven.baseDescription>
 
 
 </LanguageData>
