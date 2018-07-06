@@ -11,8 +11,8 @@
     <techLevel>Medieval</techLevel>
     <backstoryCategory>Civil</backstoryCategory>
     <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
-		<baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
-		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
+		<settlementNameMaker>NamerFactionBasePlayerColony</settlementNameMaker>
+		<settlementNameMakerPlayer>NamerFactionPlayerColonyRandomized</settlementNameMakerPlayer>
 		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
 		<geneticVariance>1</geneticVariance>
 		<!--

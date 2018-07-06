@@ -63,11 +63,11 @@
       <categories>
         <li>Root</li>
       </categories>
-      <exceptedThingDefs>
+      <disallowedThingDefs>
         <li>Silver</li>
         <li>Gold</li>
         <li>WoodLog</li>
-      </exceptedThingDefs>
+      </disallowedThingDefs>
     </defaultIngredientFilter>
     </recipeMaker>
   </ThingDef>
@@ -78,7 +78,7 @@
 				<compClass>CompQuality</compClass>
 			</li>
 			<li Class="CompProperties_Art">
-				<nameMaker>ArtName_WeaponMelee</nameMaker>
+				<nameMaker>NamerArtWeaponMelee</nameMaker>
 				<descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
 				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li>

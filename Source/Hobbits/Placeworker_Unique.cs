@@ -7,9 +7,9 @@ namespace Hobbits
 {
     public class PlaceWorker_Unique : PlaceWorker
     {
-        public override void DrawGhost(ThingDef def, IntVec3 center, Rot4 rot)
+        public override void DrawGhost(ThingDef def, IntVec3 center, Rot4 rot, Color ghostCol)
         {
-            Map visibleMap = Find.VisibleMap;
+            Map visibleMap = Find.CurrentMap;
             GenDraw.DrawFieldEdges(new List<IntVec3>{center + def.interactionCellOffset});
         }
 

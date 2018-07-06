@@ -48,13 +48,13 @@
         <categories>
           <li>Root</li>
         </categories>
-        <exceptedThingDefs>
+        <disallowedThingDefs>
           <li>Gold</li>
           <li>Silver</li>
           <li>Plasteel</li>
           <li>Jade</li>
           <li>Uranium</li>
-        </exceptedThingDefs>
+        </disallowedThingDefs>
       </defaultIngredientFilter>
     </recipeMaker>
   </ThingDef>
@@ -73,13 +73,13 @@
         <categories>
           <li>Root</li>
         </categories>
-        <exceptedThingDefs>
+        <disallowedThingDefs>
           <li>Gold</li>
           <li>Silver</li>
           <li>Plasteel</li>
           <li>Jade</li>
           <li>Uranium</li>
-        </exceptedThingDefs>
+        </disallowedThingDefs>
       </defaultIngredientFilter>
     </recipeMaker>
   </ThingDef>

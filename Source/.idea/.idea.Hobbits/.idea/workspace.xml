@@ -8,7 +8,7 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
+  </ComponentIndustrial>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
@@ -19,7 +19,7 @@
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
     <expand />
     <select />
-  </component>
+  </ComponentIndustrial>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="HobbitMod.cs" pinned="false" current-in-tab="false">
@@ -28,6 +28,7 @@
             <state relative-caret-position="152">
               <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding>
+                <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
                 <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
                 <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
               </folding>
@@ -38,8 +39,8 @@
       <file leaf-file-name="HarmonyHobbits.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hobbits/HarmonyHobbits.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+            <state relative-caret-position="494">
+              <caret line="106" column="131" lean-forward="true" selection-start-line="106" selection-start-column="131" selection-end-line="106" selection-end-column="131" />
               <folding>
                 <marker date="1527308148162" expanded="false" signature="6:255" ph="..." />
                 <marker date="1527308148162" expanded="true" signature="287:5497" ph="{...}" />
@@ -163,13 +164,13 @@
         </entry>
       </file>
     </leaf>
-  </component>
+  </ComponentIndustrial>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>def</find>
       <find>UpdateLit</find>
     </findStrings>
-  </component>
+  </ComponentIndustrial>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Hobbits/Placeworker_Unique.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Hobbits/HarmonyHobbits.cs" root0="FORCE_HIGHLIGHTING" />
@@ -178,7 +179,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ea/79b80d45/SnowCategory.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/42/47a0d668/IPlantToGrowSettable.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Hobbits/HobbitMod.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
+  </ComponentIndustrial>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -191,19 +192,19 @@
         <option value="$PROJECT_DIR$/Hobbits/HarmonyHobbits.cs" />
       </list>
     </option>
-  </component>
+  </ComponentIndustrial>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="799" />
-    <option name="y" value="107" />
-    <option name="width" value="1088" />
-    <option name="height" value="797" />
-  </component>
+  </ComponentIndustrial>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="50" />
+    <option name="y" value="166" />
+    <option name="width" value="1501" />
+    <option name="height" value="855" />
+  </ComponentIndustrial>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <flattenPackages />
@@ -234,11 +235,11 @@
         <option name="show-all-items" value="false" />
       </pane>
     </panes>
-  </component>
+  </ComponentIndustrial>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../RimworldModReleaseTool.exe" />
-  </component>
+  </ComponentIndustrial>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -250,7 +251,7 @@
         </RuleState>
       </list>
     </option>
-  </component>
+  </ComponentIndustrial>
   <component name="RunManager" selected=".NET Executable.Deployer">
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
     <configuration name="Deployer" type="RunExe" factoryName=".NET Executable">
@@ -266,10 +267,10 @@
       <item index="0" class="java.lang.String" itemvalue=".NET Executable.Deployer" />
       <item index="1" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
     </list>
-  </component>
+  </ComponentIndustrial>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
-  </component>
+  </ComponentIndustrial>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="20de1e08-893e-4b42-91ec-4d45162c732c" name="Default" comment="" />
@@ -301,13 +302,14 @@
       <workItem from="1528244951456" duration="1965000" />
       <workItem from="1528545530337" duration="711000" />
       <workItem from="1528567774519" duration="1667000" />
-      <workItem from="1528734826591" duration="54000" />
+      <workItem from="1528734826591" duration="1878000" />
+      <workItem from="1529136391745" duration="713000" />
     </task>
     <servers />
-  </component>
+  </ComponentIndustrial>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86862000" />
-  </component>
+    <option name="totallyTimeSpent" value="89399000" />
+  </ComponentIndustrial>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -316,19 +318,19 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
+  </ComponentIndustrial>
   <component name="ToolWindowManager">
-    <frame x="799" y="107" width="1088" height="797" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.83413076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.595672" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20948617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11546724" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -343,17 +345,17 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
+  </ComponentIndustrial>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
+  </ComponentIndustrial>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
+  </ComponentIndustrial>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
-  </component>
+  </ComponentIndustrial>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Hobbits/EarthenWall.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -441,6 +443,7 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
+            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -585,6 +588,7 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
+            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -729,6 +733,7 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
+            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -829,6 +834,7 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
+            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -929,6 +935,7 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
+            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -1029,6 +1036,7 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
+            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -1129,6 +1137,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -1229,6 +1238,7 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
+            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -1329,6 +1339,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -1340,6 +1351,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -1366,6 +1378,7 @@
         <state relative-caret-position="152">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
+            <marker date="1518785277277" expanded="true" signature="45:192" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="80:190" ph="{...}" />
             <marker date="1518785277277" expanded="true" signature="151:184" ph="{...}" />
           </folding>
@@ -1463,8 +1476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hobbits/HarmonyHobbits.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="81" column="13" lean-forward="false" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
+        <state relative-caret-position="494">
+          <caret line="106" column="131" lean-forward="true" selection-start-line="106" selection-start-column="131" selection-end-line="106" selection-end-column="131" />
           <folding>
             <marker date="1527308148162" expanded="false" signature="6:255" ph="..." />
             <marker date="1527308148162" expanded="true" signature="287:5497" ph="{...}" />
@@ -1491,5 +1504,5 @@
         </state>
       </provider>
     </entry>
-  </component>
+  </ComponentIndustrial>
 </project>

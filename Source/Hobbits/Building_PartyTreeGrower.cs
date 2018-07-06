@@ -48,13 +48,13 @@ namespace Hobbits
 			return Regex.Replace(base.GetInspectString().TrimEndNewlines(), @"^\s+$[\r\n]*", "", RegexOptions.Multiline).TrimEndNewlines();
 		}
 
-		public override void DeSpawn()
+		public override void DeSpawn(DestroyMode mode = DestroyMode.Vanish)
 		{
 			foreach (Plant plant in this.PlantsOnMe.ToList<Plant>())
 			{
 				plant.Destroy(DestroyMode.Vanish);
 			}
-			base.DeSpawn();
+			base.DeSpawn(mode);
 		}
 
 		private ThingDef plantDefToGrow;

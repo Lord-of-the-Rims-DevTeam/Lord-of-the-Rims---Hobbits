@@ -31,6 +31,9 @@
       <min>0.2</min>
       <max>1.0</max>
     </gearHealthRange>
+    <apparelRequired>
+      <li>LotRH_Apparel_PantsHobbit</li>
+    </apparelRequired>
 	<apparelTags>
       <li>LotRH_HobbitApparel</li>
     </apparelTags>
@@ -38,7 +41,7 @@
       <min>1000</min>
       <max>1200</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.02</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.02</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>0</min>
       <max>250</max>
@@ -101,7 +104,7 @@
       <min>150</min>
       <max>300</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <techHediffsMoney>
       <min>0</min>
       <max>35</max>
@@ -130,11 +133,14 @@
     </apparelTags>
     <factionLeader>true</factionLeader>
     <minGenerationAge>80</minGenerationAge>
+    <apparelRequired>
+      <li>LotRH_Apparel_PantsHobbit</li>
+    </apparelRequired>
     <apparelMoney>
       <min>3300</min>
       <max>3900</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>3200</min>
       <max>3600</max>
@@ -157,6 +163,9 @@
       <min>0.5</min>
       <max>1.8</max>
     </gearHealthRange>
+    <apparelRequired>
+      <li>LotRH_Apparel_PantsHobbit</li>
+    </apparelRequired>
 	<apparelTags>
       <li>LotRH_HobbitApparel</li>
     </apparelTags>
@@ -164,7 +173,7 @@
       <min>300</min>
       <max>900</max>
     </apparelMoney>
-    <apparelAllowHeadwearChance>0.4</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponMoney>
       <min>200</min>
       <max>600</max>

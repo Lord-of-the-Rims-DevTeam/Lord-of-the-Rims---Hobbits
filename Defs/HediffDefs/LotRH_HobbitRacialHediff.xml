@@ -12,10 +12,14 @@
   <JecsTools.HediffExpandedDef ParentName="LotRH_RacialBase">
     <defName>LotRH_HobbitTraits</defName>
     <label>Racial Bonus: Hobbit</label>
-	<postListText>LotR_HobbitBonuses</postListText>
+	<postListText>Strong immunity towards disease with slightly faster speed running speed.</postListText>
     <stages>
       <li>
         <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <postFactor>2.0</postFactor>
+          </li>
           <li>
             <capacity>Moving</capacity>
             <postFactor>1.05</postFactor>

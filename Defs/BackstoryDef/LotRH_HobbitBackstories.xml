@@ -32,11 +32,11 @@
     <skillGains>
       <li>
         <defName>Intellectual</defName>
-        <amount>2</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Social</defName>
-        <amount>1</amount>
+        <amount>2</amount>
       </li>
     </skillGains>
     <forcedTraits>
@@ -55,11 +55,11 @@
     <skillGains>
       <li>
         <defName>Melee</defName>
-        <amount>1</amount>
+        <amount>2</amount>
       </li>
       <li>
         <defName>Intellectual</defName>
-        <amount>1</amount>
+        <amount>2</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -73,7 +73,7 @@
     <skillGains>
       <li>
         <defName>Social</defName>
-        <amount>-2</amount>
+        <amount>-3</amount>
       </li>
     </skillGains>
     <forcedTraits>
@@ -92,7 +92,7 @@
     <skillGains>
       <li>
         <defName>Melee</defName>
-        <amount>1</amount>
+        <amount>3</amount>
       </li>
     </skillGains>
     <forcedTraits>
@@ -110,8 +110,8 @@
 	<slot>Childhood</slot>
     <skillGains>
       <li>
-        <defName>Growing</defName>
-        <amount>2</amount>
+        <defName>Plants</defName>
+        <amount>4</amount>
       </li>
     </skillGains>
     <workDisables>
@@ -130,7 +130,7 @@
     <skillGains>
       <li>
         <defName>Cooking</defName>
-        <amount>2</amount>
+        <amount>4</amount>
       </li>
       <li>
         <defName>Intellectual</defName>
@@ -160,7 +160,7 @@
         <amount>-2</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>-2</amount>
       </li>      
       <li>
@@ -208,11 +208,11 @@
     <skillGains>
       <li>
         <defName>Melee</defName>
-        <amount>1</amount>
+        <amount>3</amount>
       </li>
       <li>
         <defName>Shooting</defName>
-        <amount>1</amount>
+        <amount>3</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -225,7 +225,7 @@
     <skillGains>
       <li>
         <defName>Melee</defName>
-        <amount>1</amount>
+        <amount>3</amount>
       </li>
     </skillGains>
     <forcedTraits>
@@ -244,7 +244,7 @@
     <skillGains>
       <li>
         <defName>Melee</defName>
-        <amount>1</amount>
+        <amount>3</amount>
       </li>
     </skillGains>
     <forcedTraits>
@@ -268,7 +268,7 @@
     <skillGains>
       <li>
         <defName>Cooking</defName>
-        <amount>3</amount>
+        <amount>6</amount>
       </li>
     </skillGains>
 </AlienRace.BackstoryDef>
@@ -304,12 +304,12 @@
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Growing</defName>
-        <amount>3</amount>
+        <defName>Plants</defName>
+        <amount>6</amount>
       </li>    
       <li>
         <defName>Animals</defName>
-        <amount>2</amount>
+        <amount>4</amount>
       </li>      
 	  <li>
         <defName>Social</defName>
@@ -338,12 +338,12 @@
 	<slot>Adulthood</slot>
     <skillGains>
       <li>
-        <defName>Growing</defName>
-        <amount>3</amount>
+        <defName>Plants</defName>
+        <amount>5</amount>
       </li>    
       <li>
         <defName>Artistic</defName>
-        <amount>2</amount>
+        <amount>3</amount>
       </li>      
     </skillGains>
 </AlienRace.BackstoryDef>

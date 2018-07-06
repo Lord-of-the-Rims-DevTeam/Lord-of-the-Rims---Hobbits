@@ -6,7 +6,7 @@
 	<label>The Shire</label>
     <description>Originally three seperate peoples that favored different customs, the Hobbits came together to settle in a comfort-loving lifestyle. Shirefolk are mostly unadventurous. They live in dry, comfortable holes in the hills. Outdoors, they farm a fruitful land, enjoy smoking pipe-weed, and socialize -- often with a pint at the local tavern.\n\nThe Shire is a peaceful land that is open to trade, but not open to send its militia beyond its borders. Close cooperation or recruitment will be very difficult because of their particularly desired lifestyle.\n\nDespite their apparent military weakness, it is said that powerful rangers often come to their aid when threatened.</description>
     <pawnsPlural>shire-hobbits</pawnsPlural>
-    <baseSelectionWeight>0.21</baseSelectionWeight>
+    <settlementGenerationWeight>0.21</settlementGenerationWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
@@ -24,7 +24,7 @@
       <max>40</max>
     </startingGoodwill>
 	<fixedName>The Shire</fixedName>
-	<baseNameMaker>LotRH_NamerFactionBaseHobbitShire</baseNameMaker>
+	<settlementNameMaker>LotRH_NamerFactionBaseHobbitShire</settlementNameMaker>
 	<techLevel>Medieval</techLevel>
 	<backstoryCategory>Civil</backstoryCategory>
 	<geneticVariance>0.8</geneticVariance>
@@ -53,7 +53,7 @@
     </allowedArrivalTemperatureRange>
     <pawnGroupMakers>
       <li>
-        <kindDef>Normal</kindDef>
+        <kindDef>Combat</kindDef>
         <options>
 		<LotRH_HobbitVillager>50</LotRH_HobbitVillager>
 		<LotRH_HobbitGuard>100</LotRH_HobbitGuard>
@@ -74,7 +74,7 @@
 		</guards>
       </li>
       <li>
-        <kindDef>FactionBase</kindDef>
+        <kindDef>Settlement</kindDef>
         <options>
 		  <LotRH_HobbitVillager>100</LotRH_HobbitVillager>
 		  <LotRH_HobbitGuard>100</LotRH_HobbitGuard>
@@ -82,7 +82,7 @@
 	    </options>
       </li>
     </pawnGroupMakers>
-    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
 		<modExtensions>
 		  <li Class="JecsTools.FactionSettings">
 		    <entrySoundDef>LotRH_FanfareHobbitShire</entrySoundDef>
