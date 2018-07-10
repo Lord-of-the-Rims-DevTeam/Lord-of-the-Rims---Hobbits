@@ -108,7 +108,7 @@ namespace LordOfTheRims_Hobbits
                 base.Map.mapDrawer.MapMeshDirty(base.Position, MapMeshFlag.Things);
                 //this.DirtyMapMesh(this.MapHeld);
 
-                if (GenPlant.GrowthSeasonNow(base.Position, base.Map))
+                if (PlantUtility.GrowthSeasonNow(base.Position, base.Map))
                 {
                     this.growthInt += this.GrowthPerTick * 2000f;
                     if (this.growthInt > 1f)

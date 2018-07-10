@@ -43,7 +43,7 @@
     </apparelMoney>
     <apparelAllowHeadgearChance>0.02</apparelAllowHeadgearChance>
     <weaponMoney>
-      <min>0</min>
+      <min>115</min>
       <max>250</max>
     </weaponMoney>
     <weaponTags>
@@ -133,9 +133,6 @@
     </apparelTags>
     <factionLeader>true</factionLeader>
     <minGenerationAge>80</minGenerationAge>
-    <apparelRequired>
-      <li>LotRH_Apparel_PantsHobbit</li>
-    </apparelRequired>
     <apparelMoney>
       <min>3300</min>
       <max>3900</max>

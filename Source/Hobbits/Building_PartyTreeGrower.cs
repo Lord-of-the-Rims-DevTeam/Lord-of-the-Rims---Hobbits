@@ -36,7 +36,7 @@ namespace Hobbits
 			{
 				foreach (Plant plant in this.PlantsOnMe)
 				{
-					DamageInfo dinfo = new DamageInfo(DamageDefOf.Rotting, 4, -1f, null, null, null, DamageInfo.SourceCategory.ThingOrUnknown);
+					DamageInfo dinfo = new DamageInfo(DamageDefOf.Rotting, 4, 1f, -1f, null, null, null, DamageInfo.SourceCategory.ThingOrUnknown);
 					plant.TakeDamage(dinfo);
 				}
 			}

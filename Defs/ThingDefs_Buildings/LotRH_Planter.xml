@@ -1,53 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-  	
-  <ThingDef Name="LotRH_BuildingBase" Abstract="True">
-    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
-    <thingClass>Buildings</thingClass>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <selectable>true</selectable>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <repairEffect>Repair</repairEffect>
-    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
-		<statBases>
-			<SellPriceFactor>0.70</SellPriceFactor>
-		</statBases>
-  </ThingDef>
-
-  
-  <ThingDef Name="LotRH_FurnitureBase" ParentName="LotRH_BuildingBase" Abstract="True">
-    <designationCategory>Furniture</designationCategory>
-    <minifiedDef>MinifiedThing</minifiedDef>
-    <tradeTags>
-      <li>Furniture</li>
-    </tradeTags>
-  </ThingDef>
-  
-  <ThingDef Name="LotRH_FurnitureWithQualityBase" ParentName="LotRH_FurnitureBase" Abstract="True">
-    <comps>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-    </comps>
-  </ThingDef>
-
-  <ThingDef Name="LotRH_ArtableFurnitureBase" ParentName="LotRH_FurnitureWithQualityBase" Abstract="True">
-    <comps>
-      <li Class="CompProperties_Art">
-        <nameMaker>NamerArtFurniture</nameMaker>
-        <descriptionMaker>ArtDescription_Furniture</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>
-    </comps>
-    <inspectorTabs>
-      <li>ITab_Art</li>
-    </inspectorTabs>
-  </ThingDef>
-
-    <ThingDef ParentName="LotRH_BuildingBase">
+    <ThingDef ParentName="BuildingBase">
     <defName>LotRH_PlantPotPartyTree</defName>
     <label>party tree grow spot</label>
     <thingClass>Hobbits.Building_PartyTreeGrower</thingClass>

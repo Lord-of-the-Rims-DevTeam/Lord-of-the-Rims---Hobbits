@@ -157,8 +157,7 @@
 				<baseMtbDays>160</baseMtbDays>
 				<minSeverity>0.7</minSeverity>
 				<partsToAffect>
-					<li>LeftLung</li>
-					<li>RightLung</li>
+					<li>Lung</li>
 				</partsToAffect>
 				<countToAffect>2</countToAffect>
 			</li>
@@ -167,8 +166,7 @@
 				<baseMtbDays>160</baseMtbDays>
 				<minSeverity>0.85</minSeverity>
 				<partsToAffect>
-					<li>LeftLung</li>
-					<li>RightLung</li>
+					<li>Lung</li>
 				</partsToAffect>
 				<countToAffect>1</countToAffect>
 			</li>
@@ -192,7 +190,7 @@
         <label>withdrawal</label>
         <mentalStateGivers>
           <li>
-            <mentalState>BingingFood</mentalState>
+            <mentalState>Binging_Food</mentalState>
             <mtbDays>5</mtbDays>
           </li>
         </mentalStateGivers>

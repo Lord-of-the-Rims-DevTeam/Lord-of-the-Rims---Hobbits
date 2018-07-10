@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>LotRH_Leather_Hobbit</defName>
+    <label>hobbit leather</label>
+    <description>Tanned, dried, scraped hobbit skin. Most people find this material horrifying. Some find it fascinating. While a decent leather, it neither protects nor insulates particularly well.</description>
+    <graphicData>
+      <color>(211,194,143)</color>
+      <colorTwo>(211,194,143)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.6</MarketValue>
+      <StuffPower_Armor_Sharp>0.65</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>13</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>13</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(211,194,143)</color>
+      <commonality>0.002</commonality>
+    </stuffProps>
+  </ThingDef>
+  
+
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>LotRH_HobbitStandardRace</defName>
     <label>hobbit</label>
@@ -198,10 +220,7 @@
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>132</lifeExpectancy>
-      <leatherColor>(211,194,143)</leatherColor>
-      <leatherCommonalityFactor>0.01</leatherCommonalityFactor>
-      <leatherInsulation>0.70</leatherInsulation>
-      <leatherMarketValueFactor>2</leatherMarketValueFactor>
+	  <leatherDef>LotRH_Leather_Hobbit</leatherDef>
       <nameCategory>HumanStandard</nameCategory>
       <body>Human</body>
       <baseBodySize>0.625</baseBodySize>

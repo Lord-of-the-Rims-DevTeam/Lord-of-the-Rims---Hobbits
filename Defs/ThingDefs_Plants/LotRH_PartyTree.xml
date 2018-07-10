@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="LotRH_TreeBase">
+  <ThingDef ParentName="TreeBase">
     <defName>LotRH_PlantPartyTree</defName>
     <label>party tree</label>
     <description>A strong hardwood, evergreen tree designated by the hobbits to become their party tree. Once mature, this tree can hold lanterns and becomes a party spot for the colony.</description>
@@ -22,7 +22,7 @@
     <plant>
       <immatureGraphicPath>Things/Plant/LotRH_PartyTree/LotRH_PartyTreeImmature</immatureGraphicPath>
 	  <growDays>3</growDays>
-	  <reproduces>false</reproduces>
+	  
       <harvestWork>1000</harvestWork>
       <harvestYield>0</harvestYield>
 	  <sowTags>

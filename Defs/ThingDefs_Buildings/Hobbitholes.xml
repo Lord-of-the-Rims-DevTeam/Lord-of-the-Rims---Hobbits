@@ -95,7 +95,7 @@
     <defName>LotRH_HobbitHill</defName>
     <label>earthen hill</label>
     <thingClass>LordOfTheRims_Hobbits.EarthenWall</thingClass>
-    <category>Building</category><thingCategories><li>Buildings</li></thingCategories>
+    <category>Building</category>
     <description>Hills are not as tall or as strong as natural walls, but they give great comfort to hobbits living inside them. Hills require simple dirt and soil nearby, and take time to complete. Grass can be planted upon these hills.</description>
 	<uiIconPath>Things/Building/Linked/LotRH_CompactSoilGrassy_MenuIcon</uiIconPath>
     <graphicData>
@@ -117,9 +117,6 @@
         <edgeRight>Damage/Edge</edgeRight>
       </damageData>
     </graphicData>
-    <blueprintGraphicData>
-      <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
-    </blueprintGraphicData>
     <mineable>true</mineable>
     <statBases>
       <MaxHitPoints>150</MaxHitPoints>
@@ -145,6 +142,9 @@
     <blockLight>true</blockLight>
     <canOverlapZones>false</canOverlapZones>
     <building>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
       <isInert>true</isInert>
 	  <allowAutoroof>false</allowAutoroof>
       <fullGraveGraphicData>

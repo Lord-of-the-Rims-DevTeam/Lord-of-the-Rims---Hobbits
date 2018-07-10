@@ -7,7 +7,7 @@
     <label>make pipe-weed pack</label>
     <description>Makes five bowls of prepared pipeweed, ready for a few good puffs.</description>
     <jobString>Making pipes</jobString>
-    <workSpeedStat>DrugProductionSpeed</workSpeedStat>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
 	<workAmount>350</workAmount>
     <requiredGiverWorkType>Crafting</requiredGiverWorkType>
     <effectWorking>Cook</effectWorking>

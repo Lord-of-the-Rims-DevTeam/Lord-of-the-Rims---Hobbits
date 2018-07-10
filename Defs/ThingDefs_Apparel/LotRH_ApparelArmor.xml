@@ -7,7 +7,7 @@
     <label>hobbit traveler's pack</label>
     <description>A backpack that helps a hobbit find their way to adventure.</description>
     <graphicData>
-      <texPath>Things/Pawn/Hobbit/Apparel/Backpack/Backpack_back</texPath>
+      <texPath>Things/Pawn/Hobbit/Apparel/Backpack/Backpack_north</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>50</costStuffCount>
@@ -69,7 +69,7 @@
     <label>hobbit pants</label>
     <description>A simple set of tiny pants that are raised above the ankles for hobbit feet.</description>
     <graphicData>
-      <texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMap</texPath>
+      <texPath>Things/Pawn/Humanlike/Apparel/Pants/Pants</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>50</costStuffCount>
@@ -234,7 +234,7 @@
     <label>hobbit shirt and vest</label>
     <description>A simple vest over a blouse provides proper style for Hobbits.</description>
     <graphicData>
-      <texPath>Things/Pawn/Hobbit/Apparel/Vest/Vest_Male_front</texPath>
+      <texPath>Things/Pawn/Hobbit/Apparel/Vest/Vest_Male_north</texPath>
       <graphicClass>Graphic_Single</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -279,7 +279,7 @@
     <label>hobbit dress</label>
     <description>This simple dress provides proper style for Hobbits as well as protectively covering tops and bottoms.</description>
     <graphicData>
-      <texPath>Things/Pawn/Hobbit/Apparel/Dress/Dress_Male_front</texPath>
+      <texPath>Things/Pawn/Hobbit/Apparel/Dress/Dress_Male_north</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <costStuffCount>50</costStuffCount>

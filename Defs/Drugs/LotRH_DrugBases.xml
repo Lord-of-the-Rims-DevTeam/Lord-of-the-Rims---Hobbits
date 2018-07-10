@@ -34,7 +34,7 @@
     
   <ThingDef Name="LotRH_MakeableDrugBase" ParentName="LotRH_DrugBase" Abstract="True">
     <recipeMaker>
-      <workSpeedStat>DrugProductionSpeed</workSpeedStat>
+      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
       <workSkill>Intellectual</workSkill>
       <effectWorking>Cook</effectWorking>
       <soundWorking>Recipe_CookMeal</soundWorking>

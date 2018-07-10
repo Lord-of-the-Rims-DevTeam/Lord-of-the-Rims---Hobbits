@@ -57,10 +57,8 @@
 			<baseHealthScale>1.0</baseHealthScale>
 			<baseHungerRate>0.75</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
-      <leatherColor>(162,106,57)</leatherColor>
-      <leatherLabel>Ponyhide</leatherLabel>
-      <leatherInsulation>1.15</leatherInsulation>
-      <meatLabel>Pony meat</meatLabel>
+	  <leatherDef>Leather_Plain</leatherDef>
+      <meatLabel>pony meat</meatLabel>
       <packAnimal>true</packAnimal>
       <wildness>0.15</wildness>
       <nuzzleMtbHours>70</nuzzleMtbHours>
