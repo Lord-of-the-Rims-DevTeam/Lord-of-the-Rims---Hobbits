@@ -19,7 +19,7 @@
     <statBases>
       <WorkToMake>10000</WorkToMake>
 	  <Mass>0.5</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk> 
+       
 	</statBases>
 	<equippedStatOffsets>
 		<PlantWorkSpeed>0.09</PlantWorkSpeed>
@@ -75,7 +75,7 @@
     <statBases>
       <WorkToMake>7000</WorkToMake>
 	  <Mass>0.8</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk> 
+       
     </statBases>
 	<equippedStatOffsets>
 		<PlantWorkSpeed>0.09</PlantWorkSpeed>
@@ -131,7 +131,7 @@
     <statBases>
       <WorkToMake>13500</WorkToMake>
       <Mass>0.9</Mass>
-      <Weapon_Bulk>0.5</Weapon_Bulk>
+      
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>

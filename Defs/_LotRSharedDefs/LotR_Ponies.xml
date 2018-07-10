@@ -12,6 +12,7 @@
     </statBases>
     <tools>
       <li>
+	    <id>LotR_HorseLeftHoofTool</id>
         <label>left hoof</label>
         <capacities>
           <li>Blunt</li>
@@ -22,6 +23,7 @@
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
       <li>
+	    <id>LotR_HorseRightHoofTool</id>
         <label>right hoof</label>
         <capacities>
           <li>Blunt</li>
@@ -32,6 +34,8 @@
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
       <li>
+	    <id>LotR_HorseTeethTool</id>
+		<label>teeth</label>
         <capacities>
           <li>Bite</li>
         </capacities>
@@ -40,6 +44,7 @@
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
       <li>
+	    <id>LotR_HorseHeadTool</id>
         <label>head</label>
         <capacities>
           <li>Blunt</li>
