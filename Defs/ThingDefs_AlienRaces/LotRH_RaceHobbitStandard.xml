@@ -22,6 +22,43 @@
     </stuffProps>
   </ThingDef>
   
+  <AlienRace.RaceSettings>
+    <defName>LotRH_HobbitSettings</defName>
+	  <pawnKindSettings>
+		<alienrefugeekinds>
+			<li>
+				<kindDefs>
+					<li>LotRH_HobbitVillager</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			</li>
+		</alienrefugeekinds>
+		<alienslavekinds>
+			<li>
+				<kindDefs>
+					<li>LotRH_HobbitSlave</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			</li>
+		</alienslavekinds>
+		<startingColonists>
+		  <li>
+			<pawnKindEntries>
+			  <li>
+				<kindDefs>
+				  <li>LotRH_HobbitColonist</li>
+				</kindDefs>
+				<chance>10.0</chance>
+			  </li>
+			</pawnKindEntries>
+			<factionDefs>
+			  <li>PlayerColony</li> 
+			  <li>LotRPlayerColony</li> 
+			</factionDefs>
+		  </li>
+		</startingColonists>
+	  </pawnKindSettings>
+  </AlienRace.RaceSettings>
 
   <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
     <defName>LotRH_HobbitStandardRace</defName>
@@ -83,40 +120,6 @@
 		  </alienhaircolorgen>
 		</alienPartGenerator>
 	  </generalSettings>
-	  <pawnKindSettings>
-		<alienrefugeekinds>
-			<li>
-				<kindDefs>
-					<li>LotRH_HobbitVillager</li>
-				</kindDefs>
-				<chance>10.0</chance>
-			</li>
-		</alienrefugeekinds>
-		<alienslavekinds>
-			<li>
-				<kindDefs>
-					<li>LotRH_HobbitSlave</li>
-				</kindDefs>
-				<chance>10.0</chance>
-			</li>
-		</alienslavekinds>
-		<startingColonists>
-		  <li>
-			<pawnKindEntries>
-			  <li>
-				<kindDefs>
-				  <li>LotRH_HobbitColonist</li>
-				</kindDefs>
-				<chance>10.0</chance>
-			  </li>
-			</pawnKindEntries>
-			<factionDefs>
-			  <li>PlayerColony</li> 
-			  <li>LotRPlayerColony</li> 
-			</factionDefs>
-		  </li>
-		</startingColonists>
-	  </pawnKindSettings>
 	  <hairSettings>
 		<hairTags>
 			<li>Hobbit</li>
@@ -209,7 +212,7 @@
         <power>5</power>
         <cooldownTime>1.8</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
