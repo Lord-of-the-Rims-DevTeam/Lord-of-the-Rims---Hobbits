@@ -113,7 +113,7 @@
   </ThingDef>  
 
   
-	<ThingDef ParentName="LotRH_BaseMeleeWeapon_Sharp_Quality">
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRH_Baskethilt</defName>
     <label>hobbit basket-hilted sword</label>
     <description>Perfect for hobbits who can stab, prod, and slash taller foes without bending their wrists, these basket-hilted swords make fierce weapons.</description>
