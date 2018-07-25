@@ -22,7 +22,7 @@ namespace Hobbits
             }
         }
 
-        public override bool TryMakePreToilReservations()
+        public override bool TryMakePreToilReservations(bool yeaaa)
         {
             return this.pawn.Reserve(PuzzleBox, this.job, 1, -1, null);
         }
