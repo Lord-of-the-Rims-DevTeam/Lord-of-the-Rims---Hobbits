@@ -266,8 +266,8 @@
           <color>(136,80,31)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>0.65</drawSize>
+          <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerFemale</texPath>
+          <drawSize>1.43</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -281,8 +281,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.15</drawSize>
+          <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerFemale</texPath>
+          <drawSize>1.56</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -305,8 +305,8 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.35</drawSize>
+          <texPath>Things/Pawn/Animal/Deer/Dessicated_DeerFemale</texPath>
+          <drawSize>1.81</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
