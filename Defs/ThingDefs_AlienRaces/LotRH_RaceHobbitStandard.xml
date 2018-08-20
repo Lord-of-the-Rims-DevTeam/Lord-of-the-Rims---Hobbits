@@ -67,7 +67,7 @@
 	<alienRace>
 	  <generalSettings>
         <humanRecipeImport>true</humanRecipeImport>
-	    <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
+	    <allowHumanBios>false</allowHumanBios>
 	    <alienPartGenerator>
 	      <customDrawSize>(0.7, 0.605)</customDrawSize>
 		  <customHeadDrawSize>(0.75, 0.75)</customHeadDrawSize>

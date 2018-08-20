@@ -9,7 +9,7 @@
     <basicMemberKind>LotRH_HobbitVillager</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
     <techLevel>Medieval</techLevel>
-    <backstoryCategory>Civil</backstoryCategory>
+    <backstoryCategories><li>Civil</li></backstoryCategories>
     <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
 		<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
 		<playerInitialSettlementNameMaker>NamerSettlementOutlander</playerInitialSettlementNameMaker>

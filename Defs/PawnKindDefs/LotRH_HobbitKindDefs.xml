@@ -6,7 +6,7 @@
 	<race>LotRH_HobbitStandardRace</race>
     <label>colonist (hobbit)</label>
     <defaultFactionType>PlayerColony</defaultFactionType>
-    <backstoryCategory>LotR_BackstoryHobbit</backstoryCategory>
+    <backstoryCategories><li>LotR_BackstoryHobbit</li></backstoryCategories>
     <chemicalAddictionChance>0.06</chemicalAddictionChance>
     <apparelTags>
       <li>Spacer</li>
@@ -23,7 +23,7 @@
 	<race>LotRH_HobbitStandardRace</race>
     <label>hobbit-villager</label>
     <defaultFactionType>LotRH_HobbitFactionShire</defaultFactionType>
-    <backstoryCategory>LotR_BackstoryHobbit</backstoryCategory>
+    <backstoryCategories><li>LotR_BackstoryHobbit</li></backstoryCategories>
     <combatPower>15</combatPower>
     <itemQuality>Poor</itemQuality>
     <isFighter>false</isFighter>
@@ -88,7 +88,7 @@
     <race>LotRH_HobbitStandardRace</race>
     <baseRecruitDifficulty>0.40</baseRecruitDifficulty>
 	<defaultFactionType>LotRH_HobbitFactionShire</defaultFactionType>
-    <backstoryCategory>LotR_BackstoryHobbit</backstoryCategory>
+    <backstoryCategories><li>LotR_BackstoryHobbit</li></backstoryCategories>
     <itemQuality>Shoddy</itemQuality>
     <backstoryCryptosleepCommonality>0.0</backstoryCryptosleepCommonality>
     <isFighter>false</isFighter>
@@ -152,7 +152,7 @@
     <label>hobbit-guard</label>
 	<race>LotRH_HobbitStandardRace</race>
     <defaultFactionType>LotRH_HobbitFactionShire</defaultFactionType>
-    <backstoryCategory>LotR_BackstoryHobbit</backstoryCategory>
+    <backstoryCategories><li>LotR_BackstoryHobbit</li></backstoryCategories>
     <combatPower>60</combatPower>
     <minGenerationAge>34</minGenerationAge>
     <maxGenerationAge>43</maxGenerationAge>
