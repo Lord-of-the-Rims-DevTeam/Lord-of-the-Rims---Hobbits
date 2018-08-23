@@ -69,6 +69,10 @@
         <humanRecipeImport>true</humanRecipeImport>
 	    <allowHumanBios>false</allowHumanBios>
 	    <alienPartGenerator>
+			<alienbodytypes>
+				<li>Male</li>
+				<li>Female</li>
+			</alienbodytypes>
 	      <customDrawSize>(0.7, 0.605)</customDrawSize>
 		  <customHeadDrawSize>(0.75, 0.75)</customHeadDrawSize>
 		  <customPortraitDrawSize>(0.7, 0.605)</customPortraitDrawSize>

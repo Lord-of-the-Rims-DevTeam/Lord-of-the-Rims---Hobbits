@@ -8,9 +8,12 @@
     <defaultFactionType>PlayerColony</defaultFactionType>
     <backstoryCategories><li>LotR_BackstoryHobbit</li></backstoryCategories>
     <chemicalAddictionChance>0.06</chemicalAddictionChance>
-    <apparelTags>
-      <li>Spacer</li>
-    </apparelTags>
+	<apparelTags>
+      <li>LotRH_HobbitApparel</li>
+    </apparelTags>    
+	<apparelRequired>
+      <li>LotRH_Apparel_PantsHobbit</li>
+    </apparelRequired>
     <apparelMoney>
       <min>1000</min>
       <max>2400</max>
