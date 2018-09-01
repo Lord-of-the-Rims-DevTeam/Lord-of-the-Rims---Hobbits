@@ -26,7 +26,7 @@
 	<fixedName>The Shire</fixedName>
 	<settlementNameMaker>LotRH_NamerFactionBaseHobbitShire</settlementNameMaker>
 	<techLevel>Medieval</techLevel>
-	<backstoryCategories><li>Civil</li></backstoryCategories>
+	<backstoryCategories><li>LotR_BackstoryHobbit</li></backstoryCategories>
 	<geneticVariance>0.8</geneticVariance>
 	<hairTags>
 		<li>Rural</li>

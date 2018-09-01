@@ -59,7 +59,7 @@
         </partsToAffect>
         <chancePerDamagePct>0.12</chancePerDamagePct>
         <letterLabel>Trauma savant</letterLabel>
-        <letter>NAME's brain injury has caused HIM to develop strange savant-like abilities.</letter>
+        <letter>[PAWN_nameDef]'s brain injury has caused [PAWN_objective] to develop strange savant-like abilities.</letter>
       </li>
 	  
       <li Class="JecsTools.HediffGiver_StartWithHediff">
