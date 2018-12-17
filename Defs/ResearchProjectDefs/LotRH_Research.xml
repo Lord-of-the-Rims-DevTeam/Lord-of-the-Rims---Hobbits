@@ -20,7 +20,7 @@
 
     <ResearchProjectDef ParentName="HobbitResearch">
         <defName>LotRH_WeaponsOne</defName>
-        <label>Hobbit Tools</label>
+        <label>Kuduk!</label>
         <description>&lt;i&gt;Hobbits!&lt;/i&gt;\n\nUnlock Hobbit tools which can be used as weapons in a pinch:\n- Hobbit pitchfork\n- Hobbit anklebiter axe</description>
         <baseCost>200</baseCost>
         <tags>
@@ -63,7 +63,7 @@
     <ResearchProjectDef ParentName="HobbitResearch">
         <defName>LotRH_StructuresOne</defName>
         <label>Hobbit Holes, Smials</label>
-        <description>In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole and that meant comfort.&lt;/i&gt;\n\nUnlocked:\n- Earthen hill</description>
+        <description>&lt;i&gt;In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole and that meant comfort.&lt;/i&gt;\n\nUnlocked:\n- Earthen hill</description>
         <baseCost>350</baseCost>
         <researchViewX>0</researchViewX>
         <researchViewY>2</researchViewY>
