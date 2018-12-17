@@ -4,7 +4,7 @@
   <ThingDef ParentName="LotRH_MakeableDrugBase">
     <defName>LotRH_PipeweedPipe</defName>
     <label>pipe-weed</label>
-    <description>Although slightly addictive, when pipes are filled with this tobacco-like plant, userits fragrant aroma and soothing effects. Can be produced without equipment, at a crafting spot with pipe-weed leaves.</description>
+    <description>Although slightly addictive, when pipes are filled with this tobacco-like plant and smoked, its fragrant aroma soothes the user.\nCan be produced without equipment, at a crafting spot with pipe-weed leaves.</description>
     <graphicData>
       <texPath>Things/Item/Drug/Pipeweed/Pipe</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -13,7 +13,7 @@
     <statBases>
       <WorkToMake>200</WorkToMake>
       <MarketValue>10</MarketValue>
-	  <Mass>0.01</Mass>
+      <Mass>0.01</Mass>
     </statBases>
     <techLevel>Neolithic</techLevel>
     <ingestible>
@@ -79,7 +79,7 @@
     </comps>
   </ThingDef>
 
-  
+
 
   <HediffDef>
     <defName>LotRH_PipeweedHigh</defName>
@@ -93,20 +93,20 @@
         <severityPerDay>-0.60</severityPerDay>
       </li>
     </comps>
-      <stages>
-        <li>
-          <painOffset>-0.03</painOffset>
-          <capMods>
-            <li>
-              <capacity>Consciousness</capacity>
-              <offset>-0.01</offset>
-            </li>
-		  </capMods>
-          <statOffsets>
-		      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
-		  </statOffsets>
-        </li>
-      </stages>
+    <stages>
+      <li>
+        <painOffset>-0.03</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.01</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
   </HediffDef>
 
   <ThoughtDef>
@@ -151,26 +151,26 @@
         <chemical>LotRH_PipeweedChem</chemical>
       </li>
     </comps>
-		<hediffGivers>
-			<li Class="HediffGiver_RandomDrugEffect">
-				<hediff>Asthma</hediff>
-				<baseMtbDays>160</baseMtbDays>
-				<minSeverity>0.7</minSeverity>
-				<partsToAffect>
-					<li>Lung</li>
-				</partsToAffect>
-				<countToAffect>2</countToAffect>
-			</li>
-			<li Class="HediffGiver_RandomDrugEffect">
-				<hediff>Carcinoma</hediff>
-				<baseMtbDays>160</baseMtbDays>
-				<minSeverity>0.85</minSeverity>
-				<partsToAffect>
-					<li>Lung</li>
-				</partsToAffect>
-				<countToAffect>1</countToAffect>
-			</li>
-		</hediffGivers>
+    <hediffGivers>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>Asthma</hediff>
+        <baseMtbDays>160</baseMtbDays>
+        <minSeverity>0.7</minSeverity>
+        <partsToAffect>
+          <li>Lung</li>
+        </partsToAffect>
+        <countToAffect>2</countToAffect>
+      </li>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>Carcinoma</hediff>
+        <baseMtbDays>160</baseMtbDays>
+        <minSeverity>0.85</minSeverity>
+        <partsToAffect>
+          <li>Lung</li>
+        </partsToAffect>
+        <countToAffect>1</countToAffect>
+      </li>
+    </hediffGivers>
   </HediffDef>
 
   <HediffDef ParentName="AddictionBase">
@@ -194,9 +194,9 @@
             <mtbDays>5</mtbDays>
           </li>
         </mentalStateGivers>
-		<statOffsets>
-		  <MentalBreakThreshold>0.1</MentalBreakThreshold>
-		</statOffsets>
+        <statOffsets>
+          <MentalBreakThreshold>0.1</MentalBreakThreshold>
+        </statOffsets>
       </li>
     </stages>
   </HediffDef>

@@ -92,4 +92,16 @@
         <researchViewY>3</researchViewY>
     </ResearchProjectDef>
 
+    <!--======== Column 5 =========-->
+    <!--======= Pipeweed! ======-->
+
+     <ResearchProjectDef ParentName="HobbitResearch">
+        <defName>LotRH_PipeweedOne</defName>
+        <label>Sweet Galenas</label>
+        <description>&lt;i&gt;Pipe-weed!&lt;/i&gt;\n\nA fragrant and sweet plant first cultivated by Tobold Hornblower, a hobbit of great renown.\n\nUnlocked:\n- Pipe-weed Pipes</description>
+        <baseCost>300</baseCost>
+        <researchViewX>0</researchViewX>
+        <researchViewY>4</researchViewY>
+    </ResearchProjectDef>
+
 </Defs>
