@@ -5,11 +5,11 @@
     <defName>LotRH_HobbitHoleArch</defName>
     <label>hobbit arch</label>
     <description>Divides rooms.</description>
-	<thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
+    <thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
     <statBases>
       <MaxHitPoints>110</MaxHitPoints>
       <WorkToBuild>1100</WorkToBuild>
-	  <Flammability>1.0</Flammability>
+      <Flammability>1.0</Flammability>
     </statBases>
     <size>(1,1)</size>
     <building>
@@ -40,22 +40,22 @@
     <costStuffCount>50</costStuffCount>
     <designationHotKey>Misc2</designationHotKey>
     <tempLeakRate>100</tempLeakRate>
-	<doorType>FreePassage</doorType>
-	<singleDoor>true</singleDoor>
-	<doorOpenSpeedRate>0.24</doorOpenSpeedRate>
-	
+    <doorType>FreePassage</doorType>
+    <singleDoor>true</singleDoor>
+    <doorOpenSpeedRate>0.24</doorOpenSpeedRate>
+
   </DoorsExpanded.DoorExpandedDef>
 
-  
+
   <DoorsExpanded.DoorExpandedDef ParentName="HeronDoor">
     <defName>LotRH_HobbitHoleDoor</defName>
     <label>hobbit door</label>
     <description>Divides rooms.</description>
-	<thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
+    <thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
     <statBases>
       <MaxHitPoints>110</MaxHitPoints>
       <WorkToBuild>1100</WorkToBuild>
-	  <Flammability>1.0</Flammability>
+      <Flammability>1.0</Flammability>
     </statBases>
     <size>(1,1)</size>
     <building>
@@ -84,11 +84,11 @@
     <costStuffCount>50</costStuffCount>
     <designationHotKey>Misc2</designationHotKey>
     <tempLeakRate>60</tempLeakRate>
-	<doorType>Stretch</doorType>
-	<singleDoor>true</singleDoor>
-	<doorOpenSpeedRate>0.24</doorOpenSpeedRate>
+    <doorType>Stretch</doorType>
+    <singleDoor>true</singleDoor>
+    <doorOpenSpeedRate>0.24</doorOpenSpeedRate>
   </DoorsExpanded.DoorExpandedDef>
-  
+
   <!--========================= Walls =============================-->
 
   <ThingDef ParentName="BuildingBase">
@@ -97,14 +97,14 @@
     <thingClass>LordOfTheRims_Hobbits.EarthenWall</thingClass>
     <category>Building</category>
     <description>Hills are not as tall or as strong as natural walls, but they give great comfort to hobbits living inside them. Hills require simple dirt and soil nearby, and take time to complete. Grass can be planted upon these hills.</description>
-	<uiIconPath>Things/Building/Linked/LotRH_CompactSoilGrassy_MenuIcon</uiIconPath>
+    <uiIconPath>Things/Building/Linked/LotRH_CompactSoilGrassy_MenuIcon</uiIconPath>
     <graphicData>
       <texPath>Things/Building/Linked/LotRH_CompactSoil_Atlas</texPath>
-      <graphicClass>Graphic_Single</graphicClass>      
-	  <shaderType>CutoutComplex</shaderType>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
       <linkType>CornerFiller</linkType>
       <linkFlags>
-		<li>Custom4</li>
+        <li>Custom4</li>
       </linkFlags>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
@@ -146,45 +146,45 @@
         <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
       </blueprintGraphicData>
       <isInert>true</isInert>
-	  <allowAutoroof>false</allowAutoroof>
+      <allowAutoroof>false</allowAutoroof>
       <fullGraveGraphicData>
-		  <texPath>Things/Building/Linked/LotRH_CompactSoilGrassy_Atlas</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>      
-		  <shaderType>CutoutComplex</shaderType>
-		  <linkType>CornerFiller</linkType>
-		  <linkFlags>
-			<li>Custom4</li>
-		  </linkFlags>
-		  <damageData>
-			<cornerTL>Damage/Corner</cornerTL>
-			<cornerTR>Damage/Corner</cornerTR>
-			<cornerBL>Damage/Corner</cornerBL>
-			<cornerBR>Damage/Corner</cornerBR>
-			<edgeTop>Damage/Edge</edgeTop>
-			<edgeBot>Damage/Edge</edgeBot>
-			<edgeLeft>Damage/Edge</edgeLeft>
-			<edgeRight>Damage/Edge</edgeRight>
-		  </damageData>
+        <texPath>Things/Building/Linked/LotRH_CompactSoilGrassy_Atlas</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <linkType>CornerFiller</linkType>
+        <linkFlags>
+          <li>Custom4</li>
+        </linkFlags>
+        <damageData>
+          <cornerTL>Damage/Corner</cornerTL>
+          <cornerTR>Damage/Corner</cornerTR>
+          <cornerBL>Damage/Corner</cornerBL>
+          <cornerBR>Damage/Corner</cornerBR>
+          <edgeTop>Damage/Edge</edgeTop>
+          <edgeBot>Damage/Edge</edgeBot>
+          <edgeLeft>Damage/Edge</edgeLeft>
+          <edgeRight>Damage/Edge</edgeRight>
+        </damageData>
       </fullGraveGraphicData>
-	  <trapUnarmedGraphicData>
-		  <texPath>Things/Building/Linked/LotRH_CompactSoilSnowy_Atlas</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>      
-		  <shaderType>CutoutComplex</shaderType>
-		  <linkType>CornerFiller</linkType>
-		  <linkFlags>
-			<li>Custom4</li>
-		  </linkFlags>
-		  <damageData>
-			<cornerTL>Damage/Corner</cornerTL>
-			<cornerTR>Damage/Corner</cornerTR>
-			<cornerBL>Damage/Corner</cornerBL>
-			<cornerBR>Damage/Corner</cornerBR>
-			<edgeTop>Damage/Edge</edgeTop>
-			<edgeBot>Damage/Edge</edgeBot>
-			<edgeLeft>Damage/Edge</edgeLeft>
-			<edgeRight>Damage/Edge</edgeRight>
-		  </damageData>
-	  </trapUnarmedGraphicData>
+      <trapUnarmedGraphicData>
+        <texPath>Things/Building/Linked/LotRH_CompactSoilSnowy_Atlas</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <linkType>CornerFiller</linkType>
+        <linkFlags>
+          <li>Custom4</li>
+        </linkFlags>
+        <damageData>
+          <cornerTL>Damage/Corner</cornerTL>
+          <cornerTR>Damage/Corner</cornerTR>
+          <cornerBL>Damage/Corner</cornerBL>
+          <cornerBR>Damage/Corner</cornerBR>
+          <edgeTop>Damage/Edge</edgeTop>
+          <edgeBot>Damage/Edge</edgeBot>
+          <edgeLeft>Damage/Edge</edgeLeft>
+          <edgeRight>Damage/Edge</edgeRight>
+        </damageData>
+      </trapUnarmedGraphicData>
     </building>
     <damageMultipliers>
       <li>

@@ -2,7 +2,7 @@
 
 <Defs>
 
-<!-- ============================================================== -->
+  <!-- ============================================================== -->
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRH_AnklebiterAxe</defName>
@@ -11,26 +11,26 @@
     <graphicData>
       <texPath>Things/Item/WeaponMelee/LotRH_Anklebiter</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
-	  <drawSize>0.5</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.5</drawSize>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <costStuffCount>40</costStuffCount>
     <statBases>
       <WorkToMake>10000</WorkToMake>
-	  <Mass>0.5</Mass>
-       
-	</statBases>
-	<equippedStatOffsets>
-		<PlantWorkSpeed>0.09</PlantWorkSpeed>
-	</equippedStatOffsets>	
+      <Mass>0.5</Mass>
+
+    </statBases>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.09</PlantWorkSpeed>
+    </equippedStatOffsets>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
     </stuffCategories>
-	<weaponTags>
-      <li>LotRH_HobbitMilitia</li>  
-	</weaponTags>
+    <weaponTags>
+      <li>LotRH_HobbitMilitia</li>
+    </weaponTags>
     <tools>
       <li>
         <label>handle</label>
@@ -51,13 +51,13 @@
     </tools>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-	  </li>
-    </comps>	
+      </li>
+    </comps>
   </ThingDef>
 
   <!-- ============================================================== -->
 
-    
+
   <!-- ============================================================== -->
 
   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
@@ -67,25 +67,25 @@
     <graphicData>
       <texPath>Things/Item/WeaponMelee/LotRH_Pitchfork</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
-	  <drawSize>0.65</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.65</drawSize>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <costStuffCount>50</costStuffCount>
     <statBases>
       <WorkToMake>7000</WorkToMake>
-	  <Mass>0.8</Mass>
-       
+      <Mass>0.8</Mass>
+
     </statBases>
-	<equippedStatOffsets>
-		<PlantWorkSpeed>0.09</PlantWorkSpeed>
-	</equippedStatOffsets>	
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.09</PlantWorkSpeed>
+    </equippedStatOffsets>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
       <li>Metallic</li>
       <li>Woody</li>
     </stuffCategories>
-	<tools>
+    <tools>
       <li>
         <label>handle</label>
         <capacities>
@@ -103,35 +103,35 @@
         <cooldownTime>2.5</cooldownTime>
       </li>
     </tools>
-	<weaponTags>
-      <li>LotRH_HobbitMilitia</li>  
-	</weaponTags>
+    <weaponTags>
+      <li>LotRH_HobbitMilitia</li>
+    </weaponTags>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-	  </li>
+      </li>
     </comps>
-  </ThingDef>  
+  </ThingDef>
 
-  
-	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>LotRH_Baskethilt</defName>
     <label>hobbit basket-hilted sword</label>
     <description>Perfect for hobbits who can stab, prod, and slash taller foes without bending their wrists, these basket-hilted swords make fierce weapons.</description>
     <graphicData>
       <texPath>Things/Item/WeaponMelee/LotRH_Baskethilt</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
-	  <drawSize>0.5</drawSize>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.5</drawSize>
     </graphicData>
     <techLevel>Medieval</techLevel>
     <weaponTags>
-      <li>LotRH_HobbitGuard</li> 
+      <li>LotRH_HobbitGuard</li>
     </weaponTags>
     <costStuffCount>60</costStuffCount>
     <statBases>
       <WorkToMake>13500</WorkToMake>
       <Mass>0.9</Mass>
-      
+
     </statBases>
     <equippedAngleOffset>-65</equippedAngleOffset>
     <stuffCategories>
@@ -169,7 +169,7 @@
     </recipeMaker>
     <comps>
       <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
-	  </li>
+      </li>
     </comps>
   </ThingDef>
 

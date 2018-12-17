@@ -17,10 +17,10 @@
     <selectable>true</selectable>
     <pathCost>10</pathCost>
     <plant>
-	  <fertilitySensitivity>1.0</fertilitySensitivity>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
       <growDays>5.6</growDays>
       <dieIfLeafless>true</dieIfLeafless>
-			
+
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>LotRH_PipeweedLeaves</harvestedThingDef>
       <harvestYield>11</harvestYield>
@@ -37,4 +37,4 @@
     </plant>
   </ThingDef>
 
-  </Defs>
+</Defs>

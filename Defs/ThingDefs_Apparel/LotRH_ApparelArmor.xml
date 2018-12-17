@@ -15,7 +15,7 @@
       <li>Fabric</li>
       <li>Leathery</li>
     </stuffCategories>
-	<generateCommonality>0</generateCommonality>
+    <generateCommonality>0</generateCommonality>
     <thingCategories>
       <li>Apparel</li>
     </thingCategories>
@@ -46,26 +46,26 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-		  <!-- Random Hobbit (Forest Green) -->
+          <!-- Random Hobbit (Forest Green) -->
           <weight>10</weight>
           <only>RGBA(0.42,0.51,0.4,1)</only>
         </li>
         <li>
-		  <!-- Random Hobbit 2 (Dark Brown) -->
+          <!-- Random Hobbit 2 (Dark Brown) -->
           <weight>10</weight>
           <only>RGBA(0.42,0.27,0.2,1)</only>
         </li>
       </options>
     </colorGenerator>
     <modExtensions>
-	  <li Class="JecsTools.ApparelExtension">
-	    <coverage>
-		  <li>Backpack</li>
-		</coverage>
-	  </li>
-    </modExtensions>	
+      <li Class="JecsTools.ApparelExtension">
+        <coverage>
+          <li>Backpack</li>
+        </coverage>
+      </li>
+    </modExtensions>
   </ThingDef>
-  
+
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRH_Apparel_PantsHobbit</defName>
     <label>hobbit pants</label>
@@ -83,8 +83,8 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-	  <MaxHitPoints>80</MaxHitPoints>
-	  <WorkToMake>1500</WorkToMake>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>1500</WorkToMake>
       <Mass>0.3</Mass>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
@@ -107,7 +107,7 @@
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
-  
+
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRH_Apparel_Jacket</defName>
     <label>hobbit jacket</label>
@@ -153,29 +153,29 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-		  <!-- Bilbo Baggins (Reddish) -->
+          <!-- Bilbo Baggins (Reddish) -->
           <weight>10</weight>
           <only>RGBA(0.66,0.10,0.14,1)</only>
         </li>
         <li>
-		  <!-- Bilbo Baggins 2 (Purple) -->
+          <!-- Bilbo Baggins 2 (Purple) -->
           <weight>10</weight>
           <only>RGBA(0.57,0.15,0.31,1)</only>
         </li>
         <li>
-		  <!-- Random Hobbit (Forest Green) -->
+          <!-- Random Hobbit (Forest Green) -->
           <weight>10</weight>
           <only>RGBA(0.42,0.51,0.4,1)</only>
         </li>
         <li>
-		  <!-- Random Hobbit 2 (Dark Brown) -->
+          <!-- Random Hobbit 2 (Dark Brown) -->
           <weight>10</weight>
           <only>RGBA(0.42,0.27,0.2,1)</only>
         </li>
       </options>
     </colorGenerator>
   </ThingDef>
-  
+
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRH_Apparel_Cape</defName>
     <label>hooded cape</label>
@@ -221,12 +221,12 @@
     <colorGenerator Class="ColorGenerator_Options">
       <options>
         <li>
-		  <!-- Random Hobbit (Forest Green) -->
+          <!-- Random Hobbit (Forest Green) -->
           <weight>10</weight>
           <only>RGBA(0.42,0.51,0.4,1)</only>
         </li>
         <li>
-		  <!-- Random Hobbit 2 (Dark Brown) -->
+          <!-- Random Hobbit 2 (Dark Brown) -->
           <weight>10</weight>
           <only>RGBA(0.42,0.27,0.2,1)</only>
         </li>
@@ -241,7 +241,7 @@
     <graphicData>
       <texPath>Things/Pawn/Hobbit/Apparel/Vest/Vest_Male_north</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
     </graphicData>
     <costStuffCount>50</costStuffCount>
     <stuffCategories>
@@ -252,8 +252,8 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-	  <MaxHitPoints>100</MaxHitPoints>
-	  <WorkToMake>2000</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>2000</WorkToMake>
       <Mass>0.5</Mass>
       <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
@@ -279,7 +279,7 @@
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>
-  
+
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRH_Apparel_Dress</defName>
     <label>hobbit dress</label>
@@ -297,8 +297,8 @@
       <li>Apparel</li>
     </thingCategories>
     <statBases>
-	  <MaxHitPoints>100</MaxHitPoints>
-	  <WorkToMake>1700</WorkToMake>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1700</WorkToMake>
       <Mass>0.35</Mass>
       <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
       <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
@@ -309,8 +309,8 @@
       <bodyPartGroups>
         <li>Torso</li>
         <li>Shoulders</li>
-		<li>Arms</li>
-		<li>Legs</li>
+        <li>Arms</li>
+        <li>Legs</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Hobbit/Apparel/Dress/Dress</wornGraphicPath>
       <layers>
@@ -325,12 +325,12 @@
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <modExtensions>
-	  <li Class="JecsTools.ApparelExtension">
-	    <swapCondition>
-		  <swapWhenGender>Male</swapWhenGender>
-		  <swapTo>LotRH_Apparel_Vest</swapTo>
-		</swapCondition>
-	  </li>
+      <li Class="JecsTools.ApparelExtension">
+        <swapCondition>
+          <swapWhenGender>Male</swapWhenGender>
+          <swapTo>LotRH_Apparel_Vest</swapTo>
+        </swapCondition>
+      </li>
     </modExtensions>
   </ThingDef>
 

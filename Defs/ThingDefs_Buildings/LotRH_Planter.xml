@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
-    <ThingDef ParentName="BuildingBase">
+
+  <ThingDef ParentName="BuildingBase">
     <defName>LotRH_PlantPotPartyTree</defName>
     <label>party tree grow spot</label>
     <thingClass>Hobbits.Building_PartyTreeGrower</thingClass>
@@ -39,16 +39,16 @@
     <designationHotKey>Misc9</designationHotKey>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <hasInteractionCell>true</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>	
-	<constructEffect>Sow</constructEffect>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <constructEffect>Sow</constructEffect>
     <building>
       <defaultPlantToGrow>LotRH_PlantPartyTree</defaultPlantToGrow>
-	  <sowTag>LotR_PartyTree</sowTag>
+      <sowTag>LotR_PartyTree</sowTag>
     </building>
     <rotatable>false</rotatable>
-	<placeWorkers>
-	  <li>Hobbits.PlaceWorker_Unique</li>
-	</placeWorkers>
+    <placeWorkers>
+      <li>Hobbits.PlaceWorker_Unique</li>
+    </placeWorkers>
   </ThingDef>
 
 </Defs>
