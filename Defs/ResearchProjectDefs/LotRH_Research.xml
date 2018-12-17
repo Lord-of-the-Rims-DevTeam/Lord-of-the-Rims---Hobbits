@@ -43,8 +43,42 @@
     </ResearchProjectDef>
 
     <!--======== Column 2 =========-->
-    <!--======= Hobbit Armor ======-->
+    <!--======= Hobbit Apparel ======-->
 
-    
+    <ResearchProjectDef ParentName="HobbitResearch">
+        <defName>LotRH_ApparelOne</defName>
+        <label>Apparel of the Hobbit folk</label>
+        <description>&lt;i&gt;Shorter that any other race in Middle Earth, and often comfortably rounded, Hobbits require special clothing.&lt;/i&gt;\n\nUnlocked comfortably sized Hobbit apparel includes:\n- Hobbit dress\n- Hobbit shirt and vest\n- Hobbit pants\n- Hobbit jacket\n- Hooded cape\n- Hobbit traveler's pack</description>
+        <baseCost>300</baseCost>
+        <tags>
+            <li>LotRH_HobbitScenario</li>
+        </tags>
+        <researchViewX>0</researchViewX>
+        <researchViewY>1</researchViewY>
+    </ResearchProjectDef>
+
+    <!--======== Column 3 =========-->
+    <!--======= Hobbit Structures ======-->
+
+    <ResearchProjectDef ParentName="HobbitResearch">
+        <defName>LotRH_StructuresOne</defName>
+        <label>Living Fences</label>
+        <description>Create fences almost as beautiful as the Hobbits themsHobbits:\n- Hobbit decorative fence\n- Hobbit, decorative fence gate</description>
+        <baseCost>350</baseCost>
+        <researchViewX>0</researchViewX>
+        <researchViewY>2</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="HobbitResearch">
+        <defName>LotRH_StructuresTwo</defName>
+        <label>Woodland Hearth</label>
+        <description>Create walls with exquisite Hobbit details:\n- Hobbit Carved Wall</description>
+        <baseCost>150</baseCost>
+        <prerequisites>
+            <li>LotRH_StructuresOne</li>
+        </prerequisites>
+        <researchViewX>0.75</researchViewX>
+        <researchViewY>2</researchViewY>
+    </ResearchProjectDef>
 
 </Defs>

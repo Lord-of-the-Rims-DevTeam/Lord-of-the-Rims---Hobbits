@@ -4,7 +4,7 @@
 
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRH_Apparel_Backpack</defName>
-    <label>hobbit traveler's pack</label>
+    <label>Hobbit traveler's pack</label>
     <description>A backpack that helps a hobbit find their way to adventure.</description>
     <graphicData>
       <texPath>Things/Pawn/Hobbit/Apparel/Backpack/Backpack_north</texPath>
@@ -64,11 +64,16 @@
         </coverage>
       </li>
     </modExtensions>
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>LotRH_ApparelOne</li>
+      </researchPrerequisites>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRH_Apparel_PantsHobbit</defName>
-    <label>hobbit pants</label>
+    <label>Hobbit pants</label>
     <description>A simple set of tiny pants that are raised above the ankles for hobbit feet.</description>
     <graphicData>
       <texPath>Things/Pawn/Humanlike/Apparel/Pants/Pants</texPath>
@@ -106,11 +111,16 @@
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>LotRH_ApparelOne</li>
+      </researchPrerequisites>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRH_Apparel_Jacket</defName>
-    <label>hobbit jacket</label>
+    <label>Hobbit jacket</label>
     <description>A nice jacket that is primarily for keeping one warm in chilly winter and staying stylish while doing so.</description>
     <graphicData>
       <texPath>Things/Pawn/Hobbit/Apparel/Jacket/HobbitJacketDisplay</texPath>
@@ -174,11 +184,16 @@
         </li>
       </options>
     </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>LotRH_ApparelOne</li>
+      </researchPrerequisites>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRH_Apparel_Cape</defName>
-    <label>hooded cape</label>
+    <label>Hooded cape</label>
     <description>A fashionable cape.</description>
     <graphicData>
       <texPath>Things/Pawn/Hobbit/Apparel/HoodedCape/ennacrimaCloakDisplay</texPath>
@@ -232,11 +247,16 @@
         </li>
       </options>
     </colorGenerator>
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>LotRH_ApparelOne</li>
+      </researchPrerequisites>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRH_Apparel_Vest</defName>
-    <label>hobbit shirt and vest</label>
+    <label>Hobbit shirt and vest</label>
     <description>A simple vest over a blouse provides proper style for Hobbits.</description>
     <graphicData>
       <texPath>Things/Pawn/Hobbit/Apparel/Vest/Vest_Male_north</texPath>
@@ -278,11 +298,16 @@
       </defaultOutfitTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>LotRH_ApparelOne</li>
+      </researchPrerequisites>
+    </recipeMaker>
   </ThingDef>
 
   <ThingDef ParentName="ApparelMakeableBase">
     <defName>LotRH_Apparel_Dress</defName>
-    <label>hobbit dress</label>
+    <label>Hobbit dress</label>
     <description>This simple dress provides proper style for Hobbits as well as protectively covering tops and bottoms.</description>
     <graphicData>
       <texPath>Things/Pawn/Hobbit/Apparel/Dress/Dress_Male_north</texPath>
@@ -332,6 +357,11 @@
         </swapCondition>
       </li>
     </modExtensions>
+    <recipeMaker>
+      <researchPrerequisites>
+        <li>LotRH_ApparelOne</li>
+      </researchPrerequisites>
+    </recipeMaker>
   </ThingDef>
 
 </Defs>
