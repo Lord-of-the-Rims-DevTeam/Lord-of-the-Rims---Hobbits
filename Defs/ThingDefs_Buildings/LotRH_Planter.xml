@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="BuildingBase">
     <defName>LotRH_PlantPotPartyTree</defName>
-    <label>party tree grow spot</label>
+    <label>Party tree grow spot</label>
     <thingClass>Hobbits.Building_PartyTreeGrower</thingClass>
     <graphicData>
       <texPath>Things/Building/Misc/PartySpot</texPath>
@@ -49,6 +49,9 @@
     <placeWorkers>
       <li>Hobbits.PlaceWorker_Unique</li>
     </placeWorkers>
+    <researchPrerequisites>
+      <li>LotRH_StructuresThree</li>
+    </researchPrerequisites>
   </ThingDef>
 
 </Defs>

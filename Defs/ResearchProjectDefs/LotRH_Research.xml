@@ -81,4 +81,15 @@
         <researchViewY>2</researchViewY>
     </ResearchProjectDef>
 
+    <!--======== Column 4 =========-->
+
+    <ResearchProjectDef ParentName="HobbitResearch">
+        <defName>LotRH_StructuresThree</defName>
+        <label>Party Tree</label>
+        <description>A great tree! Ideal for gatherings and big speeches!\n\nUnlocked:\n- Party tree grow spot</description>
+        <baseCost>400</baseCost>
+        <researchViewX>0</researchViewX>
+        <researchViewY>3</researchViewY>
+    </ResearchProjectDef>
+
 </Defs>
