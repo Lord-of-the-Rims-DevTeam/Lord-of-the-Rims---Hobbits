@@ -65,9 +65,7 @@
       </li>
     </modExtensions>
     <recipeMaker>
-      <researchPrerequisites>
-        <li>LotRH_ApparelOne</li>
-      </researchPrerequisites>
+      <researchPrerequisite>LotRH_ApparelOne</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
 
@@ -112,9 +110,7 @@
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <recipeMaker>
-      <researchPrerequisites>
-        <li>LotRH_ApparelOne</li>
-      </researchPrerequisites>
+      <researchPrerequisite>LotRH_ApparelOne</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
 
@@ -185,9 +181,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisites>
-        <li>LotRH_ApparelOne</li>
-      </researchPrerequisites>
+      <researchPrerequisite>LotRH_ApparelOne</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
 
@@ -248,9 +242,7 @@
       </options>
     </colorGenerator>
     <recipeMaker>
-      <researchPrerequisites>
-        <li>LotRH_ApparelOne</li>
-      </researchPrerequisites>
+      <researchPrerequisite>LotRH_ApparelOne</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
 
@@ -299,9 +291,7 @@
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <recipeMaker>
-      <researchPrerequisites>
-        <li>LotRH_ApparelOne</li>
-      </researchPrerequisites>
+      <researchPrerequisite>LotRH_ApparelOne</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
 
@@ -358,9 +348,7 @@
       </li>
     </modExtensions>
     <recipeMaker>
-      <researchPrerequisites>
-        <li>LotRH_ApparelOne</li>
-      </researchPrerequisites>
+      <researchPrerequisite>LotRH_ApparelOne</researchPrerequisite>
     </recipeMaker>
   </ThingDef>
 
