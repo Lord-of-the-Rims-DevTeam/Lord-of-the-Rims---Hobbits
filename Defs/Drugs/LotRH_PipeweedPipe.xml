@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="LotRH_MakeableDrugBase">
     <defName>LotRH_PipeweedPipe</defName>
-    <label>pipe-weed</label>
+    <label>pipe-weed pipe</label>
     <description>Although slightly addictive, when pipes are filled with this tobacco-like plant and smoked, its fragrant aroma soothes the user.\nCan be produced without equipment, at a crafting spot with pipe-weed leaves.</description>
     <graphicData>
       <texPath>Things/Item/Drug/Pipeweed/Pipe</texPath>
@@ -63,6 +63,7 @@
       <recipeUsers>
         <li>CraftingSpot</li>
       </recipeUsers>
+      <researchPrerequisite>LotRH_PipeweedOne</researchPrerequisite>
     </recipeMaker>
     <costList>
       <LotRH_PipeweedLeaves>3</LotRH_PipeweedLeaves>

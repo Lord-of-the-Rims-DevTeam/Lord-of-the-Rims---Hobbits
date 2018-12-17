@@ -3,7 +3,7 @@
 
   <RecipeDef Name="LotRH_MakeSimplePipe">
     <defName>LotRH_MakeSimplePipe</defName>
-    <label>make pipe-weed pack</label>
+    <label>Make pipe-weed pack</label>
     <description>Makes five bowls of prepared pipeweed, ready for a few good puffs.</description>
     <jobString>Making pipes</jobString>
     <workSpeedStat>DrugCookingSpeed</workSpeedStat>

@@ -97,8 +97,8 @@
 
      <ResearchProjectDef ParentName="HobbitResearch">
         <defName>LotRH_PipeweedOne</defName>
-        <label>Sweet Galenas</label>
-        <description>&lt;i&gt;Pipe-weed!&lt;/i&gt;\n\nA fragrant and sweet plant first cultivated by Tobold Hornblower, a hobbit of great renown.\n\nUnlocked:\n- Pipe-weed Pipes</description>
+        <label>Pipe-weed Pipes</label>
+        <description>&lt;i&gt;Sweet Galenas&lt;/i&gt;\n\nA fragrant and soothing plant first cultivated by Tobold Hornblower, a hobbit of great renown.\n\nUnlocked:\n- Pipe-weed Pipes and Bowls</description>
         <baseCost>300</baseCost>
         <researchViewX>0</researchViewX>
         <researchViewY>4</researchViewY>
