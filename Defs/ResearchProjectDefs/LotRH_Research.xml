@@ -62,8 +62,8 @@
 
     <ResearchProjectDef ParentName="HobbitResearch">
         <defName>LotRH_StructuresOne</defName>
-        <label>Living Fences</label>
-        <description>Create fences almost as beautiful as the Hobbits themsHobbits:\n- Hobbit decorative fence\n- Hobbit, decorative fence gate</description>
+        <label>Hobbit Holes, Smials</label>
+        <description>In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole and that meant comfort.&lt;/i&gt;\n\nUnlocked:\n- Earthen hill</description>
         <baseCost>350</baseCost>
         <researchViewX>0</researchViewX>
         <researchViewY>2</researchViewY>
@@ -71,8 +71,8 @@
 
     <ResearchProjectDef ParentName="HobbitResearch">
         <defName>LotRH_StructuresTwo</defName>
-        <label>Woodland Hearth</label>
-        <description>Create walls with exquisite Hobbit details:\n- Hobbit Carved Wall</description>
+        <label>Hobbit Doors</label>
+        <description>Create doors fit for Hobbit holes\n\nUnlocked:\n- Hobbit door\n- Hobbit arch</description>
         <baseCost>150</baseCost>
         <prerequisites>
             <li>LotRH_StructuresOne</li>

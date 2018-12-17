@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <!--========================= Doors =============================-->
+
   <DoorsExpanded.DoorExpandedDef ParentName="HeronDoor">
     <defName>LotRH_HobbitHoleArch</defName>
-    <label>hobbit arch</label>
+    <label>Hobbit arch</label>
     <description>Divides rooms.</description>
     <thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
     <statBases>
@@ -43,13 +45,14 @@
     <doorType>FreePassage</doorType>
     <singleDoor>true</singleDoor>
     <doorOpenSpeedRate>0.24</doorOpenSpeedRate>
-
+    <researchPrerequisites>
+      <li>LotRH_StructuresTwo</li>
+    </researchPrerequisites>
   </DoorsExpanded.DoorExpandedDef>
-
 
   <DoorsExpanded.DoorExpandedDef ParentName="HeronDoor">
     <defName>LotRH_HobbitHoleDoor</defName>
-    <label>hobbit door</label>
+    <label>Hobbit door</label>
     <description>Divides rooms.</description>
     <thingClass>DoorsExpanded.Building_DoorExpanded</thingClass>
     <statBases>
@@ -87,13 +90,16 @@
     <doorType>Stretch</doorType>
     <singleDoor>true</singleDoor>
     <doorOpenSpeedRate>0.24</doorOpenSpeedRate>
+    <researchPrerequisites>
+      <li>LotRH_StructuresTwo</li>
+    </researchPrerequisites>
   </DoorsExpanded.DoorExpandedDef>
 
   <!--========================= Walls =============================-->
 
   <ThingDef ParentName="BuildingBase">
     <defName>LotRH_HobbitHill</defName>
-    <label>earthen hill</label>
+    <label>Earthen hill</label>
     <thingClass>LordOfTheRims_Hobbits.EarthenWall</thingClass>
     <category>Building</category>
     <description>Hills are not as tall or as strong as natural walls, but they give great comfort to hobbits living inside them. Hills require simple dirt and soil nearby, and take time to complete. Grass can be planted upon these hills.</description>
@@ -193,6 +199,9 @@
       </li>
     </damageMultipliers>
     <designationHotKey>Misc3</designationHotKey>
+    <researchPrerequisites>
+      <li>LotRH_StructuresOne</li>
+    </researchPrerequisites>
   </ThingDef>
 
 </Defs>
