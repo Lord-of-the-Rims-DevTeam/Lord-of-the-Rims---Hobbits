@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ResearchTabDef>
+        <defName>LotRH_HobbitsTab</defName>
+        <label>Hobbits, Kuduk</label>
+    </ResearchTabDef>
+
+    <ResearchProjectDef Name="HobbitResearch" Abstract="True">
+        <techLevel>Neolithic</techLevel>
+        <tab>LotRH_HobbitsTab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectTagDef>
+        <defName>LotRH_HobbitScenario</defName>
+    </ResearchProjectTagDef>
+
+    <!--======== Column 1 =========-->
+    <!--======= Hobbit Weapons ======-->
+
+    <ResearchProjectDef ParentName="HobbitResearch">
+        <defName>LotRH_WeaponsOne</defName>
+        <label>Hobbit Tools</label>
+        <description>&lt;i&gt;Hobbits!&lt;/i&gt;\n\nUnlock Hobbit tools which can be used as weapons in a pinch:\n- Hobbit pitchfork\n- Hobbit anklebiter axe</description>
+        <baseCost>200</baseCost>
+        <tags>
+            <li>LotRH_HobbitScenario</li>
+        </tags>
+        <researchViewX>0</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef ParentName="HobbitResearch">
+        <defName>LotRH_WeaponsTwo</defName>
+        <label>Hobbit Swords</label>
+        <description>&lt;i&gt;To most this is merely a fancy knife but to hobbits this is a proper sword built for war!\nOnly the most adventurous of Hobbits even know these exist.&lt;/i&gt;\n\nUnlock proper Hobbit weapons:\n- Hobbit basket-hilted sword</description>
+        <baseCost>350</baseCost>
+        <prerequisites>
+            <li>LotRH_WeaponsOne</li>
+        </prerequisites>
+        <researchViewX>0.75</researchViewX>
+        <researchViewY>0</researchViewY>
+    </ResearchProjectDef>
+
+    <!--======== Column 2 =========-->
+    <!--======= Hobbit Armor ======-->
+
+    
+
+</Defs>
