@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!-- Doors -->
+
   <LotRH_HobbitHoleArch.label>門(ホビット)</LotRH_HobbitHoleArch.label>
   <LotRH_HobbitHoleArch.description>部屋を分割します。</LotRH_HobbitHoleArch.description>
 
