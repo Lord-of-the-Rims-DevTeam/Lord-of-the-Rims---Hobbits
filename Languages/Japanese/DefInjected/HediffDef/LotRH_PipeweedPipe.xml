@@ -7,13 +7,13 @@
   <!-- Nicotine addiction -->
 
   <LotRH_PipeweedChemTolerance.label>パイプ草耐性</LotRH_PipeweedChemTolerance.label>
-  <LotRH_PipeweedChemTolerance.stages.0.label>軽度</LotRH_PipeweedChemTolerance.stages.0.label>
-  <LotRH_PipeweedChemTolerance.stages.1.label>軽度</LotRH_PipeweedChemTolerance.stages.1.label>
-  <LotRH_PipeweedChemTolerance.stages.2.label>重度</LotRH_PipeweedChemTolerance.stages.2.label>
-  <LotRH_PipeweedChemTolerance.stages.3.label>全身</LotRH_PipeweedChemTolerance.stages.3.label>
+  <LotRH_PipeweedChemTolerance.stages.small-0.label>軽度</LotRH_PipeweedChemTolerance.stages.small-0.label>
+  <LotRH_PipeweedChemTolerance.stages.small-1.label>軽度</LotRH_PipeweedChemTolerance.stages.small-1.label>
+  <LotRH_PipeweedChemTolerance.stages.large.label>重度</LotRH_PipeweedChemTolerance.stages.large.label>
+  <LotRH_PipeweedChemTolerance.stages.massive.label>全身</LotRH_PipeweedChemTolerance.stages.massive.label>
 
   <LotRH_PipeweedChemAddiction.label>パイプ草依存</LotRH_PipeweedChemAddiction.label>
-  <LotRH_PipeweedChemAddiction.stages.1.label>禁断症状</LotRH_PipeweedChemAddiction.stages.1.label>
+  <LotRH_PipeweedChemAddiction.stages.withdrawal.label>禁断症状</LotRH_PipeweedChemAddiction.stages.withdrawal.label>
 
 
 </LanguageData>
