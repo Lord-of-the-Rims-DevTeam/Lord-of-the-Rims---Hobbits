@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <LotRH_PipeweedPipe.label>パイプ草</LotRH_PipeweedPipe.label>
+  <LotRH_PipeweedPipe.label>パイプ草とパイプ</LotRH_PipeweedPipe.label>
   <LotRH_PipeweedPipe.description>やや中毒性はありますが、パイプにこのタバコ様植物が詰まっていると、香りの良い香りと落ち着いた香りが得られます。特別な設備なしでパイプ草の葉を材料にして作業場で生産することができます。</LotRH_PipeweedPipe.description>
   <LotRH_PipeweedPipe.ingestible.ingestCommandString>{0}は煙を燻らした</LotRH_PipeweedPipe.ingestible.ingestCommandString>
   <LotRH_PipeweedPipe.ingestible.ingestReportString>{0}は煙を燻らしている。</LotRH_PipeweedPipe.ingestible.ingestReportString>
