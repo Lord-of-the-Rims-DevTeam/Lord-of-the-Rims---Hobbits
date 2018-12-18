@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="PlantBase">
     <defName>LotRH_Pipeweed</defName>
-    <label>pipe-weed plant</label>
+    <label>Pipe-weed plant</label>
     <description>Originally a wild flower appreciated for its fragrance, this tobacco-like plant is now widely cultivated by Hobbits for its soothing effect. Pipe-weed leaves can be prepared and used in pipes at crafting spots.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
@@ -17,10 +17,9 @@
     <selectable>true</selectable>
     <pathCost>10</pathCost>
     <plant>
-	  <fertilitySensitivity>1.0</fertilitySensitivity>
+      <fertilitySensitivity>1.0</fertilitySensitivity>
       <growDays>5.6</growDays>
       <dieIfLeafless>true</dieIfLeafless>
-			
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>LotRH_PipeweedLeaves</harvestedThingDef>
       <harvestYield>11</harvestYield>
@@ -37,4 +36,4 @@
     </plant>
   </ThingDef>
 
-  </Defs>
+</Defs>

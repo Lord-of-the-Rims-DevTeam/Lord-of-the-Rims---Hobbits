@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="RoughPlantBase">
     <defName>LotRH_PipeweedLeaves</defName>
-    <label>pipe-weed leaves</label>
+    <label>Pipe-weed leaves</label>
     <description>Also known as Halflings' Leaf, this enjoyable tabbaco-like plant be ground up and smoked in pipes.</description>
     <graphicData>
       <texPath>Things/Item/Drug/Pipeweed/Leaves/PipeweedLeaves</texPath>

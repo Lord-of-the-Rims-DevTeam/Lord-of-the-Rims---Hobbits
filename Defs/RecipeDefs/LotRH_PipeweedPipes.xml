@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
   <RecipeDef Name="LotRH_MakeSimplePipe">
     <defName>LotRH_MakeSimplePipe</defName>
-    <label>make pipe-weed pack</label>
+    <label>Make pipe-weed pack</label>
     <description>Makes five bowls of prepared pipeweed, ready for a few good puffs.</description>
     <jobString>Making pipes</jobString>
     <workSpeedStat>DrugCookingSpeed</workSpeedStat>
-	<workAmount>350</workAmount>
+    <workAmount>350</workAmount>
     <requiredGiverWorkType>Crafting</requiredGiverWorkType>
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_CookMeal</soundWorking>
@@ -29,7 +28,7 @@
       <categories>
         <li>PlantMatter</li>
       </categories>
-	  <thingDefs>
+      <thingDefs>
         <li>LotRH_PipeweedLeaves</li>
       </thingDefs>
     </fixedIngredientFilter>
@@ -42,9 +41,10 @@
       </thingDefs>
     </defaultIngredientFilter>
     <workSkill>Crafting</workSkill>
-	<recipeUsers>
-	  <li>CraftingSpot</li>
-	</recipeUsers>
-</RecipeDef>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+    </recipeUsers>
+    <researchPrerequisite>LotRH_PipeweedOne</researchPrerequisite>
+  </RecipeDef>
 
 </Defs>
