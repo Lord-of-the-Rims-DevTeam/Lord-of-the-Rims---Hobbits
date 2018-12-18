@@ -3,19 +3,19 @@
 
   <LotRH_AnklebiterAxe.label>ホビットの子供用アックス</LotRH_AnklebiterAxe.label>
   <LotRH_AnklebiterAxe.description>ホビットが使う小さな斧です。木材やおそらく毛むくじゃらな足首を切断するために向いている斧です。</LotRH_AnklebiterAxe.description>
-  <LotRH_AnklebiterAxe.tools.0.label>持ち手</LotRH_AnklebiterAxe.tools.0.label>
-  <LotRH_AnklebiterAxe.tools.1.label>斧頭</LotRH_AnklebiterAxe.tools.1.label>
+  <LotRH_AnklebiterAxe.tools.handle.label>持ち手</LotRH_AnklebiterAxe.tools.handle.label>
+  <LotRH_AnklebiterAxe.tools.axe_head.label>斧頭</LotRH_AnklebiterAxe.tools.axe_head.label>
 
   <LotRH_Pitchfork.label>ホビットのピッチフォーク</LotRH_Pitchfork.label>
   <LotRH_Pitchfork.description>干し草の整理を行うために農民が使用します。時には暴れる家畜を扱うこともあります。</LotRH_Pitchfork.description>
-  <LotRH_Pitchfork.tools.0.label>持ち手</LotRH_Pitchfork.tools.0.label>
+  <LotRH_Pitchfork.tools.handle.label>持ち手</LotRH_Pitchfork.tools.handle.label>
   <LotRH_Pitchfork.tools.1.label>フォーク</LotRH_Pitchfork.tools.1.label>
 
   <LotRH_Baskethilt.label>ホビットのバスケットヒルテッドソード</LotRH_Baskethilt.label>
   <LotRH_Baskethilt.description>手首を曲げることなく背の高い敵を突き刺すことができるのでホビットには理想的です。これらのバスケットヒルトソードは獰猛な武器になっています。</LotRH_Baskethilt.description>
-  <LotRH_Baskethilt.tools.0.label>持ち手</LotRH_Baskethilt.tools.0.label>
-  <LotRH_Baskethilt.tools.1.label>切っ先</LotRH_Baskethilt.tools.1.label>
-  <LotRH_Baskethilt.tools.2.label>刃</LotRH_Baskethilt.tools.2.label>
+  <LotRH_Baskethilt.tools.handle.label>持ち手</LotRH_Baskethilt.tools.handle.label>
+  <LotRH_Baskethilt.tools.point.label>切っ先</LotRH_Baskethilt.tools.point.label>
+  <LotRH_Baskethilt.tools.edge.label>刃</LotRH_Baskethilt.tools.edge.label>
 
 
 </LanguageData>
