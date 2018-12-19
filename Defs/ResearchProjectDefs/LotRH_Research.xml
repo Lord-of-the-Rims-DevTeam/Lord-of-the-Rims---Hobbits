@@ -6,8 +6,13 @@
         <label>Hobbits, Kuduk</label>
     </ResearchTabDef>
 
-    <ResearchProjectDef Name="HobbitResearch" Abstract="True">
+    <ResearchProjectDef Name="HobbitNeolithicResearch" Abstract="True">
         <techLevel>Neolithic</techLevel>
+        <tab>LotRH_HobbitsTab</tab>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef Name="HobbitResearch" Abstract="True">
+        <techLevel>Medieval</techLevel>
         <tab>LotRH_HobbitsTab</tab>
     </ResearchProjectDef>
 
@@ -60,7 +65,7 @@
     <!--======== Column 3 =========-->
     <!--======= Hobbit Structures ======-->
 
-    <ResearchProjectDef ParentName="HobbitResearch">
+    <ResearchProjectDef ParentName="HobbitNeolithicResearch">
         <defName>LotRH_StructuresOne</defName>
         <label>Hobbit Holes, Smials</label>
         <description>&lt;i&gt;In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole and that meant comfort.&lt;/i&gt;\n\nUnlocked:\n- Earthen hill</description>
