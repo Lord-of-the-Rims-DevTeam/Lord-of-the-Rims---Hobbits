@@ -1,22 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Basic quality thoughts -->
-
-  <LotRH_AteLavishMeal.stages.ate_lavish_meal.label>贅沢な料理を食べた</LotRH_AteLavishMeal.stages.ate_lavish_meal.label>
-  <LotRH_AteLavishMeal.stages.ate_lavish_meal.description>我が魂に祝福あれ! 驚くような贅沢な食事を食べた！</LotRH_AteLavishMeal.stages.ate_lavish_meal.description>
-
-  <LotRH_AteFineMeal.stages.ate_fine_meal.label>おいしい食事を食べた</LotRH_AteFineMeal.stages.ate_fine_meal.label>
-  <LotRH_AteFineMeal.stages.ate_fine_meal.description>本当においしい食事を食べた。美味い！まるで無くした歌うヤカンの気分だ。</LotRH_AteFineMeal.stages.ate_fine_meal.description>
-
-  <LotRH_AteAwfulMeal.stages.ate_awful_meal.label>ひどい食事だった</LotRH_AteAwfulMeal.stages.ate_awful_meal.label>
-  <LotRH_AteAwfulMeal.stages.ate_awful_meal.description>兄弟！味も素っ気もないぞコレ！</LotRH_AteAwfulMeal.stages.ate_awful_meal.description>
-
-  <LotRH_AteRawFood.stages.ate_raw_food.label>生肉を食べた</LotRH_AteRawFood.stages.ate_raw_food.label>
-  <LotRH_AteRawFood.stages.ate_raw_food.description>ひどい仕事だが、私は生肉を食べるしかなかった。ちょっとコレをチーズやパンと多少の蜂蜜で調理してから出してはくれませんか？</LotRH_AteRawFood.stages.ate_raw_food.description>
-
-  <LotRH_AteKibble.stages.ate_kibble.label>ペットフードを食べた</LotRH_AteKibble.stages.ate_kibble.label>
-  <LotRH_AteKibble.stages.ate_kibble.description>お腹が空き過ぎて、私はペットフードを食べるしかなかった、吐くのは我慢しよう。</LotRH_AteKibble.stages.ate_kibble.description>
-
-
+  <LotRH_AteLavishMeal.stages.0.label>贅沢な料理を食べた</LotRH_AteLavishMeal.stages.0.label>
+  <LotRH_AteLavishMeal.stages.0.description>我が魂に祝福あれ! 驚くような贅沢な食事を食べた！</LotRH_AteLavishMeal.stages.0.description>
+  <LotRH_AteFineMeal.stages.0.label>おいしい食事を食べた</LotRH_AteFineMeal.stages.0.label>
+  <LotRH_AteFineMeal.stages.0.description>本当においしい食事を食べた。美味い！まるで無くした歌うヤカンの気分だ。</LotRH_AteFineMeal.stages.0.description>
+  <LotRH_AteAwfulMeal.stages.0.label>ひどい食事だった</LotRH_AteAwfulMeal.stages.0.label>
+  <LotRH_AteAwfulMeal.stages.0.description>兄弟！味も素っ気もないぞコレ！</LotRH_AteAwfulMeal.stages.0.description>
+  <LotRH_AteRawFood.stages.0.label>生肉を食べた</LotRH_AteRawFood.stages.0.label>
+  <LotRH_AteRawFood.stages.0.description>ひどい仕事だが、私は生肉を食べるしかなかった。ちょっとコレをチーズやパンと多少の蜂蜜で調理してから出してはくれませんか？</LotRH_AteRawFood.stages.0.description>
+  <LotRH_AteKibble.stages.0.label>ペットフードを食べた</LotRH_AteKibble.stages.0.label>
+  <LotRH_AteKibble.stages.0.description>お腹が空き過ぎて、私はペットフードを食べるしかなかった、吐くのは我慢しよう。</LotRH_AteKibble.stages.0.description>
 </LanguageData>

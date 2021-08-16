@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Tier 1 -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>LotRH_Pitchfork</defName>
+    <label>Hobbit pitchfork</label>
+    <description>Used by farmers to help manage hay, occasionally unruly livestock.</description>
+    <graphicData>
+      <texPath>Things/Item/WeaponMelee/LotRH_Pitchfork</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.65</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>50</costStuffCount>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>0.8</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.09</PlantWorkSpeed>
+    </equippedStatOffsets>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>LotRH_HobbitMilitia</li>
+    </weaponTags>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>
+    <recipeMaker>
+      <researchPrerequisite>LotRH_WeaponsOne</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>LotRH_AnklebiterAxe</defName>
+    <label>Hobbit anklebiter axe</label>
+    <description>A small axe used by hobbits. The perfect axe for cutting wood, possibly ankles.</description>
+    <graphicData>
+      <texPath>Things/Item/WeaponMelee/LotRH_Anklebiter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>0.5</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <PlantWorkSpeed>0.09</PlantWorkSpeed>
+    </equippedStatOffsets>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <weaponTags>
+      <li>LotRH_HobbitMilitia</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>axe head</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>
+    <recipeMaker>
+      <researchPrerequisite>LotRH_WeaponsOne</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <!-- Tier 2 -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>LotRH_Baskethilt</defName>
+    <label>Hobbit basket-hilted sword</label>
+    <description>Perfect for hobbits who can stab, prod, and slash taller foes without bending their wrists, these basket-hilted swords make fierce weapons.</description>
+    <graphicData>
+      <texPath>Things/Item/WeaponMelee/LotRH_Baskethilt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <weaponTags>
+      <li>LotRH_HobbitGuard</li>
+    </weaponTags>
+    <costStuffCount>60</costStuffCount>
+    <statBases>
+      <WorkToMake>13500</WorkToMake>
+      <Mass>0.9</Mass>
+    </statBases>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+    </stuffCategories>
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.9</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <researchPrerequisite>LotRH_WeaponsTwo</researchPrerequisite>
+    </recipeMaker>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

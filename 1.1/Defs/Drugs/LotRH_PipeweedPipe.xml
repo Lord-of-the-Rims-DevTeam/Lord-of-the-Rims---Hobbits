@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="LotRH_MakeableDrugBase">
+    <defName>LotRH_PipeweedPipe</defName>
+    <label>pipe-weed pipe</label>
+    <description>Although slightly addictive, when pipes are filled with this tobacco-like plant and smoked, its fragrant aroma soothes the user.\nCan be produced without equipment, at a crafting spot with pipe-weed leaves.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Pipeweed/Pipe</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>200</WorkToMake>
+      <MarketValue>10</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <foodType>Plant, Processed</foodType>
+      <joy>0.25</joy>
+      <baseIngestTicks>1640</baseIngestTicks>
+      <nurseable>true</nurseable>
+      <drugCategory>Social</drugCategory>
+      <ingestSound>Ingest_Smoke</ingestSound>
+      <ingestEffect>Smoke_Joint</ingestEffect>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.27,0,0.065)</offset>
+          <behind>true</behind>
+        </northDefault>
+        <east>
+          <offset>(0.53,0,-0.065)</offset>
+        </east>
+        <south>
+          <offset>(0.47,0,-0.065)</offset>
+        </south>
+        <west>
+          <offset>(0.31,0,-0.08)</offset>
+          <flip>false</flip>
+        </west>
+      </ingestHoldOffsetStanding>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Smoke {0}</ingestCommandString>
+      <ingestReportString>Smoking {0}.</ingestReportString>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>LotRH_PipeweedHigh</hediffDef>
+          <severity>0.8</severity>
+          <toleranceChemical>LotRH_PipeweedChem</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_OffsetNeed">
+          <need>Rest</need>
+          <offset>0.02</offset>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>LotRH_PipeweedChemTolerance</hediffDef>
+          <severity>0.050</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <researchPrerequisite>LotRH_PipeweedOne</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <LotRH_PipeweedLeaves>3</LotRH_PipeweedLeaves>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>LotRH_PipeweedChem</chemical>
+        <addictiveness>0.03</addictiveness>
+        <minToleranceToAddict>0.015</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.20</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <listOrder>21</listOrder>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>LotRH_PipeweedHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>high on pipeweed</label>
+    <description>high on pipeweed</description>
+    <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.60</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painOffset>-0.03</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.01</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>LotRH_PipeweedHigh</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>LotRH_PipeweedHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>enjoying pipe-weed</label>
+        <description>Nothing like a good smoke.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- Nicotine addiction -->
+  <ChemicalDef>
+    <defName>LotRH_PipeweedChem</defName>
+    <label>Pipe-weed</label>
+    <addictionHediff>LotRH_PipeweedChemAddiction</addictionHediff>
+    <toleranceHediff>LotRH_PipeweedChemTolerance</toleranceHediff>
+  </ChemicalDef>
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>LotRH_Chemical_Pipeweed</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>Pipe-weed</label>
+    <description>Because of a developed pipe-weed dependence, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    <listPriority>26</listPriority>
+  </NeedDef>
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>LotRH_PipeweedChemTolerance</defName>
+    <label>Pipe-weed tolerance</label>
+    <description>Pipe-weed tolerance</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.015</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>LotRH_PipeweedChem</chemical>
+      </li>
+    </comps>
+    <hediffGivers>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>Asthma</hediff>
+        <baseMtbDays>160</baseMtbDays>
+        <minSeverity>0.7</minSeverity>
+        <partsToAffect>
+          <li>Lung</li>
+        </partsToAffect>
+        <countToAffect>2</countToAffect>
+      </li>
+      <li Class="HediffGiver_RandomDrugEffect">
+        <hediff>Carcinoma</hediff>
+        <baseMtbDays>160</baseMtbDays>
+        <minSeverity>0.85</minSeverity>
+        <partsToAffect>
+          <li>Lung</li>
+        </partsToAffect>
+        <countToAffect>1</countToAffect>
+      </li>
+    </hediffGivers>
+  </HediffDef>
+  <HediffDef ParentName="AddictionBase">
+    <defName>LotRH_PipeweedChemAddiction</defName>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <label>Pipe-weed dependence</label>
+    <description>Pipe-weed dependence</description>
+    <causesNeed>LotRH_Chemical_Pipeweed</causesNeed>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.03</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>withdrawal</label>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Binging_Food</mentalState>
+            <mtbDays>5</mtbDays>
+          </li>
+        </mentalStateGivers>
+        <statOffsets>
+          <MentalBreakThreshold>0.1</MentalBreakThreshold>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>LotRH_PipeweedChemWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>LotRH_PipeweedChemAddiction</hediff>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>Pipe-weed withdrawal</label>
+        <description>I could use a proper sit with a good pipe in hand.</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

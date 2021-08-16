@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef>
+    <defName>LotRH_HobbitFactionShire</defName>
+    <label>The Shire</label>
+    <description>Originally three seperate peoples that favored different customs, the Hobbits came together to settle in a comfort-loving lifestyle. Shirefolk are mostly unadventurous. They live in dry, comfortable holes in the hills. Outdoors, they farm a fruitful land, enjoy smoking pipe-weed, and socialize -- often with a pint at the local tavern.\n\nThe Shire is a peaceful land that is open to trade, but not open to send its militia beyond its borders. Close cooperation or recruitment will be very difficult because of their particularly desired lifestyle.\n\nDespite their apparent military weakness, it is said that powerful rangers often come to their aid when threatened.</description>
+    <pawnsPlural>shire-hobbits</pawnsPlural>
+    <settlementGenerationWeight>0.21</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+    <leaderTitle>Thain</leaderTitle>
+    <expandingIconTexture>World/TheShire</expandingIconTexture>
+    <!--
+    <colorSpectrum>
+      <li>(0.64, 0.42, 0.36)</li>
+      <li>(0.47, 0.5, 0.91)</li>
+    </colorSpectrum>
+	-->
+    <startingGoodwill>
+      <min>10</min>
+      <max>40</max>
+    </startingGoodwill>
+    <fixedName>The Shire</fixedName>
+    <settlementNameMaker>LotRH_NamerFactionBaseHobbitShire</settlementNameMaker>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+      <li>LotR_BackstoryHobbit</li>
+    </backstoryCategories>
+    <geneticVariance>0.8</geneticVariance>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+    <naturalColonyGoodwill>
+      <min>0</min>
+      <max>0</max>
+    </naturalColonyGoodwill>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Caravan_Outlander_CombatSupplier</li>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Caravan_Outlander_PirateMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Outlander_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Base_Outlander_Standard</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-40</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 100)</li>
+        <li>(1300, 150)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <LotRH_HobbitVillager>50</LotRH_HobbitVillager>
+          <LotRH_HobbitGuard>100</LotRH_HobbitGuard>
+          <LotRH_HobbitThain>1</LotRH_HobbitThain>
+        </options>
+      </li>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <LotRH_HobbitVillager>50</LotRH_HobbitVillager>
+          <LotRH_HobbitGuard>100</LotRH_HobbitGuard>
+          <LotRH_HobbitThain>1</LotRH_HobbitThain>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <LotRH_HobbitTrader>1</LotRH_HobbitTrader>
+        </traders>
+        <carriers>
+          <Muffalo>100</Muffalo>
+        </carriers>
+        <guards>
+          <LotRH_HobbitVillager>10</LotRH_HobbitVillager>
+          <LotRH_HobbitGuard>100</LotRH_HobbitGuard>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <LotRH_HobbitVillager>100</LotRH_HobbitVillager>
+          <LotRH_HobbitGuard>100</LotRH_HobbitGuard>
+          <LotRH_HobbitThain>100</LotRH_HobbitThain>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
+    <modExtensions>
+      <li Class="JecsTools.FactionSettings">
+        <entrySoundDef>LotRH_FanfareHobbitShire</entrySoundDef>
+      </li>
+    </modExtensions>
+  </FactionDef>
+</Defs>

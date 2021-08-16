@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-<LotRH_Hobbits>Hobbits</LotRH_Hobbits>
-<LotRH_PartyTreePlacement>Only one {0} may be placed on a map.</LotRH_PartyTreePlacement>
-<LotR_HobbitBonuses>\t-20% Health scale\n\t-40% Body size\n\t-40% Mass\n\t-40% Carrying capacity</LotR_HobbitBonuses>
-<LotRH_PuzzleSolvedLabel>Puzzle solved!</LotRH_PuzzleSolvedLabel>
-<LotRH_PuzzleSolved>{0} has solved their puzzle. It contained {1}!</LotRH_PuzzleSolved>
-
+  <LotRH_Hobbits>Hobbits</LotRH_Hobbits>
+  <LotRH_PartyTreePlacement>Only one {0} may be placed on a map.</LotRH_PartyTreePlacement>
+  <LotR_HobbitBonuses>\t-20% Health scale\n\t-40% Body size\n\t-40% Mass\n\t-40% Carrying capacity</LotR_HobbitBonuses>
+  <LotRH_PuzzleSolvedLabel>Puzzle solved!</LotRH_PuzzleSolvedLabel>
+  <LotRH_PuzzleSolved>{0} has solved their puzzle. It contained {1}!</LotRH_PuzzleSolved>
 </LanguageData>

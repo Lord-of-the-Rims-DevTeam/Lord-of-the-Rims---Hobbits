@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- A sound def for entry -->
+  <!-- Make sure this has onCamera -->
+  <SoundDef>
+    <defName>LotRH_FanfareHobbitShire</defName>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <!-- Yeah this must be true -->
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Faction/FanfareHobbitShire</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10.058827</min>
+          <max>10.058827</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9311765</min>
+          <max>1</max>
+        </pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

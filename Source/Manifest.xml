@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+  <identifier>LotR-Hobbits</identifier>
+  <version>1.21.0.0</version>
+  <dependencies>
+    <li>JecsTools</li>
+    <li>DoorsExpanded</li>
+    <li>HumanoidAlienRaces2.0</li>
+  </dependencies>
+  <incompatibleWith />
+  <loadAfter>
+    <li>HugsLib</li>
+    <li>JecsTools</li>
+    <li>HumanoidAlienRaces2.0</li>
+    <li>LotR-TheThirdAge</li>
+  </loadAfter>
+  <manifestUri>https://raw.githubusercontent.com/Lord-of-the-Rims-DevTeam/Lord-of-the-Rims---Hobbits/master/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/Lord-of-the-Rims-DevTeam/Lord-of-the-Rims---Hobbits/releases</downloadUri>
+</Manifest>

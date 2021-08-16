@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>AmmoLotRD_Bolt</defName>
+    <label>Dwarven bolts</label>
+    <parent>AmmoNeolithic</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberArrow</iconPath>
+  </ThingCategoryDef>
+  <!-- ==================== AmmoSet ========================== -->
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_LotRD_Bolt</defName>
+    <label>Dwarven bolts</label>
+    <ammoTypes>
+      <Ammo_LotRD_Bolt>Projectile_LotRD_Bolt</Ammo_LotRD_Bolt>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <!-- ==================== Ammo ========================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" Name="AmmoLotRD_BoltBase" ParentName="NeolithicAmmoBase" Abstract="True">
+    <description>Heavy bolt designed to be fired from a crossbow.</description>
+    <statBases>
+      <Mass>0.17</Mass>
+      <Bulk>0.17</Bulk>
+      <Flammability>1</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>AmmoLotRD_Bolt</li>
+    </thingCategories>
+    <stackLimit>200</stackLimit>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoLotRD_BoltBase">
+    <defName>Ammo_LotRD_Bolt</defName>
+    <label>dwarven bolt</label>
+    <graphicData>
+      <texPath>Things/Ammo/Neolithic/Arrow/Steel</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.52</MarketValue>
+    </statBases>
+    <ammoClass>SteelCrossbowBolt</ammoClass>
+  </ThingDef>
+  <!-- ================== Projectiles ================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" Name="BaseLotRD_BoltProjectile" ParentName="BaseBullet" Abstract="true">
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>ArrowHighVelocity</damageDef>
+      <speed>60</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseLotRD_BoltProjectile">
+    <defName>Projectile_LotRD_Bolt</defName>
+    <label>dwarven bolt</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>27</damageAmountBase>
+      <armorPenetrationBase>0.46</armorPenetrationBase>
+      <preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+      <!-- 25 arrows per resource -->
+      <preExplosionSpawnThingDef>Ammo_LotRD_Bolt</preExplosionSpawnThingDef>
+    </projectile>
+  </ThingDef>
+  <!-- ==================== Recipes ========================== -->
+  <RecipeDef ParentName="AmmoRecipeNeolithicBase">
+    <defName>MakeAmmo_LotRD_Bolt</defName>
+    <label>make dwarven bolts x10</label>
+    <description>Craft 10 dwarven bolts.</description>
+    <jobString>Making dwarven bolts.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_LotRD_Bolt>10</Ammo_LotRD_Bolt>
+    </products>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+      <li>CraftingSpot</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

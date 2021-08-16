@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>LotRH_PipeweedLeaves</defName>
+    <label>Pipe-weed leaves</label>
+    <description>Also known as Halflings' Leaf, this enjoyable tabbaco-like plant be ground up and smoked in pipes.</description>
+    <graphicData>
+      <texPath>Things/Item/Drug/Pipeweed/Leaves/PipeweedLeaves</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.7</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+  </ThingDef>
+</Defs>

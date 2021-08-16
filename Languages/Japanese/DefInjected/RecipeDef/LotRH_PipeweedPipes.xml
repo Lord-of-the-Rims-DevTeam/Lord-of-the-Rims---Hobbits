@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRH_MakeSimplePipe.label>パイプ草の袋を作る</LotRH_MakeSimplePipe.label>
   <LotRH_MakeSimplePipe.description>よく乾燥させたパイプ草の入った5つの容器を用意すれば、何回か煙をふかす準備ができます。</LotRH_MakeSimplePipe.description>
   <LotRH_MakeSimplePipe.jobString>パイプ草の袋を作成中</LotRH_MakeSimplePipe.jobString>
-
-
 </LanguageData>

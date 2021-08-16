@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Nicotine addiction -->
-
   <LotRH_Chemical_Pipeweed.label>パイプ草</LotRH_Chemical_Pipeweed.label>
   <LotRH_Chemical_Pipeweed.description>この人は進行したパイプ草依存症により、離脱症状を避けるため定期的にパイプ草を消費する必要があります。</LotRH_Chemical_Pipeweed.description>
-
-
 </LanguageData>

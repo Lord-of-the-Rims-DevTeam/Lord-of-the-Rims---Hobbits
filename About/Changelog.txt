@@ -1,8 +1,29 @@
-1.21.0.0 (12-18-2018)
+1.22.0.0 (08-15-2021)
 ========================
-Adds hobbit research update
+Updated for RimWorld 1.3. Starting scenario adjusted to start with replantable party tree, some pipeweed, and starting tech to build hobbit holes from the beginning.
 
-1.20.0.0 (10-20-2018)
-========================
-The first of many.
+# Changelog for LordoftheRimsHobbits
+
+1.0.7.0 - Updated for 1.3, hair-styles needs fixing still
+
+
+1.0.6.0 - Fixed some errors connected to the update of Humanoid Alien Races 2.0
+
+
+1.0.5.0 - Fixed the Party-tree, via SoongJr
+
+
+1.0.4.0 - Fixed an outdated reference in the race-definition
+
+
+1.0.3.0 - Fixed starting goodwill with Empire
+
+
+1.0.2.0 - Fixed some thoughtdefs
+
+
+1.0.1.0 - Added support for Combat Extended
+
+
+1.0.0.0 - First publish
 

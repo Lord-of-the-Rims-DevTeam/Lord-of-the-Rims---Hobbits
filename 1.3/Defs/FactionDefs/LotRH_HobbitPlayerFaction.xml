@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>LotRH_PlayerColony</defName>
+    <label>Hobbit Settlement</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>LotRH_HobbitVillager</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <techLevel>Medieval</techLevel>
+    <backstoryCategories>
+      <li>LotR_BackstoryHobbit</li>
+    </backstoryCategories>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <playerInitialSettlementNameMaker>NamerSettlementOutlander</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerSettlementOutlander</factionNameMaker>
+    <geneticVariance>1</geneticVariance>
+    <!--
+		<startingResearchTags>
+			<li>ClassicStart</li>
+		</startingResearchTags>
+		-->
+    <allowedCultures>
+      <li>Corunan</li>
+    </allowedCultures>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+</Defs>

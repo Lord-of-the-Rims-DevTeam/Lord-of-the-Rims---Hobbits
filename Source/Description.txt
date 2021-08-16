@@ -1,0 +1,11 @@
+Adds Hobbits to RimWorld.
+  Includes:
+   - Playable Hobbit race
+   - Starter Hobbit scenario
+   - The Shire as a faction
+   - Mountable (with Giddy-Up!) ponies
+   - Pipeweed plants which can be harvested into Pipeweed for Hobbits to smoke
+   - Also includes Hobbit apparel, backpacks, weapons, doors, walls, and a plantable party tree
+  
+  Requires:
+    JecsTools, DoorsExpanded, and Humanoid Alien Races

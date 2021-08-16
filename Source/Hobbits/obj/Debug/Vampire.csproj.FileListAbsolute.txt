@@ -1,7 +1,0 @@
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\Assemblies\Vampire.dll
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\Rim-of-Madness---Vampires\Source\Vampires\obj\Debug\Vampire.dll
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\Rim-of-Madness---Vampires\Assemblies\Vampire.dll
-D:\SteamLibrary\steamapps\common\RimWorld\Mods\Rim-of-Madness---Vampires\Source\Vampires\obj\Debug\Vampire.csprojResolveAssemblyReference.cache
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Rim-of-Madness---Vampires\Assemblies\Vampire.dll
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Rim-of-Madness---Vampires\Source\Vampires\obj\Debug\Vampire.csprojResolveAssemblyReference.cache
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Rim-of-Madness---Vampires\Source\Vampires\obj\Debug\Vampire.dll

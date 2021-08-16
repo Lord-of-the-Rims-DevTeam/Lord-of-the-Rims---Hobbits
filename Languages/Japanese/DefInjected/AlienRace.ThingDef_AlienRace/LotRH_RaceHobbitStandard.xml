@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRH_HobbitStandardRace.label>ホビット</LotRH_HobbitStandardRace.label>
   <LotRH_HobbitStandardRace.description>病気に耐性があります。年齢は100歳まで生きられます。食べること、飲むこと、楽しむこと、そして時には冒険へ出かけることが大好きです。</LotRH_HobbitStandardRace.description>
-  <LotRH_HobbitStandardRace.tools.left_fist.label>左こぶし</LotRH_HobbitStandardRace.tools.left_fist.label>
-  <LotRH_HobbitStandardRace.tools.right_fist.label>右こぶし</LotRH_HobbitStandardRace.tools.right_fist.label>
-  <LotRH_HobbitStandardRace.tools.head.label>頭突き</LotRH_HobbitStandardRace.tools.head.label>
-
+  <LotRH_HobbitStandardRace.tools.0.label>左こぶし</LotRH_HobbitStandardRace.tools.0.label>
+  <LotRH_HobbitStandardRace.tools.1.label>右こぶし</LotRH_HobbitStandardRace.tools.1.label>
+  <LotRH_HobbitStandardRace.tools.2.label>頭突き</LotRH_HobbitStandardRace.tools.2.label>
 </LanguageData>

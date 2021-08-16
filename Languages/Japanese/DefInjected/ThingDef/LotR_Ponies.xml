@@ -1,19 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotR_PonyRace.label>ポニー</LotR_PonyRace.label>
   <LotR_PonyRace.description>成人男性の半分ほどの大きさをした草食動物で、しばしばそのスピードと頑強なスタミナのために利用されます。一般的には脅かさない限り平和的です。</LotR_PonyRace.description>
-  <LotR_PonyRace.tools.teeth.label>歯</LotR_PonyRace.tools.teeth.label>
-  <LotR_PonyRace.tools.left_hoof.label>左ひづめ</LotR_PonyRace.tools.left_hoof.label>
-  <LotR_PonyRace.tools.right_hoof.label>右ひづめ</LotR_PonyRace.tools.right_hoof.label>
-  <LotR_PonyRace.tools.head.label>頭つき</LotR_PonyRace.tools.head.label>
-  <!-- <Leather_LotR_PonyRace.label>ポニーの皮</Leather_LotR_PonyRace.label>
-  <Leather_LotR_PonyRace.description>ポニーの皮</Leather_LotR_PonyRace.description>
-  <Leather_LotR_PonyRace.stuffProps.stuffAdjective>ポニーの皮</Leather_LotR_PonyRace.stuffProps.stuffAdjective> -->
-  <Meat_LotR_PonyRace.label>ポニーの肉</Meat_LotR_PonyRace.label>
-  <Meat_LotR_PonyRace.description>ポニーの肉</Meat_LotR_PonyRace.description>
-  <LotR_PonyRace.race.meatLabel>ポニーの肉</LotR_PonyRace.race.meatLabel>
-  <Corpse_LotR_PonyRace.label>ポニーの死骸</Corpse_LotR_PonyRace.label>
-  <Corpse_LotR_PonyRace.description>ポニーの死骸</Corpse_LotR_PonyRace.description>
-
+  <LotR_PonyRace.tools.0.label>左ひづめ</LotR_PonyRace.tools.0.label>
+  <LotR_PonyRace.tools.1.label>右ひづめ</LotR_PonyRace.tools.1.label>
+  <LotR_PonyRace.tools.3.label>頭つき</LotR_PonyRace.tools.3.label>
+  <LotR_PonyRace_Leather.label>ポニーの皮</LotR_PonyRace_Leather.label>
+  <LotR_PonyRace_Leather.description>ポニーの皮</LotR_PonyRace_Leather.description>
+  <LotR_PonyRace_Leather.stuffProps.stuffAdjective>ポニーの皮</LotR_PonyRace_Leather.stuffProps.stuffAdjective>
+  <LotR_PonyRace_Meat.label>ポニーの肉</LotR_PonyRace_Meat.label>
+  <LotR_PonyRace_Meat.description>ポニーの肉</LotR_PonyRace_Meat.description>
+  <LotR_PonyRace_Corpse.label>ポニーの死骸</LotR_PonyRace_Corpse.label>
+  <LotR_PonyRace_Corpse.description>ポニーの死骸</LotR_PonyRace_Corpse.description>
 </LanguageData>

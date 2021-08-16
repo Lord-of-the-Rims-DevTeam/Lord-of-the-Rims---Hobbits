@@ -1,12 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRH_Afro.label>ホビットアフロ</LotRH_Afro.label>
   <LotRH_Curly.label>ホビットカーリー</LotRH_Curly.label>
   <LotRH_CurlyShort.label>ホビットカーリーショート</LotRH_CurlyShort.label>
   <LotRH_AfroLong.label>ホビットロング</LotRH_AfroLong.label>
   <LotRH_Ponytail.label>ホビットポニーテール</LotRH_Ponytail.label>
   <LotRH_Wavy.label>ホビットウェービー</LotRH_Wavy.label>
-
-
 </LanguageData>

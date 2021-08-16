@@ -1,39 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Lord of the Rims - Hobbits</name>
+  <packageId>LordOfTheRims.Hobbits</packageId>
   <author>Jecrell</author>
+  <url>https://discord.gg/jcMf4am%5Dour</url>
   <supportedVersions>
     <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
-  <description>1.21.0.0 (12-18-2018)
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>jecrell.jecstools</packageId>
+      <displayName>JecsTools</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/932008009</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>jecrell.doorsexpanded</packageId>
+      <displayName>Doors Expanded</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1316188771</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+      <downloadUrl>https://github.com/erdelf/AlienRaces/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>jecrell.jecstools</li>
+    <li>jecrell.doorsexpanded</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>CETeam.CombatExtended</li>
+  </loadAfter>
+  <description>1.22.0.0 (08-15-2021)
 
-Adds Hobbits to RimWorld.
-  Includes:
-   - Playable Hobbit race
-   - Starter Hobbit scenario
-   - The Shire as a faction
-   - Mountable (with Giddy-Up!) ponies
-   - Pipeweed plants which can be harvested into Pipeweed for Hobbits to smoke
-   - Also includes Hobbit apparel, backpacks, weapons, doors, walls, and a plantable party tree
-  
-  Requires:
-    JecsTools, DoorsExpanded, and Humanoid Alien Races
+Test
 
 Thank you to my Patrons for supporting me in my efforts. Without you, none of this would be possible.
 
 These are the most excellent rim dwellers who support me: 
-Maaxar, Shibby Says, TheJagermeister, Cory Bonifay, Kiya Nicoll, Matt Harris, Paul Fenwick, Grendalloffen, Martin K. Bonde, Bentley Alsup, Eric Idema, MasterScootie, GoSu, Josh McCabe, spook, Clifford Campbell, J, CrankyPeanut, E_T, Finwej, Jan Koutsky, Audrin Navarro, Михаил Юрченко, John Kanady, Luis Figueroa, Midgeman, Nate Haug, Nemuri Hime, Richard Paul, SilentWeirdo, Calum, Calhoun Cattell, Keith Thoma, Tim Stillson, Dick Jones, Patrick, Nathan Getman, Populous25, Sharp Spook, Steven James, Marcus Sireanu, Mark, Emily Shaw, Drachken, Zalson, Baron Xot, Nicholas Bateman, Christopher, Justin Andres, Luis Salvatierra, TinyFloatingTurtle, George Chong Chuang Ming, John Boehr, Oliver White, roxxploxx, Robin Hager, Brachiaraidos, That Guy, Toc Anastar, Karol Rybak, Allic, Austin Harbert, Yewty, Evan Hwang, Ryan Brock, Jonathan Holzinger, MC, Alexander, Kevin Reagan, Alex Mederer, Toss Antilles, Chelsea Archambeau, Aron Glasser, Dan Winn, Fredric Sundberg, Sarah Banks, ted stevens
+Michael Cailler, Jigsawjohn , Daniel Schott, Penelope Charli Whitman, Jerome Gonschorek, Genaeve , RainerWingel , Lea Stannard, David Silberstein, 수현 남, Matt Harris, Kiya Nicoll, Paul Fenwick, Matthew Isom, Elodie , Михаил Юрченко, Charlie Garnham, Populous25 , Landon Cash, Marcus Sireanu, Maaxar , logan sheppard-organ, TinyATuin, Don Homer, Sharp Spook, roxxploxx , Dan Jones, Kaz, Justin Andres, Alex Mederer, Justin , iknowdude00, E_T , Alexander , Ken Birdwell, Michael Cailler, Jigsawjohn , Daniel Schott, Penelope Charli Whitman, Jerome Gonschorek, Genaeve , RainerWingel , Lea Stannard, David Silberstein, 수현 남, Matt Harris, Kiya Nicoll, Paul Fenwick, Matthew Isom, Elodie , Михаил Юрченко, Charlie Garnham, Populous25 , Landon Cash, Marcus Sireanu, Maaxar , logan sheppard-organ, TinyATuin, Don Homer, Sharp Spook, roxxploxx , Dan Jones, Kaz, Justin Andres, Alex Mederer, Justin , iknowdude00, E_T , Alexander , Ken Birdwell
 
 ========================
 Changelog
 ========================
-1.21.0.0 (12-18-2018)
+1.22.0.0 (08-15-2021)
 ========================
-Adds hobbit research update
+Updated for RimWorld 1.3. Starting scenario adjusted to start with replantable party tree, some pipeweed, and starting tech to build hobbit holes from the beginning.
 
-1.20.0.0 (10-20-2018)
-========================
-The first of many.
+# Changelog for LordoftheRimsHobbits
+
+1.0.7.0 - Updated for 1.3, hair-styles needs fixing still
+
+
+1.0.6.0 - Fixed some errors connected to the update of Humanoid Alien Races 2.0
+
+
+1.0.5.0 - Fixed the Party-tree, via SoongJr
+
+
+1.0.4.0 - Fixed an outdated reference in the race-definition
+
+
+1.0.3.0 - Fixed starting goodwill with Empire
+
+
+1.0.2.0 - Fixed some thoughtdefs
+
+
+1.0.1.0 - Added support for Combat Extended
+
+
+1.0.0.0 - First publish
 
 </description>
 </ModMetaData>

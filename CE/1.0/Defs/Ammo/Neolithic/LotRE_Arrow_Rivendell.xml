@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>AmmoLotRE_Arrow_Rivendell</defName>
+    <label>Elven arrows (R)</label>
+    <parent>AmmoNeolithic</parent>
+    <iconPath>UI/Icons/ThingCategories/CaliberArrow</iconPath>
+  </ThingCategoryDef>
+  <!-- ==================== AmmoSet ========================== -->
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_LotRE_Arrow_Rivendell</defName>
+    <label>Elven arrows (R)</label>
+    <ammoTypes>
+      <Ammo_LotRE_Arrow_Rivendell>Projectile_LotRE_Arrow_Rivendell</Ammo_LotRE_Arrow_Rivendell>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+  <!-- ==================== Ammo ========================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" Name="AmmoLotRE_Arrow_RivendellBase" ParentName="NeolithicAmmoBase" Abstract="True">
+    <description>Elven arrow (Rivendell).</description>
+    <statBases>
+      <Mass>0.17</Mass>
+      <Bulk>0.17</Bulk>
+      <Flammability>1</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>AmmoLotRE_Arrow_Rivendell</li>
+    </thingCategories>
+    <stackLimit>200</stackLimit>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting_FueledSmithy</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoLotRE_Arrow_RivendellBase">
+    <defName>Ammo_LotRE_Arrow_Rivendell</defName>
+    <label>elven arrow (Rivendell)</label>
+    <graphicData>
+      <texPath>Things/Ammo/Neolithic/Arrow/Steel</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.52</MarketValue>
+    </statBases>
+    <ammoClass>SteelArrow</ammoClass>
+  </ThingDef>
+  <!-- ================== Projectiles ================== -->
+  <ThingDef Class="CombatExtended.AmmoDef" Name="BaseLotRE_Arrow_RivendellProjectile" ParentName="BaseBullet" Abstract="true">
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageDef>ArrowHighVelocity</damageDef>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseLotRE_Arrow_RivendellProjectile">
+    <defName>Projectile_LotRE_Arrow_Rivendell</defName>
+    <label>elven arrow (R)</label>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>28</damageAmountBase>
+      <armorPenetrationBase>0.42</armorPenetrationBase>
+      <preExplosionSpawnChance>0.6</preExplosionSpawnChance>
+      <!-- 25 arrows per resource -->
+      <preExplosionSpawnThingDef>Ammo_LotRE_Arrow_Rivendell</preExplosionSpawnThingDef>
+    </projectile>
+  </ThingDef>
+  <!-- ==================== Recipes ========================== -->
+  <RecipeDef ParentName="AmmoRecipeNeolithicBase">
+    <defName>MakeAmmo_LotRE_Arrow_Rivendell</defName>
+    <label>make elven rivendell arrows x10</label>
+    <description>Craft 10 elven rivendell arrows.</description>
+    <jobString>Making elven rivendell arrows.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_LotRE_Arrow_Rivendell>10</Ammo_LotRE_Arrow_Rivendell>
+    </products>
+    <recipeUsers>
+      <li>FueledSmithy</li>
+      <li>CraftingSpot</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

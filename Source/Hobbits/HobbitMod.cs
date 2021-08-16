@@ -1,12 +1,11 @@
 ﻿using Verse;
 
-namespace LordOfTheRims_Hobbits
+namespace Hobbits
 {
     public class HobbitMod : Mod
     {
         public HobbitMod(ModContentPack content) : base(content)
         {
-            
         }
     }
 }

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>LotRH_Afro</defName>
+    <label>hobbit</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Hobbit/Hairs/HobbitAfro</texPath>
+    <hairTags>
+      <li>Hobbit</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>LotRH_Curly</defName>
+    <label>hobbit curly</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Hobbit/Hairs/HobbitCurly</texPath>
+    <hairTags>
+      <li>Hobbit</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>LotRH_CurlyShort</defName>
+    <label>hobbit curly and short</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Hobbit/Hairs/HobbitCurlyShort</texPath>
+    <hairTags>
+      <li>Hobbit</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>LotRH_AfroLong</defName>
+    <label>hobbit long</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Hobbit/Hairs/HobbitAfroLong</texPath>
+    <hairTags>
+      <li>Hobbit</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>LotRH_Ponytail</defName>
+    <label>hobbit ponytail</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Hobbit/Hairs/HobbitPonytail</texPath>
+    <hairTags>
+      <li>Hobbit</li>
+    </hairTags>
+  </HairDef>
+  <HairDef>
+    <defName>LotRH_Wavy</defName>
+    <label>hobbit wavy</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Hobbit/Hairs/HobbitWavy</texPath>
+    <hairTags>
+      <li>Hobbit</li>
+    </hairTags>
+  </HairDef>
+</Defs>

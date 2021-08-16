@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <LotRH_Hobbits>Hobbits</LotRH_Hobbits>
   <LotRH_PartyTreePlacement>1つの{0}しかマップに配置できません。</LotRH_PartyTreePlacement>
   <LotR_HobbitBonuses>\t-20% 生命力\n\t-40% 身長\n\t-40% 体重\n\t-40% 輸送能力</LotR_HobbitBonuses>
   <LotRH_PuzzleSolvedLabel>パズルが解決！</LotRH_PuzzleSolvedLabel>
   <LotRH_PuzzleSolved>{0}はパズルを解決しました。それは{1}を含んでいました！</LotRH_PuzzleSolved>
-
 </LanguageData>

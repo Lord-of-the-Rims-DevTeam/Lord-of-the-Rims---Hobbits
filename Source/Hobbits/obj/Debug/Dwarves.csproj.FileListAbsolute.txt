@@ -1,6 +1,0 @@
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord of the Rims - Dwarves\Assemblies\Vampire.dll
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord of the Rims - Dwarves\Source\Dwarves\obj\Debug\Dwarves.csprojResolveAssemblyReference.cache
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord of the Rims - Dwarves\Source\Dwarves\obj\Debug\Vampire.dll
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Assemblies\Vampire.dll
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Dwarves.csprojResolveAssemblyReference.cache
-D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\Lord-of-the-Rims---Dwarves\Source\Dwarves\obj\Debug\Vampire.dll

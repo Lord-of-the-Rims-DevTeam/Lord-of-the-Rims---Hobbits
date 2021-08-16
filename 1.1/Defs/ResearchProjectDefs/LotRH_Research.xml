@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchTabDef>
+    <defName>LotRH_HobbitsTab</defName>
+    <label>Hobbits, Kuduk</label>
+  </ResearchTabDef>
+  <ResearchProjectDef Name="HobbitResearch" Abstract="True">
+    <techLevel>Neolithic</techLevel>
+    <tab>LotRH_HobbitsTab</tab>
+  </ResearchProjectDef>
+  <ResearchProjectTagDef>
+    <defName>LotRH_HobbitScenario</defName>
+  </ResearchProjectTagDef>
+  <!--======== Column 1 =========-->
+  <!--======= Hobbit Weapons ======-->
+  <ResearchProjectDef ParentName="HobbitResearch">
+    <defName>LotRH_WeaponsOne</defName>
+    <label>Kuduk!</label>
+    <description>&lt;i&gt;Hobbits!&lt;/i&gt;\n\nUnlock Hobbit tools which can be used as weapons in a pinch:\n- Hobbit pitchfork\n- Hobbit anklebiter axe</description>
+    <baseCost>200</baseCost>
+    <tags>
+      <li>LotRH_HobbitScenario</li>
+    </tags>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="HobbitResearch">
+    <defName>LotRH_WeaponsTwo</defName>
+    <label>Hobbit Swords</label>
+    <description>&lt;i&gt;To most this is merely a fancy knife but to hobbits this is a proper sword built for war!\nOnly the most adventurous of Hobbits even know these exist.&lt;/i&gt;\n\nUnlock proper Hobbit weapons:\n- Hobbit basket-hilted sword</description>
+    <baseCost>350</baseCost>
+    <prerequisites>
+      <li>LotRH_WeaponsOne</li>
+    </prerequisites>
+    <researchViewX>0.75</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <!--======== Column 2 =========-->
+  <!--======= Hobbit Apparel ======-->
+  <ResearchProjectDef ParentName="HobbitResearch">
+    <defName>LotRH_ApparelOne</defName>
+    <label>Apparel of the Hobbit folk</label>
+    <description>&lt;i&gt;Shorter that any other race in Middle Earth, and often comfortably rounded, Hobbits require special clothing.&lt;/i&gt;\n\nUnlocked comfortably sized Hobbit apparel includes:\n- Hobbit dress\n- Hobbit shirt and vest\n- Hobbit pants\n- Hobbit jacket\n- Hooded cape\n- Hobbit traveler's pack</description>
+    <baseCost>300</baseCost>
+    <tags>
+      <li>LotRH_HobbitScenario</li>
+    </tags>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  <!--======== Column 3 =========-->
+  <!--======= Hobbit Structures ======-->
+  <ResearchProjectDef ParentName="HobbitResearch">
+    <defName>LotRH_StructuresOne</defName>
+    <label>Hobbit Holes, Smials</label>
+    <description>&lt;i&gt;In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole and that meant comfort.&lt;/i&gt;\n\nUnlocked:\n- Earthen hill</description>
+    <baseCost>350</baseCost>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef ParentName="HobbitResearch">
+    <defName>LotRH_StructuresTwo</defName>
+    <label>Hobbit Doors</label>
+    <description>Create doors fit for Hobbit holes\n\nUnlocked:\n- Hobbit door\n- Hobbit arch</description>
+    <baseCost>150</baseCost>
+    <prerequisites>
+      <li>LotRH_StructuresOne</li>
+    </prerequisites>
+    <researchViewX>0.75</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  <!--======== Column 4 =========-->
+  <ResearchProjectDef ParentName="HobbitResearch">
+    <defName>LotRH_StructuresThree</defName>
+    <label>Party Tree</label>
+    <description>A great tree! Ideal for gatherings and big speeches!\n\nUnlocked:\n- Party tree grow spot</description>
+    <baseCost>400</baseCost>
+    <researchViewX>0</researchViewX>
+    <researchViewY>3</researchViewY>
+  </ResearchProjectDef>
+  <!--======== Column 5 =========-->
+  <!--======= Pipeweed! ======-->
+  <ResearchProjectDef ParentName="HobbitResearch">
+    <defName>LotRH_PipeweedOne</defName>
+    <label>Pipe-weed Pipes</label>
+    <description>&lt;i&gt;Sweet Galenas&lt;/i&gt;\n\nA fragrant and soothing plant first cultivated by Tobold Hornblower, a hobbit of great renown.\n\nUnlocked:\n- Pipe-weed Pipes and Bowls</description>
+    <baseCost>300</baseCost>
+    <researchViewX>0</researchViewX>
+    <researchViewY>4</researchViewY>
+  </ResearchProjectDef>
+</Defs>
