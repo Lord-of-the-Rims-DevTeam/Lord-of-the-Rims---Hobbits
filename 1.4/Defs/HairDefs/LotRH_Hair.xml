@@ -1,57 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HairDef>
+
+  <StyleItemCategoryDef>
+    <defName>LotRH_HobbitHair</defName>
+    <label>hobbit</label>
+  </StyleItemCategoryDef>
+
+  <HairDef Name="HobbitHairBase" Abstract="True">
+    <category>LotRH_HobbitHair</category>
+    <styleTags>
+      <li>Hobbit</li>
+    </styleTags>
+  </BeardDef>
+
+  <HairDef ParentName="HobbitHairBase">
     <defName>LotRH_Afro</defName>
     <label>hobbit</label>
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Hobbit/Hairs/HobbitAfro</texPath>
-    <styleTags>
-      <li>Hobbit</li>
-    </styleTags>
   </HairDef>
-  <HairDef>
+  <HairDef ParentName="HobbitHairBase">
     <defName>LotRH_Curly</defName>
     <label>hobbit curly</label>
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Hobbit/Hairs/HobbitCurly</texPath>
-    <styleTags>
-      <li>Hobbit</li>
-    </styleTags>
   </HairDef>
-  <HairDef>
+  <HairDef ParentName="HobbitHairBase">
     <defName>LotRH_CurlyShort</defName>
     <label>hobbit curly and short</label>
     <hairGender>Male</hairGender>
     <texPath>Things/Pawn/Hobbit/Hairs/HobbitCurlyShort</texPath>
-    <styleTags>
-      <li>Hobbit</li>
-    </styleTags>
   </HairDef>
-  <HairDef>
+  <HairDef ParentName="HobbitHairBase">
     <defName>LotRH_AfroLong</defName>
     <label>hobbit long</label>
     <hairGender>Any</hairGender>
     <texPath>Things/Pawn/Hobbit/Hairs/HobbitAfroLong</texPath>
-    <styleTags>
-      <li>Hobbit</li>
-    </styleTags>
   </HairDef>
-  <HairDef>
+  <HairDef ParentName="HobbitHairBase">
     <defName>LotRH_Ponytail</defName>
     <label>hobbit ponytail</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Hobbit/Hairs/HobbitPonytail</texPath>
-    <styleTags>
-      <li>Hobbit</li>
-    </styleTags>
   </HairDef>
-  <HairDef>
+  <HairDef ParentName="HobbitHairBase">
     <defName>LotRH_Wavy</defName>
     <label>hobbit wavy</label>
     <hairGender>Female</hairGender>
     <texPath>Things/Pawn/Hobbit/Hairs/HobbitWavy</texPath>
-    <styleTags>
-      <li>Hobbit</li>
-    </styleTags>
   </HairDef>
 </Defs>

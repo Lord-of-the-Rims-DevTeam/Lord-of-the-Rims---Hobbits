@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <AlienRace.BackstoryDef Name="LotRH_BackstoryHobbit" Abstract="True">
+  <AlienRace.AlienBackstoryDef Name="LotRH_BackstoryHobbit" Abstract="True">
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <spawnCategories>
       <li>LotR_BackstoryHobbit</li>
     </spawnCategories>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitChildOne</defName>
     <title>Hobbit famous relative</title>
     <titleShort>famous relative</titleShort>
@@ -19,8 +19,8 @@
         <value>3</value>
       </li>
     </skillGains>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitChildTwo</defName>
     <title>Hobbit know-it-all</title>
     <titleShort>know-it-all</titleShort>
@@ -39,8 +39,8 @@
     <forcedTraits>
         <Wimp/>
     </forcedTraits>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitChildThree</defName>
     <title>Hobbit troublemaker</title>
     <titleShort>troublemaker</titleShort>
@@ -56,8 +56,8 @@
         <value>2</value>
       </li>
     </skillGains>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitChildFour</defName>
     <title>Hobbit soft-spoken</title>
     <titleShort>soft-spoken</titleShort>
@@ -72,8 +72,8 @@
     <forcedTraits>
         <Kind/>
     </forcedTraits>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitChildFive</defName>
     <title>Hobbit mean-spirited</title>
     <titleShort>mean-spirited</titleShort>
@@ -88,8 +88,8 @@
     <forcedTraits>
         <Abrasive/>
     </forcedTraits>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitChildSix</defName>
     <title>Hobbit know-nothing</title>
     <titleShort>know-nothing</titleShort>
@@ -102,8 +102,8 @@
       </li>
     </skillGains>
     <workDisables>Artistic, Intellectual</workDisables>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitChildSeven</defName>
     <title>Hobbit grabby-hands</title>
     <titleShort>grabby-hands</titleShort>
@@ -124,8 +124,8 @@
     <forcedTraits>
         <Greedy/>
     </forcedTraits>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitChildEight</defName>
     <title>Hobbit clumsy-fool</title>
     <titleShort>clumsy-fool</titleShort>
@@ -177,9 +177,9 @@
         <value>-2</value>
       </li>
     </skillGains>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
   <!-- Adult backstories -->
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitAdultOne</defName>
     <title>Hobbit adventurer</title>
     <titleShort>adventurer</titleShort>
@@ -195,8 +195,8 @@
         <value>3</value>
       </li>
     </skillGains>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitAdultTwo</defName>
     <title>Hobbit burglar</title>
     <titleShort>burglar</titleShort>
@@ -211,8 +211,8 @@
     <forcedTraits>
         <Nimble/>
     </forcedTraits>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitAdultThree</defName>
     <title>Hobbit drunk</title>
     <titleShort>drunk</titleShort>
@@ -228,8 +228,8 @@
         <DrugDesire>1</DrugDesire>
     </forcedTraits>
     <workDisables>Artistic, Intellectual</workDisables>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitAdultFour</defName>
     <title>Hobbit gourmand</title>
     <titleShort>gourmand</titleShort>
@@ -241,8 +241,8 @@
         <value>6</value>
       </li>
     </skillGains>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitAdultFive</defName>
     <title>Hobbit layabout</title>
     <titleShort>layabout</titleShort>
@@ -253,8 +253,8 @@
         <SpeedOffset>-1</SpeedOffset>
         <NaturalMood>1</NaturalMood>
     </forcedTraits>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitAdultSix</defName>
     <title>Hobbit farmer</title>
     <titleShort>farmer</titleShort>
@@ -285,8 +285,8 @@
         <chance>25</chance>
       </li>
     </forcedTraitsChance>
-  </AlienRace.BackstoryDef>
-  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+  </AlienRace.AlienBackstoryDef>
+  <AlienRace.AlienBackstoryDef ParentName="LotRH_BackstoryHobbit">
     <defName>LotRH_BackstoryHobbitAdultSeven</defName>
     <title>Hobbit gardener</title>
     <titleShort>gardener</titleShort>
@@ -302,5 +302,5 @@
         <value>3</value>
       </li>
     </skillGains>
-  </AlienRace.BackstoryDef>
+  </AlienRace.AlienBackstoryDef>
 </Defs>

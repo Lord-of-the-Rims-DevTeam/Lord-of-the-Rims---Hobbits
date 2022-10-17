@@ -25,10 +25,7 @@
     <backstoryCategories>
       <li>LotR_BackstoryHobbit</li>
     </backstoryCategories>
-    <geneticVariance>0.8</geneticVariance>
-    <allowedCultures>
-      <li>Corunan</li>
-    </allowedCultures>
+    <allowedCultures><li>Corunan</li></allowedCultures>
     <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
       <li>Caravan_Outlander_CombatSupplier</li>

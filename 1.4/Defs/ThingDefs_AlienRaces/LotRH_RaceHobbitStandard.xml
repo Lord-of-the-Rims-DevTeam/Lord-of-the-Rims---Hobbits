@@ -127,6 +127,14 @@
       </generalSettings>
       <styleSettings>
         <li>
+          <key>HairDef</key>
+          <value>
+            <styleTagsOverride>
+              <li>LotRH_Hobbit</li>
+            </styleTagsOverride>
+          </value>
+        </li>
+        <li>
           <key>BeardDef</key>
           <value>
             <styleTags>

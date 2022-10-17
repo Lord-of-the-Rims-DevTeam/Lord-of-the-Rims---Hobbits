@@ -15,7 +15,6 @@
     <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
     <playerInitialSettlementNameMaker>NamerSettlementOutlander</playerInitialSettlementNameMaker>
     <factionNameMaker>NamerSettlementOutlander</factionNameMaker>
-    <geneticVariance>1</geneticVariance>
     <!--
 		<startingResearchTags>
 			<li>ClassicStart</li>
