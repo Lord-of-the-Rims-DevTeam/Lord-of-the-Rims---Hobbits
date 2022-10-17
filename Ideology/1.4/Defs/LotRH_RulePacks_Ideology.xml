@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Shared content -->
+
+  <RulePackDef>
+    <defName>LotRH_NamerIdeoHobbit</defName>
+    <include>
+      <li>NamerIdeoGlobal</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>globalAdjective->Hobbit</li>
+        <li>globalHyphenPrefix->hobbit</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>LotRH_LeaderTitleMaker_Hobbit</defName>
+    <include>
+      <li>LeaderTitleMaker_GlobalStructure</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>cultureLeaderTitle->Mayor</li>
+        <li>cultureLeaderTitle->Thain</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

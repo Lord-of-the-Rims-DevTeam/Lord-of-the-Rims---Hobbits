@@ -126,15 +126,18 @@
         </alienPartGenerator>
       </generalSettings>
       <styleSettings>
+<!--         
+Hobbit Hair is no longer tied to the race, but to the culture.
         <li>
           <key>HairDef</key>
           <value>
             <styleTagsOverride>
-              <li>LotRH_Hobbit</li>
+              <li>LotRH_HobbitHair</li>
             </styleTagsOverride>
           </value>
-        </li>
-        <li>
+        </li> 
+-->
+        <li> <!-- Hobbits cannot physically grow beards -->
           <key>BeardDef</key>
           <value>
             <styleTags>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PlaceDef>
+    <defName>LotRH_Shire</defName>
+    <tags>
+      <li>LotRH_OriginHobbit</li>
+    </tags>
+    <placeRules>
+      <rulesStrings>
+        <!-- The Shire, located in Eriador, is largely made up of scattered woodlands with scrublands and grasslands. -->
+        <li>place_name->The Shire</li>
+        <li>place_adjective->Shire-reckoned</li>
+        <li>place_summary->land of peaceful green hills and fields</li>
+        <li>place_community->village</li>
+        <li>place_community->town</li>
+        <li>place_community->Northfarthing</li>
+        <li>place_community->Southfarthing</li>
+        <li>place_community->Eastfarthing</li>
+        <li>place_community->Westfarthing</li>
+        <li>place_community->Tookborough</li>
+        <li>place_community->Buckland</li>
+        <li>place_powerCenter->Shire-moot</li>
+        <li>place_job->farmer</li>
+        <li>place_job->gardener</li>
+        <li>place_job->hobbit-hole expert</li>
+        <li>place_job->fruit picker</li>
+        <li>place_personalWeapon->foot</li>
+        <li>place_personalWeapon->feet</li>
+        <li>place_personalWeapon->magic sword</li>
+        <li>place_personalWeapon->magic bow</li>
+        <li>place_massWeapon->fire</li>
+        <li>place_massWeapon->darkness</li>
+        <li>place_massWeapon->dark magic</li>
+        <li>place_massWeapon->monsters</li>
+        <li>place_foeLeader->dark lord</li>
+        <li>place_foeLeader->Eye of Sauron</li>
+        <li>place_foeLeader->necromancer</li>
+        <li>place_foeLeader->white wizard</li>
+        <li>place_foeSoldiers->goblins</li>
+        <li>place_foeSoldiers->orcs</li>
+        <li>place_foeSoldiers->trolls</li>
+        <li>seismicDevice->an unexpected earthquake</li>
+        <li>anEMPAttack->an EMP strike to the life support systems</li>
+      </rulesStrings>
+    </placeRules>
+  </PlaceDef>
+
+</Defs>

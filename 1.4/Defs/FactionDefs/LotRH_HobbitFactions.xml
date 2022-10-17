@@ -25,7 +25,7 @@
     <backstoryCategories>
       <li>LotR_BackstoryHobbit</li>
     </backstoryCategories>
-    <allowedCultures><li>Corunan</li></allowedCultures>
+    <allowedCultures><li>LotRH_Hobbit</li></allowedCultures>
     <caravanTraderKinds>
       <li>Caravan_Outlander_BulkGoods</li>
       <li>Caravan_Outlander_CombatSupplier</li>
