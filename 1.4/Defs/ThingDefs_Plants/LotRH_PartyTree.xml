@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="DeciduousTreeBase">
+    <defName>LotRH_PlantPartyTree</defName>
+    <label>party tree</label>
+    <description>A strong hardwood, evergreen tree designated by the hobbits to become their party tree. Once mature, this tree can hold lanterns and becomes a party spot for the colony.</description>
+    <thingClass>Hobbits.Plant_PartyTree</thingClass>
+    <graphicData>
+      <texPath>Things/Plant/LotRH_PartyTree/Grown</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shadowData>
+        <volume>(0.2, 0.35, 0.13)</volume>
+        <offset>(-0.03,0,-0.44)</offset>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Beauty>30</Beauty>
+      <Nutrition>1.25</Nutrition>
+    </statBases>
+    <altitudeLayer>PawnUnused</altitudeLayer>
+    <plant>
+      <immatureGraphicPath>Things/Plant/LotRH_PartyTree/LotRH_PartyTreeImmature</immatureGraphicPath>
+      <growDays>60</growDays>
+      <visualSizeRange>1.3~8.0</visualSizeRange>
+      <lifespanDaysPerGrowDays>0</lifespanDaysPerGrowDays>
+      <sowWork>2800</sowWork>
+      <sowMinSkill>10</sowMinSkill>
+      <mustBeWildToSow>false</mustBeWildToSow>
+      <neverBlightable>true</neverBlightable>
+      <harvestWork>2800</harvestWork>
+      <harvestYield>92</harvestYield>
+      <purpose>Beauty</purpose>
+      <sowResearchPrerequisites>
+        <li>LotRH_StructuresThree</li>
+      </sowResearchPrerequisites>
+    </plant>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>10</glowRadius>
+        <glowColor>(252,187,113,0)</glowColor>
+      </li>
+      <li Class="CompProperties_SelfhealHitpoints">
+        <ticksPerHeal>2000</ticksPerHeal>
+        <!-- 30 hp per day, must be a multiple of 2000, since plants have Long ticker -->
+      </li>
+      <li Class="CompProperties_GiveThoughtToAllMapPawnsOnDestroy">
+        <thought>PartyTreeDestroyed</thought>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- This is the thought colonists receive if they observe the party tree. It doesn't last very long but is very effective during parties -->
+  <ThoughtDef>
+    <defName>ObservedPartyTree</defName>
+    <thoughtClass>Thought_MemoryObservation</thoughtClass>
+    <showBubble>true</showBubble>
+    <durationDays>.125</durationDays>
+    <stackLimit>1</stackLimit>
+    <nullifyingTraits>
+      <li>Ascetic</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>party tree</label>
+        <description>We have such a marvellous party tree, I can't wait for the next opportunity for a festival!</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>PartyTreeDestroyed</defName>
+    <showBubble>true</showBubble>
+    <durationDays>3</durationDays>
+    <stackLimit>3</stackLimit>
+    <stages>
+      <li>
+        <label>party tree died</label>
+        <description>So many memories, and now it's just... gone...</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

@@ -1,15 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31605.320
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hobbits", "Hobbits\Hobbits.csproj", "{3A4FB893-1148-4E16-B548-867647DF1724}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hobbits", "Hobbits.csproj", "{3A4FB893-1148-4E16-B548-867647DF1724}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 		RW1.3|Any CPU = RW1.3|Any CPU
+		RW1.4Unstable|Any CPU = RW1.4Unstable|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3A4FB893-1148-4E16-B548-867647DF1724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -18,6 +19,8 @@ Global
 		{3A4FB893-1148-4E16-B548-867647DF1724}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3A4FB893-1148-4E16-B548-867647DF1724}.RW1.3|Any CPU.ActiveCfg = RW1.3|Any CPU
 		{3A4FB893-1148-4E16-B548-867647DF1724}.RW1.3|Any CPU.Build.0 = RW1.3|Any CPU
+		{3A4FB893-1148-4E16-B548-867647DF1724}.RW1.4Unstable|Any CPU.ActiveCfg = RW1.4Unstable|Any CPU
+		{3A4FB893-1148-4E16-B548-867647DF1724}.RW1.4Unstable|Any CPU.Build.0 = RW1.4Unstable|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

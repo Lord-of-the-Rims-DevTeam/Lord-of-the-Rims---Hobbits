@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Change tribal label ========== -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/FactionDef[defName="Empire"]/permanentEnemyToEveryoneExcept</xpath>
+    <value>
+      <li>LotRH_HobbitFactionShire</li>
+      <li>LotRH_PlayerColony</li>
+    </value>
+  </Operation>
+</Patch>

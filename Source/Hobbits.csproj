@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <DebugType>None</DebugType>
+        <LangVersion>latest</LangVersion>
+        <Configurations>Debug;Release;RW1.3;RW1.4Unstable</Configurations>
+        <Platforms>AnyCPU</Platforms>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Krafs.Rimworld.Ref">
+            <Version>*</Version>
+            <ExcludeAssets>runtime</ExcludeAssets>
+            <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Lib.Harmony">
+            <Version>*</Version>
+            <ExcludeAssets>runtime</ExcludeAssets>
+        </PackageReference>
+        <PackageReference Update="Krafs.Rimworld.Ref" Version="1.4.3517-beta"/>
+        <PackageReference Update="Lib.Harmony" Version="2.2.2"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Reference Include="AlienRace">
+            <HintPath>..\..\..\..\..\workshop\content\294100\2640710953\1.4\Assemblies\AlienRace.dll</HintPath>
+            <Private>False</Private>
+        </Reference>
+    </ItemGroup>
+</Project>
+

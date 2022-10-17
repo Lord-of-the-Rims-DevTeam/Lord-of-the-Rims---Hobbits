@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <AlienRace.BackstoryDef Name="LotRH_BackstoryHobbit" Abstract="True">
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Female</bodyTypeFemale>
+    <spawnCategories>
+      <li>LotR_BackstoryHobbit</li>
+    </spawnCategories>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildOne</defName>
+    <title>Hobbit famous relative</title>
+    <titleShort>famous relative</titleShort>
+    <baseDesc>[PAWN_nameDef] is the descendant, however distant, of a famed hobbit of local legend, or derives [PAWN_possessive] lineage from one of the many great hobbit families. [PAWN_pronoun] developed a silver spoon after socializing with countless distant relatives.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Social</key>
+        <value>3</value>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildTwo</defName>
+    <title>Hobbit know-it-all</title>
+    <titleShort>know-it-all</titleShort>
+    <baseDesc>[PAWN_nameDef] had a gift for collecting things, keeping records, and recalling old legends of heroes and adventurers at a moment’s notice. [PAWN_possessive] desire to share [PAWN_possessive] knowledge made [PAWN_objective] somewhat of a conversationalist as well. [PAWN_pronoun] spent so much time observing and researching, however, that [PAWN_pronoun] was well known to fall over like an ent during any arm wrestling contests.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Intellectual</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>2</value>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <Wimp/>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildThree</defName>
+    <title>Hobbit troublemaker</title>
+    <titleShort>troublemaker</titleShort>
+    <baseDesc>[PAWN_nameDef] spent [PAWN_possessive] childhood being a nuisance to [PAWN_possessive] neighbors and relatives. From years of running away from responsibilities, [PAWN_pronoun] learned how to be exceedingly fast, how to dodge incoming attacks, and how to escape from most of his potential captors.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Melee</key>
+        <value>2</value>
+      </li>
+      <li>
+        <key>Intellectual</key>
+        <value>2</value>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildFour</defName>
+    <title>Hobbit soft-spoken</title>
+    <titleShort>soft-spoken</titleShort>
+    <baseDesc>[PAWN_nameDef] was well known for being an incredibly kind and thoughtful child. However, [PAWN_pronoun] spent most of [PAWN_possessive] time in social situations listening rather than speaking to avoid interrupting other people's trains of thought.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Social</key>
+        <value>-3</value>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <Kind/>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildFive</defName>
+    <title>Hobbit mean-spirited</title>
+    <titleShort>mean-spirited</titleShort>
+    <baseDesc>[PAWN_nameDef] realized how to be the center of attention early on in life. Once [PAWN_pronoun] started saying mean things to others to make [PAWN_possessive] friends laugh, [PAWN_pronoun] learned two things. One, how to start fights. Two, how to make other hobbits cry.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Melee</key>
+        <value>3</value>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <Abrasive/>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildSix</defName>
+    <title>Hobbit know-nothing</title>
+    <titleShort>know-nothing</titleShort>
+    <baseDesc>[PAWN_nameDef] took pride in knowing as little as possible. [PAWN_possessive] parents assured [PAWN_objective] that so-called -learning- was just wasting valuable time [PAWN_pronoun] could be spending helping tend to the weeds. Intellectual and artistic disabled.</baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Plants</key>
+        <value>4</value>
+      </li>
+    </skillGains>
+    <workDisables>Artistic, Intellectual</workDisables>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildSeven</defName>
+    <title>Hobbit grabby-hands</title>
+    <titleShort>grabby-hands</titleShort>
+    <baseDesc>No matter how NAME’s parents tried, they could never get [PAWN_objective] to keep [PAWN_possessive] little hobbit hands to HIMself. [PAWN_pronoun] always wanted more of everything. Everything was -precious- to [PAWN_objective]. On the positive side, [PAWN_pronoun] learned quite a lot of survivalist cooking after being banished after one of his friends mysteriously drowned.</baseDesc>
+    <slot>Childhood</slot>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+    <skillGains>
+      <li>
+        <key>Cooking</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Intellectual</key>
+        <value>-2</value>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <Greedy/>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitChildEight</defName>
+    <title>Hobbit clumsy-fool</title>
+    <titleShort>clumsy-fool</titleShort>
+    <baseDesc>[PAWN_nameDef] broke dishes, burned meals, dropped lembas in mud, lost the sheep, forgot [PAWN_possessive] homework, swore in-front of grandma, shot dad in the rear-end with an arrow, and nearly died every season. How [PAWN_pronoun] has survived to adulthood is anyone’s guess. </baseDesc>
+    <slot>Childhood</slot>
+    <skillGains>
+      <li>
+        <key>Animals</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Artistic</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Plants</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Cooking</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Medicine</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Mining</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Intellectual</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Shooting</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Melee</key>
+        <value>-2</value>
+      </li>
+      <li>
+        <key>Construction</key>
+        <value>-2</value>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  <!-- Adult backstories -->
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitAdultOne</defName>
+    <title>Hobbit adventurer</title>
+    <titleShort>adventurer</titleShort>
+    <baseDesc>It is a rare hobbit that leaves their home in search of fame and fortune in far flung lands. This makes [PAWN_nameDef] a bit queer in the eyes of [PAWN_possessive] fellow hobbits, yet [PAWN_pronoun] feels destined to go out there and back again.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Melee</key>
+        <value>3</value>
+      </li>
+      <li>
+        <key>Shooting</key>
+        <value>3</value>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitAdultTwo</defName>
+    <title>Hobbit burglar</title>
+    <titleShort>burglar</titleShort>
+    <baseDesc>Hobbits are quiet, nimble creatures when they put their minds to it. An expert burglar like [PAWN_nameDef] can make HIMself scarce when trouble arrives. Burglars are even rumored to be so skilled at thieving, they could even steal gold from 'neath a dragon's nose! But what are the chances of that?</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Melee</key>
+        <value>3</value>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <Nimble/>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitAdultThree</defName>
+    <title>Hobbit drunk</title>
+    <titleShort>drunk</titleShort>
+    <baseDesc>A common sight among hobbits is the least industrious sort -- the drunkard. [PAWN_nameDef] called everyone his friend after a few drinks, and for years, [PAWN_pronoun] would wake up somewhere new every morning. [PAWN_pronoun] would gladly tell you the stories of his adventures, if [PAWN_pronoun] could remember any of them.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Melee</key>
+        <value>3</value>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <DrugDesire>1</DrugDesire>
+    </forcedTraits>
+    <workDisables>Artistic, Intellectual</workDisables>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitAdultFour</defName>
+    <title>Hobbit gourmand</title>
+    <titleShort>gourmand</titleShort>
+    <baseDesc>Hobbits cannot stand for long without good cooking, and some, like the gourmand, demand only the best. [PAWN_nameDef] spent years leading cooks around by the nose and teaching others the ways to best cook food. Once [PAWN_possessive] popularity rose for critiquing cuisine, [PAWN_pronoun] took to eating food more than preparing it.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Cooking</key>
+        <value>6</value>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitAdultFive</defName>
+    <title>Hobbit layabout</title>
+    <titleShort>layabout</titleShort>
+    <baseDesc>It is well-known that hobbits are afforded a rather peaceful life. [PAWN_nameDef] was one of the layabouts -- the most sluggish of hobbits. [PAWN_pronoun] made it [PAWN_possessive] goal in life to simply have no goal -- complete leisure and relaxation in all things.</baseDesc>
+    <slot>Adulthood</slot>
+    <forcedTraits>
+        <Industriousness>-2</Industriousness>
+        <SpeedOffset>-1</SpeedOffset>
+        <NaturalMood>1</NaturalMood>
+    </forcedTraits>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitAdultSix</defName>
+    <title>Hobbit farmer</title>
+    <titleShort>farmer</titleShort>
+    <baseDesc>How can a hobbit enjoy their second breakfast without farmers? [PAWN_nameDef] was born to till the soil. [PAWN_pronoun] has no time for shenanigans and is often very terse. Yet [PAWN_possessive] hard work shines through, as long as there aren't any Tooks about.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Plants</key>
+        <value>6</value>
+      </li>
+      <li>
+        <key>Animals</key>
+        <value>4</value>
+      </li>
+      <li>
+        <key>Social</key>
+        <value>-1</value>
+      </li>
+    </skillGains>
+    <forcedTraitsChance>
+      <li>
+        <defName>Industriousness</defName>
+        <degree>2</degree>
+        <chance>25</chance>
+      </li>
+      <li>
+        <defName>Abrasive</defName>
+        <chance>25</chance>
+      </li>
+    </forcedTraitsChance>
+  </AlienRace.BackstoryDef>
+  <AlienRace.BackstoryDef ParentName="LotRH_BackstoryHobbit">
+    <defName>LotRH_BackstoryHobbitAdultSeven</defName>
+    <title>Hobbit gardener</title>
+    <titleShort>gardener</titleShort>
+    <baseDesc>Hobbits also often take on simple occupations -- such as the gardener. [PAWN_nameDef] thrived amongst the golden mallorn flowers of the shire and always looked for just the right way to raise [PAWN_possessive] saplings and seedlings. Gardening wasn't just [PAWN_possessive] occupation, but it was [PAWN_possessive] muse.</baseDesc>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <li>
+        <key>Plants</key>
+        <value>5</value>
+      </li>
+      <li>
+        <key>Artistic</key>
+        <value>3</value>
+      </li>
+    </skillGains>
+  </AlienRace.BackstoryDef>
+</Defs>
