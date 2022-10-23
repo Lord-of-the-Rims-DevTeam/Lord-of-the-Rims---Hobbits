@@ -1,3 +1,7 @@
+1.23.0.0 (10-22-2022)
+========================
+Updates Hobbits for RimWorld 1.4; Adds Hobbit culture and text generation for Ideology
+
 1.22.0.0 (08-15-2021)
 ========================
 Updated for RimWorld 1.3. Starting scenario adjusted to start with replantable party tree, some pipeweed, and starting tech to build hobbit holes from the beginning.

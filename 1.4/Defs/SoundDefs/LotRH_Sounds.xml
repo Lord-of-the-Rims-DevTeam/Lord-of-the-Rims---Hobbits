@@ -11,8 +11,8 @@
         <!-- Yeah this must be true -->
         <onCamera>True</onCamera>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Faction/FanfareHobbitShire</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Faction/FanfareHobbitShire</clipPath>
           </li>
         </grains>
         <volumeRange>
