@@ -3,10 +3,10 @@
 ==============================
 
 Lord of the Rims - Hobbits Update
-v1.23.0.0 (10-22-2022)
+v1.23.0.1 (10-23-2022)
 ====================
 
-Updates Hobbits for RimWorld 1.4; Adds Hobbit culture and text generation for Ideology
+RimWorld 1.4 hotfix for SoundDef files replacing clipFolderPath with clipPath for audio definitions
 --------------------
 
 Download now on...
@@ -25,9 +25,9 @@ Discuss the mod on...
 [img width=260]https://raw.githubusercontent.com/Lord-of-the-Rims-DevTeam/Lord-of-the-Rims---Hobbits/master/About/Preview.png[/img]
 [hr]
 [b]Lord of the Rims - Hobbits
-Version: 1.23.0.0
-Updated: 10-22-2022
-Description: [color=orange]Updates Hobbits for RimWorld 1.4; Adds Hobbit culture and text generation for Ideology[/color]
+Version: 1.23.0.1
+Updated: 10-23-2022
+Description: [color=orange]RimWorld 1.4 hotfix for SoundDef files replacing clipFolderPath with clipPath for audio definitions[/color]
 [hr]
 [b]Download now on...[/b]
 [url=https://www.patreon.com/posts/73644147/]Patreon[/url]
