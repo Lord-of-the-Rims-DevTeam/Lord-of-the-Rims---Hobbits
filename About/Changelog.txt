@@ -1,3 +1,7 @@
+1.23.0.1 (10-23-2022)
+========================
+RimWorld 1.4 hotfix for SoundDef files replacing clipFolderPath with clipPath for audio definitions
+
 1.23.0.0 (10-22-2022)
 ========================
 Updates Hobbits for RimWorld 1.4; Adds Hobbit culture and text generation for Ideology
