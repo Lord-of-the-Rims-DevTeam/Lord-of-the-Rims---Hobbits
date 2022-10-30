@@ -107,8 +107,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>_LotRShared/LotR_HorseGallop</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>_LotRShared/LotR_HorseGallop</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -133,8 +133,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>_LotRShared/LotR_HorseCall</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>_LotRShared/LotR_HorseCall</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -159,8 +159,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>_LotRShared/LotR_HorseAngry</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>_LotRShared/LotR_HorseAngry</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -186,8 +186,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>_LotRShared/LotR_HorseDies</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>_LotRShared/LotR_HorseDies</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -212,8 +212,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>_LotRShared/LotR_HorseWounded</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>_LotRShared/LotR_HorseWounded</clipPath>
           </li>
         </grains>
         <volumeRange>
